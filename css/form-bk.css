@@ -127,7 +127,6 @@ input::placeholder, textarea::placeholder {
 }
 
 .select-wrapper {
-	display: inline-block;
 	position: relative;
 }
 
@@ -140,7 +139,7 @@ input::placeholder, textarea::placeholder {
 	font-size: 26px;
 	position: absolute;
 	right: 20px;
-	bottom: 10px;
+	top: 42px;
 	pointer-events: none;
 }
 
@@ -202,6 +201,14 @@ select::-ms-expand {
 }
 
 
+
+#contact-form > span {
+	width: 100%;
+	grid-column: 1 / -1
+}
+
+
+
 #contact-form {
 	grid-row: 2;
 	grid-column: 1;
@@ -209,11 +216,10 @@ select::-ms-expand {
 	padding: 20px
 }
 
-#contact-form > span {
-	width: 100%;
-	grid-column: 1 / -1
-}
-
+/*#contact-form ~ div {*/
+	/*background: #ececec;*/
+	/*padding: 20px*/
+/*}*/
 
 #contact-form {
 	display: grid;
@@ -224,7 +230,7 @@ select::-ms-expand {
 	grid-row-gap: 10px
 }
 
-#contact-form label {
+#contact-form p {
 	display: grid;
 	grid-template-columns: 6fr;
 	grid-row-template: min-content min-content;
@@ -237,7 +243,7 @@ select::-ms-expand {
 	/*justify-items: right;*/
 }
 
-#contact-form label span {
+#contact-form label {
 	color: #131e28;
 	display: block;
 }
@@ -247,25 +253,6 @@ select::-ms-expand {
 	display: block
 }
 
-fieldset{
-	display: block;
-	border: 0;
-	padding: 0;
-	margin: 0;
-}
-
-#contact-form label.inline{
-	display: inline;
-}
-#contact-form label input[type="checkbox"]{
-	display: inline;
-	width: auto;
-	vertical-align: center;
-}
-#contact-form label input[type="checkbox"] + span{
-	display: inline;
-	vertical-align: center;
-}
 
 
 
@@ -274,6 +261,7 @@ fieldset{
 	/* padding-bottom: 15px;*/
 	display: block;
 }
+
 .radios-checkboxes label {
 	margin: 0px 0px;
 	cursor: pointer;
@@ -284,45 +272,55 @@ fieldset{
 	padding-left: 5px;
 	line-height: 1.4
 }
+
 .radios-checkboxes label:hover {
 	display: block;
 	position: relative;
 	padding-left: 5px;
 	line-height: 1.4
 }
+
 .radios-checkboxes label:hover input[type="radio"] + span {
 	border: 1px solid #45515B;
 	opacity: .5
 }
+
 .radios-checkboxes label:hover input[type="checkbox"] + span, .radios-checkboxes label:hover input[type="checkbox"]:checked + span {
 	border-color: #45515B;
 	opacity: .5
 }
+
 .radios-checkboxes label span {
 	vertical-align: middle;
 	/*margin-top: -5px*/
 }
+
 .radios-checkboxes label span:after {
 	line-height: 26px;
 	margin-left: 0px
 }
+
 .radios-checkboxes label:not(.nohover):hover {
 	cursor: pointer;
 	color: #45515B;
 	font-size: 16px;
 	opacity: .8
 }
+
 .radios-checkboxes label input + span {
 	-webkit-transition: border-color 0.2s ease;
 	transition: border-color 0.2s ease
 }
+
 .radios-checkboxes label input + span:invalid {
 	border-color: #BE2026;
 	color: #BE2026
 }
+
 .radios-checkboxes input[type="radio"] {
 	display: none
 }
+
 .radios-checkboxes input[type="radio"] + span {
 	appearance: none;
 	-webkit-appearance: none;
@@ -341,6 +339,7 @@ fieldset{
 	color: #fff;
 	content: " "
 }
+
 .radios-checkboxes input[type="radio"] + span:after {
 	background-color: transparent;
 	content: " ";
@@ -352,6 +351,7 @@ fieldset{
 	top: 3px;
 	transition: all 200ms ease-in-out
 }
+
 .radios-checkboxes input[type="radio"]:checked + span:before {
 	background-color: transparent;
 	border-radius: 50px;
@@ -364,6 +364,7 @@ fieldset{
 	width: 10px;
 	transition: all 100ms ease-in-out
 }
+
 .radios-checkboxes input[type="radio"]:checked + span:after {
 	background-color: #1b52af;
 	border-radius: 50px;
@@ -376,10 +377,12 @@ fieldset{
 	width: 14px;
 	transition: all 100ms ease-in-out
 }
+
 .radios-checkboxes input[type="checkbox"] {
 	display: none;
 	position: relative
 }
+
 .radios-checkboxes input[type="checkbox"] + span {
 	background-color: #fff;
 	border: 1px solid #c9c9c9;
@@ -393,6 +396,7 @@ fieldset{
 	color: transparent;
 	transition: all 100ms ease-in-out
 }
+
 .radios-checkboxes input[type="checkbox"] + span:after {
 	color: transparent;
 	content: "\f00c";
@@ -407,6 +411,7 @@ fieldset{
 	-moz-transform: scale(0.1);
 	transform: scale(0.1)
 }
+
 .radios-checkboxes input[type="checkbox"]:checked + span {
 	background-color: #1b52af;
 	border: 1px solid #1b52af;
@@ -414,6 +419,7 @@ fieldset{
 	color: transparent;
 	transition: all 100ms ease-in-out
 }
+
 .radios-checkboxes input[type="checkbox"]:checked + span:after {
 	color: #fff;
 	content: "\f00c";
@@ -432,13 +438,16 @@ fieldset{
 	transition: all 200ms ease-in;
 	transform: scale(1)
 }
+
 .radios-checkboxes ul {
 	list-style: none;
 	margin: 0
 }
+
 .radios-checkboxes li {
 	margin-bottom: 0px
 }
+
 .radios-checkboxes input:disabled + span {
 	background-color: #DFE1E5;
 	border: 1px solid #BEC3CC;
