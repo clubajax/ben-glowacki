@@ -16,6 +16,14 @@
 			text-decoration: underline;
 		}
 	</style>
+	<script>
+
+		function validate (e) {
+			debugger
+			console.log('VA', e);
+			return false;
+		}
+	</script>
 </head>
 <body>
 <contact>
@@ -86,11 +94,12 @@
 	<left-column></left-column>
 	<section class="">
 		<article>
-			<form id="contact-form" name="frmContact" action="cgi-bin/contact.cgi" method="post" onsubmit="return CheckFields();">
+			<!-- action="cgi-bin/contact.cgi" -->
+			<form id="contact-form" name="frmContact" method="get" onsubmit="return validate();">
 				<fieldset class="contact-form">
 					<label>
 						<span>Name*</span>
-						<input placeholder="Your Name" aria-labelledby="name" aria-required="true" data-val="true" data-val-required="The Name field is required." name="Name" type="text" value="">
+						<input placeholder="Your Name" aria-labelledby="name" aria-required="true" data-val="true" required data-val-required="The Name field is required." name="Name" type="text" value="">
 					</label>
 					<label>
 						<span>Email*</span>
@@ -127,7 +136,7 @@
 				</fieldset>
 
 				<fieldset class="contact-form">
-					<label class="select-wrapper">
+					<label class="select-wrapper icon-drop">
 						<span>Presentation You are Interested in</span>
 						<select aria-labelledby="presentation" name="presentation">
 							<option value="1">Choose a Presentation</option>
@@ -178,14 +187,15 @@
 				<div class="submit">
 					<hr />
 					<button
-						for="submit"
-						id="cmdSubmitContact"
 						type="submit"
 						name="cmdSubmitContact"
 						value="submit_form"
-						aria-label="submit"
-						onclick="form.submit()">Submit
+						aria-label="submit">Submit
 					</button>
+					<div>
+						Test icon
+						<i class="icon-glass"></i>
+					</div>
 				</div>
 
 			</form>
@@ -202,6 +212,7 @@
 </contact>
 </body>
 <script>
+
 	var h = document.getElementById("main-header");
 	var n = document.getElementById("nav-content");
 	var t = document.getElementById("top-bar");
