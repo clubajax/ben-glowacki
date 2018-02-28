@@ -136,10 +136,10 @@ input::placeholder, textarea::placeholder {
 	/*color: #133a54;*/
 	color: #1b52af;
 	display: inline-block;
-	font-size: 26px;
+	font-size: 16px;
 	position: absolute;
 	right: 20px;
-	bottom: 10px;
+	bottom: 18px;
 	pointer-events: none;
 }
 
@@ -216,21 +216,15 @@ select::-ms-expand {
 }
 
 #contact-form label {
-	display: grid;
-	grid-template-columns: 6fr;
-	grid-row-template: min-content min-content;
-	grid-column-gap: 20px;
-	grid-row-gap: 10px;
+	display: block;
 	margin: 30px 0;
 	color: #131e28;
-	/*text-align: right;*/
-	/*align-items: center;*/
-	/*justify-items: right;*/
 }
 
 #contact-form label span {
 	color: #131e28;
 	display: block;
+	margin-bottom: 10px;
 }
 
 #contact-form input {
@@ -245,18 +239,37 @@ fieldset{
 	margin: 0;
 }
 
-#contact-form label.inline{
+
+
+#contact-form label.checkbox{
+	margin: 60px 0 40px 0;
+}
+
+label.checkbox{
+	cursor: pointer;
+}
+input[type="checkbox"] {
+	visibility: hidden;
+	position: absolute;
+}
+input[type="checkbox"] + ins{
+	text-decoration: none;
 	display: inline;
 }
-#contact-form label input[type="checkbox"]{
+input[type="checkbox"] + ins:before {
+	content: '\f096'; /* unchecked */
 	display: inline;
-	width: auto;
-	vertical-align: center;
+	padding-right: 3px;
 }
-#contact-form label input[type="checkbox"] + span{
-	display: inline;
-	vertical-align: center;
+input[type="checkbox"]:checked + ins:before {
+	content: '\e892'; /* checked */
+	padding-right: 0;
 }
+input[type="checkbox"] ~ span{
+	display: inline !important;
+}
+
+
 
 
 
