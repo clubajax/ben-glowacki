@@ -1426,10 +1426,24 @@ footer hr {
 		/*border: 2px solid green;*/
 }
 	
+	speaking article .first-column{
+	/*margin-left: 15%;*/
+		text-align: left;
+	    margin: 0 5%;
+    /*margin-right: calc(5% + 20px);*/
+		grid-column: 1 / -1;
+}
+speaking article .second-column{
+	margin: 0 5%;
+	grid-column: 1 / -1;
+}
+	
 	.speaking-header span {
     margin-left: calc(20% + 20px);
 		text-align: center;
 }
+	
+	
 	
 }
 
