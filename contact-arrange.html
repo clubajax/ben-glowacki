@@ -11,6 +11,10 @@
 	<link href="css/v1.0.css" rel="stylesheet" type="text/css">
 	<link href="css/nav.css" rel="stylesheet" type="text/css">
 	<link href="css/form.css" rel="stylesheet" type="text/css">
+
+	<script src="plugins/date-picker.js"></script>
+	<link href="plugins/date-picker.css" rel="stylesheet" />
+
 	<style>
 		.active a:link {
 			text-decoration: underline;
@@ -146,10 +150,9 @@
 							<option value="6">Nurture Your Nature</option>
 						</select>
 					</label>
-					<label>
-						<span>Date of Event</span>
-						<input placeholder="MM/DD/YY" aria-labelledby="event_date" name="event_date" type="text" value="">
-					</label>
+
+					<date-input placeholder="MM/DD/YY" aria-labelledby="event_date" name="event_date" label="Date of Event" ></date-input>
+
 					<label>
 						<span>Time of Event</span>
 						<input aria-labelledby="event_time" name="event_time" type="text" value="">
@@ -200,7 +203,7 @@
 
 			<form id="test">
 				<input name="name" value="Mike" />
-				<input name="email" value="" type="email" required />
+				<!--<input name="email" value="" type="email" required />-->
 				<button type="submit">Submit</button>
 			</form>
 		</article>
