@@ -131,8 +131,8 @@ input::placeholder, textarea::placeholder {
 }
 
 .icon-drop:before {
-	content: '\f0d7';
-	font-family: FontAwesome;
+	content: '\e859';
+	/*font-family: FontAwesome;*/
 	/*color: #133a54;*/
 	color: #1b52af;
 	display: inline-block;
@@ -144,9 +144,6 @@ input::placeholder, textarea::placeholder {
 }
 
 .icon-drop:hover:before {
-	content: '\f0d7';
-	font-family: FontAwesome;
-	/*color: #1b52af;*/
 	color: #007BB5;
 }
 
