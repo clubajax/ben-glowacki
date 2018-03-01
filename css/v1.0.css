@@ -289,6 +289,11 @@ footer {
 	
 }
 
+footer form{
+	display: grid;
+}
+
+
 .nav-social-top {
 	grid-column: 6 / -1;
     font-size : 20px;
@@ -1317,6 +1322,7 @@ footer h1 {
   color : #F6F6F6;
   color : rgb(246, 246, 246);
 	margin: 1.0em 0 1.0vw 0;
+	text-align: center;
 }
 
 footer hr {
