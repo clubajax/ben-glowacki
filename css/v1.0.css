@@ -129,7 +129,7 @@ about {
   margin: 0;  
 }
 
-speaking, book, grid-wrapper { 
+speaking, book, blog, grid-wrapper { 
 	
 	display: grid;
 	grid-template-areas: 
@@ -227,10 +227,28 @@ book article{
 	border-bottom: 2px solid #dfcb8d;
 }
 
+blog article {
+    font-size: 18px;
+    line-height: 32px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    place-content: space-around;
+    grid-column-gap: calc(2% + 20px);
+    grid-row-gap: 20px;
+    padding: 40px 0;
+    /*border-bottom: 2px solid #dfcb8d;*/
+}
+
 book article {
 	/*max-width: 1600px;*/
 	margin: 0 auto;
 	padding: 40px 80px;
+}
+
+blog article {
+	/*max-width: 1600px;*/
+	margin: 0 auto;
+	padding: 40px 0px;
 }
 
 book article .first-column{
@@ -270,6 +288,9 @@ book article:last-child{
 
 book article:first-child {
 	border-top: 1px solid #dfcb8d;
+}
+blog article:first-child {
+	border-top: 0px solid tranparent;
 }
 
 
