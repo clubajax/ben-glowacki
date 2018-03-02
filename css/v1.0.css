@@ -219,7 +219,7 @@ book article{
     grid-template-columns: 1fr 2fr 1fr;
     /*grid-row-template: 100% minmax(200px, 1fr) minmax(200px, 1fr);*/
     place-content: space-around;
-    grid-column-gap: calc(2% + 10px);
+    grid-column-gap: calc(2% + 20px);
     
     grid-row-gap: 20px;
 	padding: 40px 0;
