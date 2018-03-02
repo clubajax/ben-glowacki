@@ -111,7 +111,7 @@ home {
   margin: 0;
 
 }
-about, book { 
+about { 
 	
 	display: grid;
 	grid-template-areas: 
@@ -120,7 +120,7 @@ about, book {
     "top-bar top-bar top-bar"
     "left-column section right-column"
     "footer footer footer";
-	grid-template-rows: 50px 80px 50px 1fr 1fr;
+	grid-template-rows: 50px 80px 50px 1fr auto;
 	/*grid-template-columns: minmax(6%, 500px) minmax(88%, 2700px) minmax(6%, 500px);*/
 	/*grid-template-columns: 2fr minmax(70%, 1fr) 2fr;*/
 	
@@ -129,7 +129,7 @@ about, book {
   margin: 0;  
 }
 
-speaking, grid-wrapper { 
+speaking, book, grid-wrapper { 
 	
 	display: grid;
 	grid-template-areas: 
@@ -209,6 +209,68 @@ speaking article a:hover {
 speaking article * p {
    /*padding-left: 1em;*/
 }
+
+
+
+book article{
+	font-size: 18px;
+	 line-height: 32px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /*grid-row-template: 100% minmax(200px, 1fr) minmax(200px, 1fr);*/
+    place-content: space-around;
+    grid-column-gap: calc(2% + 10px);
+    
+    grid-row-gap: 20px;
+	padding: 40px 0;
+	
+	border-bottom: 2px solid #dfcb8d;
+}
+
+book article {
+	/*max-width: 1600px;*/
+	margin: 0 auto;
+	padding: 40px 80px;
+}
+
+book article .first-column{
+	/*margin-left: 15%;*/
+	    /*margin-left: calc(15% + 20px);*/
+    /*margin-right: calc(5% + 20px);*/
+}
+book article .second-column{
+	/*margin-right: calc(15% + 20px);*/
+}
+
+book article .third-column{
+	margin-right: calc(15% + 20px);
+}
+
+book article:nth-child(even){
+	background: #f9f9f9;
+	
+}
+
+book article:last-child{
+	border-bottom: 0px solid transparent;
+	
+	font-size: 18px;
+	 line-height: 32px;
+    display: grid;
+    grid-template-columns: 1fr;
+    /*grid-row-template: 100% minmax(200px, 1fr) minmax(200px, 1fr);*/
+    place-content: space-around;
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+	padding: 40px 80px;
+	
+	
+}
+
+book article:first-child {
+	border-top: 1px solid #dfcb8d;
+}
+
 
 
 
@@ -532,8 +594,73 @@ padding: 0 20px 0 0;
     border-left: 50px solid #4679BD;
 }*/
 	
-	.speaking-grid {
+	.speaking-grid, .book-grid {
 text-align: left;
+}
+	
+	.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+	
+	.video-grid .one {
+    /*grid-area: one;*/
+    grid-column: 1 / 2;
+    /*grid-row: span 2;
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    width: calc(100% - 80px);
+    width: 100vw;
+    max-width: 30em;
+    height: calc(100vw * (9/16));
+    max-height: calc(30em * (9/16));*/
+    width: 33vw;
+    height: calc(33vw * (9/16));
+}
+.video-grid .two {
+    /*grid-area: one;*/
+    grid-column: 2 / 3;
+    /*grid-row: span 2;
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    width: calc(100% - 80px);
+    width: 100vw;
+    max-width: 30em;
+    height: calc(100vw * (9/16));
+    max-height: calc(30em * (9/16));*/
+    width: 33vw;
+    height: calc(33vw * (9/16));
+}
+.video-grid > div {
+
+
+position: relative;
+border: 1px solid rgba(100, 100, 100, 0.6);
+background-color: rgba(100, 100, 100, 0.3);
+height: 0;
+/*padding-top: 56.25%;*/
+overflow: hidden;
+place-content: stretch stretch;
+place-items: stretch;
+place-self: center;
+    width: 100vw;
+    height: calc(100vw * (9/16));
+}
+.video-grid iframe {
+position: absolute;
+display: grid;
+top: 0;
+left: 0;
+grid-column: 1 / -1;
+width: 33vw;
+height: calc(33vw * (9/16));
+
 }
 	
 	
@@ -549,6 +676,37 @@ text-align: left;
 
 .hero-graphic{
 	display: none;
+}
+	
+	/*book article .first-column{
+	grid-area: first-column;
+	margin: 0;
+	padding: 0;
+	grid-column: 1 / -1;
+		grid-row: 1;
+}
+	
+	book article .second-column{
+	grid-area: second-column;
+	margin: 0;
+	padding: 0;
+	grid-column: 1 / -1;
+		grid-row: 2;
+}
+	
+	book article .third-column{
+	grid-area: third-column;
+	margin: 0;
+	padding: 0;
+	grid-column: 1 / -1;
+		
+}*/
+	
+.video-grid .one {
+ grid-column: 1 / -1;
+}
+.video-grid .two {
+grid-column: 1 / -1;
 }
 }
 
@@ -974,7 +1132,36 @@ ul- {
 	
 }
 
-@media only screen and (max-width: 968px)   {
+@media only screen and (max-width: 1025px)   {
+	book article .first-column{
+	grid-area: first-column;
+	margin: 0;
+	padding: 0;
+	grid-column: 1 / 2;
+		grid-row: 1;
+}
+	
+	book article .second-column{
+	grid-area: second-column;
+	margin: 0;
+	padding: 0;
+	grid-column: 2 / -1;
+		grid-row: 1;
+}
+	
+	book article .third-column{
+	grid-area: third-column;
+	margin: 0;
+	padding: 0;
+	grid-column: 1 / -1;
+		
+}
+	
+}
+	
+	
+	
+	@media only screen and (max-width: 968px)   {
 	
 	#main-header {
   display: grid;
@@ -1499,6 +1686,58 @@ speaking article .second-column{
 }
 	
 	
+	book article {
+    /*font-size: 18px;
+    line-height: 32px;
+    display: grid;*/
+    grid-template-columns: 1fr;
+    /*place-contents: space-around;
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+    padding: 40px 0;
+    border-bottom: 2px solid #dfcb8d;*/
+		grid-row-gap: 30px;
+		grid-template-areas: 
+ "first-column"
+ "second-column"
+ "third-column";
+}
+	
+	book article {
+
+    padding: 40px 20px;
+}
+	
+	
+	book article .first-column{
+		grid-area: first-column;
+	/*margin-left: 15%;*/
+		text-align: left;
+	    margin: 0 1%;
+    /*margin-right: calc(5% + 20px);*/
+		grid-column: 1 / -1;
+		grid-row: 1;
+}
+	
+book article .second-column{
+	grid-area: second-column;
+	margin: 0;
+	padding: 0;
+	grid-column: 1 / -1;
+	grid-row: 2;
+}
+	
+	book article .third-column{
+	grid-area: third-column;
+	margin: 0 1%;
+	grid-column: 1 / -1;
+		grid-row: 3;
+}
+	
+	
+	
+	
+	
 	
 	
 	
@@ -1954,7 +2193,7 @@ a:link .btn, a .btn, a.btn {
 	
 	
 }
-.speaking-grid .images {
+.speaking-grid .images, .book-grid .images {
     display: grid;
    /* max-width: 290px;*/
    /* max-height: 290px;*/
@@ -1967,12 +2206,12 @@ a:link .btn, a .btn, a.btn {
     overflow: hidden;
 	
 }
-.speaking-grid .images img {
+.speaking-grid .images img, .book-grid .images img {
     object-fit: cover;
     justify-self: center;
     align-self: center;
     height: auto;
-    min-width: 250px;
+    min-width: 200px;
     /*min-height: 190px;*/
 	max-height: 800px;
     display: block;
@@ -2024,6 +2263,9 @@ a:link .btn, a .btn, a.btn {
      height: auto;
 		
   }
+	
+	
+	
 }
 
 .about-grid p {
