@@ -807,7 +807,7 @@ grid-column: 1 / -1;
 		grid-template-columns: 5fr minmax(70%, 6fr) 5fr;
 	}
 about {
-		grid-template-columns: 5% minmax(60%, 6fr) 5%;
+		grid-template-columns: 1fr minmax(60%, 10fr) 1fr;
 	}
 	
 	book {
@@ -2149,7 +2149,8 @@ cta a:hover {
 		grid-template-columns: 5fr minmax(70%, 6fr) 5fr;
 	}
 		about, book {
-		grid-template-columns: 3fr minmax(60%, 6fr) 3fr;
+		/*grid-template-columns: 3fr minmax(60%, 6fr) 3fr;*/
+		grid-template-columns: 2fr minmax(30%, 8fr) 2fr;
 			/*grid-template-columns: minmax(max-content, 1fr) minmax(300px, 5fr) 1fr;*/
 	}
 		
