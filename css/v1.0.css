@@ -243,7 +243,8 @@ book article .second-column{
 }
 
 book article .third-column{
-	margin-right: calc(15% + 20px);
+	/*margin-right: calc(15% + 20px);*/
+	/*margin-right: calc(-60px + 65%/3);*/
 }
 
 book article:nth-child(even){
@@ -805,7 +806,11 @@ grid-column: 1 / -1;
 	home {
 		grid-template-columns: 5fr minmax(70%, 6fr) 5fr;
 	}
-about, book {
+about {
+		grid-template-columns: 5% minmax(60%, 6fr) 5%;
+	}
+	
+	book {
 		grid-template-columns: 5fr minmax(60%, 6fr) 5fr;
 	}
 
@@ -1378,6 +1383,19 @@ ul {
 
 @media only screen and (min-width: 1407px)  {
 	
+	.about-grid article {
+		display: block;
+     height: auto;
+		text-align: left;
+		/*border: 1px solid red;*/
+		-moz-column-count: 2;
+  -moz-columns: 2;
+  -webkit-columns: 2;
+  columns: 2;
+	 column-gap: 2em;
+		
+  }
+	
 	
 	.card-container {
     display: grid;
@@ -1404,6 +1422,18 @@ ul {
 
 
 	@media only screen and (max-width: 1406px)  {
+		
+		.about-grid article {
+		display: grid;
+			text-align: left;
+     height: auto; 
+		-moz-column-count: 1;
+  -moz-columns: 1;
+  -webkit-columns: 1;
+  columns: 1;
+	 column-gap: 4em;
+		
+  }
 	
 	
 	.card-container {
@@ -2349,26 +2379,32 @@ a:link .btn, a .btn, a.btn {
 
 
 .about-grid article {
-	display: block;
+	/*display: block;*/
     /*-webkit-columns: 2 525px;
        -moz-columns: 2 525px;
             columns: 2 525px;
     -moz-column-fill: auto;
          column-fill: auto;*/
-	  -moz-column-count: 2;
-  -moz-columns: 2;
+	  /*-moz-column-count: 2;*/
+ /* -moz-columns: 2;
   -webkit-columns: 2;
   columns: 2;
 	 column-gap: 4em;
 	
 	margin: 0 auto;
-   text-align: left;
+   text-align: left;*/
 	/*border: 1px solid green;*/
 }
 @media (max-width: 1240px) {
 	.about-grid article {
 		display: grid;
      height: auto;
+		
+		-moz-column-count: 1;
+  -moz-columns: 1;
+  -webkit-columns: 1;
+  columns: 1;
+	 column-gap: 4em;
 		
   }
 	
