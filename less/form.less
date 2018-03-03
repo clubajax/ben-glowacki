@@ -1,0 +1,58 @@
+.input.invalid, input:not([type=checkbox]):not([type=radio]):not([type=button]).invalid, select.invalid, textarea.invalid {
+	border: 2px solid #E93716;
+}
+
+.input, input:not([type=checkbox]):not([type=radio]):not([type=button]):not([type=range]), select, textarea {
+	background: rgba(246, 246, 246, 1);
+	border: 1px solid #6A7280;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color: #303640;
+	display: inline-block;
+	font-size: 16px;
+	height: 50px;
+	outline: 0;
+	padding: 6px 6px 6px 20px;
+	transition: border linear .2s;
+	vertical-align: middle;
+	width: 100%;
+	min-width: 100px;
+
+}
+
+.field .input-error-message {
+	font-weight: normal;
+	font-style: normal;
+	color: #D81118;
+	font-size: 16px;
+	padding: 5px 0 0 0;
+	vertical-align: top;
+	line-height: 1;
+}
+
+
+::-webkit-input-placeholder {
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-security: none;
+	color: #898989;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	pointer-events: none;
+	text-rendering: geometricPrecision;
+}
+
+.asterisk:-moz-placeholder {
+	color: #303640;
+	font-size: 28px;
+	opacity: 1;
+	position: relative;
+	top: 10px;
+}
+
+.asterisk::-moz-placeholder {
+	font-size: 28px;
+	opacity: 1;
+	position: relative;
+	top: 10px;
+}
