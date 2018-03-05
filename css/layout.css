@@ -105,6 +105,9 @@ header ul.top-header {
   padding: 15px;
   margin: 0;
   text-align: right;
+  height: 50px;
+  transition: height 150ms ease-in, padding 150ms ease-in;
+  overflow: hidden;
 }
 header ul.top-header li {
   display: inline-block;
@@ -141,5 +144,15 @@ main {
 }
 main section {
   margin: 10px 100px;
+}
+footer {
+  background-color: #293233;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+body.hide-top header ul.top-header {
+  height: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=/css/main.css.map */

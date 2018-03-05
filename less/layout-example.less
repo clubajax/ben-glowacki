@@ -9,7 +9,7 @@ html, body{
 body{
 	display: grid;
 	grid-auto-rows: 150px auto;
-
+	//transition: grid-auto-rows 150ms ease-in;
 }
 header{
 	ul.top-header{
@@ -18,6 +18,9 @@ header{
 		padding: 15px;
 		margin: 0;
 		text-align: right;
+		height: 50px; // needed for transition
+		transition: height 150ms ease-in, padding 150ms ease-in;
+		overflow: hidden;
 		li{
 			display: inline-block;
 			margin-left: 20px;
@@ -55,5 +58,23 @@ main{
 	overflow-y: auto;
 	section{
 		margin: 10px 100px;
+	}
+}
+footer{
+	background-color: rgba(41, 50, 51, 1);
+	padding: 20px;
+	color: white;
+	text-align: center;
+}
+
+body.hide-top{
+	header {
+		ul.top-header {
+			height: 0;
+			padding: 0;
+		}
+	}
+	main{
+		//margin-top: -50px;
 	}
 }
