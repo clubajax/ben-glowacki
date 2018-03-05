@@ -1,21 +1,27 @@
-
-about, book {
-
+main, home, about, book, speaking {
 	display: grid;
-	grid-template-areas: "top-header top-header top-header" "header header header" "top-bar top-bar top-bar" "left-column section right-column" "footer footer footer";
-	grid-template-rows: 50px 80px 50px 1fr 1fr;
 	grid-gap: 0;
 	height: 100vh;
 	margin: 0;
 }
 
-speaking, grid-wrapper {
-	display: grid;
+about, book {
+	grid-template-areas: "top-header top-header top-header" "header header header" "top-bar top-bar top-bar" "left-column section right-column" "footer footer footer";
+	grid-template-rows: 50px 80px 50px 1fr 1fr;
+}
+
+speaking {
 	grid-template-areas: "top-header top-header top-header" "header header header" "top-bar top-bar top-bar" "section section section" "footer footer footer";
 	grid-template-rows: 50px 80px 50px 1fr auto;
-	grid-gap: 0;
-	height: 100vh;
-	margin: 0;
+}
+
+home {
+	grid-template-areas: "top-header top-header top-header" "header header header" "top-bar top-bar top-bar" "hero hero hero" ". . ." "left-column section right-column" ". . ." "footer footer footer";
+	grid-template-rows: 50px 80px 50px 1fr 4.5vw 1fr 40px 1fr;
+}
+
+home, about, speaking {
+	text-align: center;
 }
 
 speaking article {
@@ -83,22 +89,9 @@ contact > left-column, contact > right-column {
 }
 
 
-home, about, speaking {
-	/*margin: 0 auto;*/
-	text-align: center;
-}
 
-home {
 
-	display: grid;
-	grid-template-areas: "top-header top-header top-header" "header header header" "top-bar top-bar top-bar" "hero hero hero" ". . ." "left-column section right-column" ". . ." "footer footer footer";
-	grid-template-rows: 50px 80px 50px 1fr 4.5vw 1fr 40px 1fr;
-	width: 100%;
-	grid-gap: 0;
-	height: 100vh;
-	margin: 0;
 
-}
 
 .page-header {
 	display: none;

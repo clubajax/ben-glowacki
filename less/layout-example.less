@@ -1,0 +1,59 @@
+@import "globals";
+@import "fonts";
+
+html, body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+body{
+	display: grid;
+	grid-auto-rows: 150px auto;
+
+}
+header{
+	ul.top-header{
+		background-color: rgba(226, 226, 226, 1);
+		list-style: none;
+		padding: 15px;
+		margin: 0;
+		text-align: right;
+		li{
+			display: inline-block;
+			margin-left: 20px;
+		}
+	}
+	.main-header{
+		display: grid;
+		grid-template-columns: 200px 15px 150px auto 300px;
+		#logo{
+			font-family: Open Sans;
+			font-weight: bold;
+			font-size: calc( 28px + (38 - 28) * ( (100vw - 400px) / ( 1920 - 1024) ));
+			//font-size: 18px;
+			color: #133a54;
+			letter-spacing: 0.015em;
+			white-space: nowrap;
+		}
+		ul{
+			list-style: none;
+			padding: 15px;
+			margin: 0;
+			li{
+				display: inline-block;
+				margin-left: 15px;
+			}
+		}
+	}
+	.sub-header{
+		background-color: #F9F9F9;
+		padding: 10px;
+		text-align: center;
+	}
+}
+main{
+	overflow-y: auto;
+	section{
+		margin: 10px 100px;
+	}
+}

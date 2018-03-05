@@ -13,10 +13,16 @@ module.exports = function (grunt) {
 		less: {
 			dev: {
 				options: {
-					paths: ['./less']
+					paths: ['./less'],
+					sourceMap: true,
+					sourceMapFilename: './css/main.css.map', // where file is generated and located
+					sourceMapURL: '/css/main.css.map', // the complete url and filename put in the compiled css file
+					sourceMapBasepath: '/', // Sets sourcemap base path, defaults to current working directory.
+					sourceMapRootpath: '/' // adds this path onto the sourcemap filename and less file paths
 				},
 				files: {
-					'./css/main.css': './less/main.less'
+					'./css/main.css': './less/main.less',
+					'./css/layout.css': './less/layout-example.less'
 				}
 			}
 		},
@@ -37,7 +43,7 @@ module.exports = function (grunt) {
 			// the livereload.js file will check if this is CSS - and if so, reload
 			// the stylesheet, and not the whole page
 			css: {
-				files: './css/main.css'
+				files: ['./css/main.css', './css/layout.css']
 			},
 			html: {
 				files: ['./*.html'],
