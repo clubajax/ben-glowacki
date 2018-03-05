@@ -7,11 +7,16 @@ html, body{
 	height: 100%;
 }
 body{
-	display: grid;
-	grid-auto-rows: 150px auto;
+	display: flex;
+	flex-direction: column;
+	//grid-auto-rows: 150px auto;
 	//transition: grid-auto-rows 150ms ease-in;
 }
 header{
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 150px;
+	transition: flex-basis 150ms ease-in;
 	ul.top-header{
 		background-color: rgba(226, 226, 226, 1);
 		list-style: none;
@@ -55,6 +60,7 @@ header{
 	}
 }
 main{
+	flex: 0 1 auto;
 	overflow-y: auto;
 	section{
 		margin: 10px 100px;
@@ -69,6 +75,7 @@ footer{
 
 body.hide-top{
 	header {
+		flex-basis: 100px;
 		ul.top-header {
 			height: 0;
 			padding: 0;
