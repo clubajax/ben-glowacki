@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+16:05:21	9214/9214	---M--	200	added ('OK')	text/html	date:Thu,%2017%20Feb%202011%2022:05:06%20GMT	http://live.psu.edu/story/51031	L:/Clients/Myriad%20Communications/website%202007/flash%20design/news_stories/pennState/51031.html	(from )
+16:05:21	356/356	---M--	200	added ('OK')	text/plain	date:Thu,%2017%20Feb%202011%2022:05:06%20GMT	http://live.psu.edu/robots.txt		(from )

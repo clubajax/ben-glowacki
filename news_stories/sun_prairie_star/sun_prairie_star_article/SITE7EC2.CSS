@@ -1,0 +1,1438 @@
+/* -------------- Site customizations -------------- */
+
+/* Header Logo */
+
+#blox-header-vertical-nav h1,
+#blox-header-vertical-nav h2,
+#blox-header h1,
+#blox-header h2
+    {background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/logo123.jpg") no-repeat transparent}
+
+/* Cambridge */
+.cambridge_deerfield #blox-header-vertical-nav h1,
+.cambridge_deerfield #blox-header-vertical-nav h2,
+.cambridge_deerfield #blox-header h1,
+.cambridge_deerfield #blox-header h2
+    {background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/camb.png") no-repeat transparent}
+
+/* Deforest */
+.deforest_times #blox-header-vertical-nav h1,
+.deforest_times #blox-header-vertical-nav h2,
+.deforest_times #blox-header h1,
+.deforest_times #blox-header h2
+    {background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/DeForest.png") no-repeat transparent;top: 5px !important;}
+    
+/* Lake Mills */
+.lake_mills_leader #blox-header-vertical-nav h1,
+.lake_mills_leader #blox-header-vertical-nav h2,
+.lake_mills_leader #blox-header h1,
+.lake_mills_leader #blox-header h2
+    {background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/Leader123123123.png") no-repeat transparent;top: -6px !important;}
+    
+/* Lodi */
+.lodi_enterprise #blox-header-vertical-nav h1,
+.lodi_enterprise #blox-header-vertical-nav h2,
+.lodi_enterprise #blox-header h1,
+.lodi_enterprise #blox-header h2
+    {background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/lodinewlogo.jpg") no-repeat transparent;top: 6px !important;}
+/* Mcfarland Thistle */
+.mcfarland_thistle #blox-header-vertical-nav h1,
+.mcfarland_thistle #blox-header-vertical-nav h2,
+.mcfarland_thistle #blox-header h1,
+.mcfarland_thistle #blox-header h2
+    {background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/Thistle.jpg") no-repeat transparent;top: 6px !important;}
+
+/* Milton Courier */
+.milton_courier #blox-header-vertical-nav h1,
+.milton_courier #blox-header-vertical-nav h2,
+.milton_courier #blox-header h1,
+.milton_courier #blox-header h2
+    {background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/miltonnewlogo.png") no-repeat transparent;top: 6px !important;}
+
+/* Monona / Cottage Grove Herald Independent  */
+.monona_cottage_grove #blox-header-vertical-nav h1,
+.monona_cottage_grove #blox-header-vertical-nav h2,
+.monona_cottage_grove #blox-header h1,
+.monona_cottage_grove #blox-header h2
+    {background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/herald-independent.jpg") no-repeat transparent;top: 6px !important;}
+
+/* Poynette Press  */
+.poynette_press #blox-header-vertical-nav h1,
+.poynette_press #blox-header-vertical-nav h2,
+.poynette_press #blox-header h1,
+.poynette_press #blox-header h2
+    {background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/poynette.png") no-repeat transparent;top: 6px !important;}
+    
+/* Sun Prairie Star */
+.sun_prairie_star #blox-header-vertical-nav h1,
+.sun_prairie_star #blox-header-vertical-nav h2,
+.sun_prairie_star #blox-header h1,
+.sun_prairie_star #blox-header h2
+    {background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/sp.png") no-repeat transparent;top: 0px !important;}
+
+/* Waterloo / Marshall Courier  */
+.waterloo_marshall #blox-header-vertical-nav h1,
+.waterloo_marshall #blox-header-vertical-nav h2,
+.waterloo_marshall #blox-header h1,
+.waterloo_marshall #blox-header h2
+    {background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/Milton123.png") no-repeat transparent;top: 1px !important;}
+
+/* Waunakee Tribune   */
+.waunakee_tribune #blox-header-vertical-nav h1,
+.waunakee_tribune #blox-header-vertical-nav h2,
+.waunakee_tribune #blox-header h1,
+.waunakee_tribune #blox-header h2
+    {background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/tribune.png") no-repeat transparent;top: 6px !important;}
+    
+    
+
+#blox-header-vertical-nav h1 a, #blox-header-vertical-nav h2 a {
+    height: 115px;
+    width: 450px;
+} 
+/* Nav */
+
+ul.dropdown{margin-bottom:0px;background-color:#585858 !important;}
+  
+ul.dropdown, ul.dropdown li {
+    background-color: transparent;
+    background-image: none;}
+    
+ul.dropdown li.active-vertical {
+    background-color: transparent;
+}   
+
+
+
+ul.dropdown a:link, ul.dropdown a:visited {
+    color: white;
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: normal;
+
+}
+
+ul.dropdown li.hover, ul.dropdown li:hover {
+    background-color: black; !important
+    color: #FFFFFF;
+}
+
+#nav.dropdown li ul li a{
+    text-shadow: none !important;
+    filter: none !important;
+}
+/* #nav li:hover {
+    margin-top: 2px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}*/
+#nav li ul li:hover{padding-top:0px;margin-top:0px;padding-bottom:0px}
+
+ul.dropdown ul a:link, ul.dropdown ul a:visited {
+    color: white !important;
+}
+ul.dropdown ul, ul.dropdown ul li {
+    background-color: black;
+}
+ul.dropdown ul li.hover ul, ul.dropdown ul li:hover {
+    background-color: #545454;
+}
+/* Search */
+
+
+#blox-search-form{background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/search.jpg") no-repeat transparent;
+    height: 39px;
+    width: 224px;}
+#blox-header-search form#blox-search-form div input.search-bar{border:none;
+    background-color:transparent;
+    height: 23px;
+    margin-left: 18px;
+    margin-top: 5px;
+    width: 160px;}
+#blox-header-search a.advanced-search{display:none;}
+#blox-header-search form#blox-search-form div input.search-submit{
+    cursor: pointer;
+    height: 30px;
+    margin-left: -5px;
+    margin-top: 2px;
+    width: 41px;
+    background-color:transparent;
+    border:none;
+    text-indent:-9999px;
+    cursor:pointer;}
+#blox-header-search {
+    bottom: 5px;
+    color: #333333;
+    position: absolute;
+    right: 5px;
+}
+
+#blox-error.ui-state-error div#blox-error-search form#blox-search-form{background-image:none;}
+
+/* Weather bug */
+
+
+/* Footer */
+
+
+
+#footer-wrapper {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/global/resources/images/_site/footer123NEW.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 960px;
+}
+
+#foot-wrap div#blox-footer div.blox-bottom-block-holder div.footer-section-block ul li a, #blox-footer .footer-section-block, #foot-wrap div#blox-footer div.blox-bottom-block-holder div.footer-section-block p strong, #foot-wrap div#blox-footer div.blox-bottom-block-holder div.footer-section-block p.footer-logo a, #foot-wrap div#blox-footer div.blox-bottom-block-holder div.footer-section-block p, #foot-wrap div#blox-footer div.blox-bottom-block-holder div.footer-section-block p a, .footer-section-block ul li a {
+    color: white;
+
+}
+#blox-footer div.blox-bottom-block-holder div.footer-section-block h4 {
+    color: white !important;
+    font-family: Arial;
+    font-size: 16pt;
+    margin-left: -6px;
+}
+#blox-footer div.blox-bottom-block-holder div.footer-section-block ul li a, #footer-search p label, #blox-footer div.blox-bottom-block-holder div.footer-section-block p.footer-logo a, #blox-footer div.blox-bottom-block-holder div.footer-section-block p strong, #blox-footer div.blox-bottom-block-holder div.footer-section-block p, #blox-footer div.blox-bottom-block-holder div.footer-section-block p a, #footer-wrap p.copyright strong, #footer-wrap p.copyright strong a, #footer-wrap p.copyright, #footer-wrap p.copyright a {
+    color: white;
+
+}
+#blox-footer .blox-bottom-block-holder{border-top:none;}
+#blox-footer .footer-section-block h4{border:none;}
+.blox-bottom-block-holder{padding-top:20px !important;}
+
+#blox-footer #blox-copyright, .copyright {
+    font-size: 11px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-align: center;
+    
+}
+
+
+p.copyright strong,
+p.copyright strong a,
+p.copyright,
+p.copyright a{color:white;}
+/* Inside changes */
+
+#blox-html-container #blox-wrapper .blox-title{height:30px;}
+.marketplace.sectionHead, .blox-title h3, .blox-title h3 a{color:black;}
+
+#blox-footer {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;}
+    
+    
+    #index-section-title h1, #index-section-title h2 {
+    float: left;
+    font-size: 21px;
+    font-weight: bold;font-family: 'Droid Sans', sans-serif;
+}
+/* Breaking News */
+.blox-breaking-news h2, .blox-breaking-news dt, .blox-breaking-news p.title-flag {background-color: #333333 !important;}
+.blox-breaking-news {background-color: #da3f3d;}
+
+#stripe{background-color:transparent;height:4px;width:100%;margin-bottom:0;}
+#blox-header-vertical-nav{
+    background-color: #FFFFFF;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 4px !important;
+    position: relative;
+    width: 100%;
+}
+#blox-container{
+    background-color: white !important;
+}
+.blox-title .block-title-color {
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.blox-title, .blox-sub-title {
+    border-bottom-color: #EFEFEF;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    clear: both;
+    margin-bottom: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-transform: capitalize;
+    width: 100%;
+}
+/*#blox-wrapper {
+    background-image: url("../../images/_site/theBACKrepeatEMPTY.png") !important;
+    background-repeat: repeat-y;
+    padding-left: 21px;
+}*/
+/* #nav {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("../../images/_site/nav_back123.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+    height: 47px;
+    padding-top: 7px;
+}*/
+/*#nav li:hover {
+    margin-top: -5px !important;
+    padding-bottom: 12px !important;
+    padding-top: 13px !important;
+}*/
+#nav li ul li:hover {
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+
+/* nav & footer changes */
+
+
+
+
+/* Lake Mills */
+.lake_mills_leader #nav {background-color:656161 !important;}
+.lake_mills_leader ul.dropdown li.hover,.lake_mills_leader ul.dropdown li:hover {background-color: #0387bd !important;}
+.lake_mills_leader ul.dropdown ul li.hover ul,.lake_mills_leader ul.dropdown ul li:hover {background-color: #0387bd;}
+.lake_mills_leader h3.block-title-color, .lake_mills_leader h3.block-title-color a {background-color: #ebe8e7 !important;color:#0387bd !important;}
+.lake_mills_leader .blox-title{border-bottom:3px solid #0387bd;}
+.lake_mills_leader #blox-footer{background-color:black;}
+
+/* McFarland */
+.mcfarland_thistle #nav {background-color:#827f7f !important;}
+.mcfarland_thistle ul.dropdown li.hover,.mcfarland_thistle ul.dropdown li:hover {background-color: #034EA2 !important;}
+.mcfarland_thistle ul.dropdown ul li.hover ul,.mcfarland_thistle ul.dropdown ul li:hover {background-color: #034EA2;}
+.mcfarland_thistle h3.block-title-color, .mcfarland_thistle h3.block-title-color a {background-color: #dedddd !important;color: #034EA2 !important;}
+.mcfarland_thistle .blox-title{border-bottom:3px solid #034EA2;}
+.mcfarland_thistle #nav.dropdown li:hover, .mcfarland_thistle #nav.dropdown li ul li:hover {background-color:#a3a3a3 !important;}
+.mcfarland_thistle #nav.dropdown li ul li {background-color: #034ea2 !important;}
+.mcfarland_thistle #blox-footer {background-color:#827f7f !important;}
+
+
+/* Milton */
+
+
+.milton_courier #blox-footer{background-color:black;}
+
+/* Herald */
+.monona_cottage_grove #nav {background-color:#0A3F6D !important;}
+.monona_cottage_grove ul.dropdown li.hover,.monona_cottage_grove ul.dropdown li:hover {background-color: #fef000 !important;}
+.monona_cottage_grove ul.dropdown ul li.hover ul,.monona_cottage_grove ul.dropdown ul li:hover {background-color: #fef000;}
+.monona_cottage_grove h3.block-title-color,.monona_cottage_grove h3.block-title-color a {background-color: #0a3f6d !important;color:white !important;}
+.monona_cottage_grove #nav.dropdown li:hover,.monona_cottage_grove #nav.dropdown li ul li:hover {background-color:#e3dcdc !important;}
+.monona_cottage_grove #nav.dropdown li ul li {background-color: #0a3f6d !important;}
+.monona_cottage_grove ul.dropdown a:hover {color: black !important;}
+.monona_cottage_grove ul.dropdown li:hover > a,.monona_cottage_grove ul.dropdown li.hover > a,.monona_cottage_grove ul.dropdown li.active-vertical
+> a,.monona_cottage_grove li.active-horizontal > a {
+                color: black !important;
+}
+.monona_cottage_grove .blox-breaking-news {
+    background-color: #DA3F3D !important;
+}
+.monona_cottage_grove .blox-breaking-news,
+.monona_cottage_grove .blox-breaking-news,.monona_cottage_grove .blox-breaking-news ul,.monona_cottage_grove .blox-breaking-news ul li {
+    background-color: #DA3F3D !important;
+}
+.monona_cottage_grove #blox-footer{background-color:#0A3F6D !important;}
+
+/* Poynette*/
+.poynette_press #nav {background-color:#656161 !important;}
+.poynette_press ul.dropdown li.hover,.poynette_press ul.dropdown li:hover {background-color: bf1806 !important;}
+.poynette_press ul.dropdown ul li.hover ul,.poynette_press ul.dropdown ul li:hover {background-color: bf1806;}
+.poynette_press h3.block-title-color,.poynette_press h3.block-title-color a {background-color: #ebe8e7 !important;color:#bf1806 !important;}
+.poynette_press .blox-title{border-bottom:3px solid #bf1806;}
+.poynette_press #nav.dropdown li:hover,.poynette_press #nav.dropdown li ul li:hover {background-color:#323232 !important;}
+.poynette_press #nav.dropdown li ul li {background-color: #656161 !important;color:black !important;}
+.poynette_press #blox-footer {background-color:#656161 !important;}
+
+/* Star */
+.sun_prairie_star #nav {background-color:grey20 !important;}
+.sun_prairie_star ul.dropdown li.hover,.sun_prairie_star ul.dropdown li:hover {background-color: #006b2f !important;}
+.sun_prairie_star ul.dropdown ul li.hover ul,.sun_prairie_star ul.dropdown ul li:hover {background-color: #006b2f;}
+.sun_prairie_star h3.block-title-color,.sun_prairie_star h3.block-title-color a {background-color: #dedddd  !important;color:#006b2f !important;}
+.sun_prairie_star .blox-title{border-bottom:3px solid #006b2f;}
+.sun_prairie_star #nav.dropdown li:hover,.sun_prairie_star #nav.dropdown li ul li:hover {background-color:#006b2f !important;}
+.sun_prairie_star #nav.dropdown li ul li {background-color: #323232 !important;}
+.sun_prairie_star #blox-footer {background-color:black !important;}
+
+
+/* Nav hover fix */
+.waunakee_tribune ul.dropdown li:hover > a, ul.dropdown li.hover > a, ul.dropdown li.active-vertical
+> a, li.active-horizontal > a {
+                color: black;
+                }
+
+.cambridge_deerfield ul.dropdown li:hover > a, ul.dropdown li.hover > a, ul.dropdown li.active-vertical
+> a, li.active-horizontal > a {
+                color: black;
+                }
+.monona_cottage_grove ul.dropdown li:hover > a, ul.dropdown li.hover > a, ul.dropdown li.active-vertical
+> a, li.active-horizontal > a {
+                color: black;
+}
+.index ul.dropdown li:hover > a, ul.dropdown li.hover > a, ul.dropdown li.active-vertical
+> a, li.active-horizontal > a {
+                color: white;
+}
+.front #nav.dropdown li.first-nav-link a,
+.classifieds #nav.dropdown li.first-nav-link a,
+.marketplace #nav.dropdown li.first-nav-link a,
+.multimedia #nav.dropdown li.first-nav-link a,
+.weather #nav.dropdown li.first-nav-link a{color:white;}
+
+#core-index-rss-list ul.dropdown-rss li a.rss-link span.rss-tag{font-size:10pt;}
+#core-index-rss-list ul.dropdown-rss li ul.sub-menu li a.rss-sub-link span.rss-tag{font-size:10pt;}
+#core-index-rss-list ul.dropdown-rss ul {
+    left: 53%;
+    position: absolute;
+    width: 160px;
+    z-index: 2147483647;
+}
+
+.users.admin.contribute .container_12 .grid_10 {
+    width: 825px;
+}
+.footer-section-block.search form .col2 {
+    margin-left: 1px;
+    margin-right:33px !important;
+}
+.footer-section-block.search form label {
+    font-size: 11px;
+    line-height: 11px;
+    padding-left: 1px;
+}
+.footer-section-block.search form .col1 {
+    margin-right: 15px;
+}
+.footer-section-block.search .search-options { width: 100%;}
+p.copyright{text-align:center !important;}
+
+#blox-header-vertical-nav h1.vcard, #blox-header-vertical-nav h2.vcard {
+    float: left;
+    height: 110px !important;
+    margin-bottom: 0;
+    padding-top: 0;
+    position: relative;
+    top: -9px;
+    width: 462px !important;
+}
+
+#blox-header-search {
+    bottom: 5px;
+    color: #333333;
+    display: none;
+    position: absolute;
+    right: 5px;
+}
+#blox-user-panel {margin-top: 21px;}
+.top-right-one {
+    bottom: 0;
+    position: absolute;
+    right: 205px;
+    width: 150px;
+}
+#weather-sponsor img, #weather-sponsor iframe, #weather-sponsor embed, #weather-sponsor object {
+    bottom: 0;
+    margin-bottom: 9px;
+    position: absolute;
+    right: 375px;
+}
+
+/* Rounder Corners */
+.blox-title, .blox-sub-title,
+#index-section-title{
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;}
+
+
+/* Color Changes */
+
+
+
+/* //////////////////////////////////// Waterloo ///////
+	Colors are grouped into foreground(fg#),background(bg#), border(b#)*/
+
+/* ------- COLOR 1 ------- */
+.waterloo_marshall .fg1	{color:#4e7b8a!important;}
+.waterloo_marshall .bg1	{background-color:#4e7b8a!important;}
+.waterloo_marshall .b1	{border-color:#4e7b8a!important;}
+.waterloo_marshall .blox-breaking-news,.waterloo_marshall .blox-breaking-news ul,.waterloo_marshall .blox-breaking-news ul li {
+    background-color: #da3f3d!important;
+}
+
+.waterloo_marshall ul.dropdown,
+.waterloo_marshall ul.dropdown li,
+.waterloo_marshall .core-slider.horizontal.showcase,
+.waterloo_marshall .highlight-dark,
+.waterloo_marshall .mega-bg{
+	background-color:#4e7b8a!important;}
+.waterloo_marshall ul.dropdown,
+.waterloo_marshall ul.dropdown li,
+.waterloo_marshall .marketplace.sectionHead,
+.waterloo_marshall .blox-title h3,
+.waterloo_marshall .blox-title h3 a,
+.waterloo_marshall #blox-wrapper .heading.detail h1 a,
+.waterloo_marshall .calendar-widget-event-list h3{
+	border-color:#4e7b8a;
+	color:#4e7b8a;}
+    
+/* ------- COLOR 2 ------- */
+.waterloo_marshall .fg2 {color:#204b59!important;}
+.waterloo_marshall .bg2 {background-color:#204b59!important;}
+.waterloo_marshall .b2  {border-color:#204b59!important;}
+
+.waterloo_marshall ul.dropdown li.active-vertical,
+.waterloo_marshall ul.dropdown li.active-horizontal,
+.waterloo_marshall own li.hover,
+.waterloo_marshall ul.dropdown li:hover,
+.waterloo_marshall ul.dropdown ul li.hover,
+.waterloo_marshall ul.dropdown ul li.hover a,
+.waterloo_marshall ul.dropdown ul li:hover,
+.waterloo_marshall ul.dropdown ul li:hover a,
+.waterloo_marshall .day-partition,
+.waterloo_marshall #blog-archives-list h4{
+	background-color:#204b59!important;}
+.waterloo_marshall .blox-title,
+.waterloo_marshall .blox-title a,
+.waterloo_marshall .blox-sub-title,
+.waterloo_marshall .blox-sub-title a,
+.waterloo_marshall .blox-title h3,
+.waterloo_marshall .blox-sub-title h4,
+.waterloo_marshall .blox-index h3,
+.waterloo_marshall #blox-footer .footer-section-block h4,
+.waterloo_marshall #blox-footer p,
+.waterloo_marshall .soft .blox-title h3 a,
+.waterloo_marshall .marketplace.categoriesList h3,
+.waterloo_marshall .marketplace.categoriesList h3 a,
+.waterloo_marshall .marketplace div h3,
+.waterloo_marshall .marketplace .blox-title h3{
+	border-color:#204b59;
+	color:#4e7b9a;}
+.waterloo_marshall ul.dropdown ul,
+.waterloo_marshall ul.dropdown ul li{
+	border-color:#204b59;}
+    
+/* ------- COLOR 3 ------- */
+.waterloo_marshall .fg3	{color:#ffffff!important;}
+.waterloo_marshall .bg3	{background-color:#ffffff!important;}	
+.waterloo_marshall .b3	{border-color:#ffffff!important;}
+
+.waterloo_marshall #businessSearch.search-box,
+.waterloo_marshall #calendarSearch.search-box,
+.waterloo_marshall ul.dropdown ul,
+.waterloo_marshall ul.dropdown ul li{
+	background-color:#ffffff!important;}	
+.waterloo_marshall .highlight-dark .blox-title,
+.waterloo_marshall .highlight-dark .blox-sub-title,
+.waterloo_marshall .highlight-dark .blox-title h3,
+.waterloo_marshall .highlight-dark .blox-sub-title h4,
+.waterloo_marshall .highlight-dark p,
+.waterloo_marshall .highlight-dark a,
+.waterloo_marshall .highlight-dark .blox-list li a,
+.waterloo_marshall #blox-html-container .highlight-dark .blox-comments li,
+.waterloo_marshall #blox-html-container .highlight-dark .blox-comments li a,
+.waterloo_marshall #blox-html-container .highlight-dark .blox-comments li a em,
+.waterloo_marshall .blox-comments li a,
+.waterloo_marshall .blox-no-comments li a,
+.waterloo_marshall .blox-comments li span.blox-updated,
+.waterloo_marshall .blox-list li{
+	border-color:#ffffff!important;
+	color:#666666!important;}
+
+
+/* ------- COLOR 4 ------- */
+.waterloo_marshall .fg4	{color:#efefef!important;}
+.waterloo_marshall .bg4	{background-color:#efefef!important;}	
+.waterloo_marshall .b4	{border-color:#efefef!important;}	
+
+.waterloo_marshall #user-comment-area #comment-log-in-area .button a,
+.waterloo_marshall #aboutThisSection .moreInfo,
+.waterloo_marshall .marketplace .blox-featured-listings-holder li h5.moreInfo,
+.waterloo_marshall .heading.heading-cal .button.submit,
+.waterloo_marshall #eventDetail .button.submit{
+	background-color:#efefef;}
+.waterloo_marshall .blox-bottom-block-holder ul li a,
+.waterloo_marshall .slideshow-rule .item-list .group .item h4 a,
+.waterloo_marshall .slideshow-rule .item-list .group .item h4 a:hover,
+.waterloo_marshall .blox-column .blox-list li .blox-headline a,
+.waterloo_marshall #blox-story-text p a,
+.waterloo_marshall .online-package-options li a,
+.waterloo_marshall .calendar-widget-event-list .blox-recent-block a,
+.waterloo_marshall .calendar .blox-specials-gallery ul li a,
+.waterloo_marshall .calendar .blox-recent-list li h4 a,
+.waterloo_marshall li.search-result.event a,
+.waterloo_marshall .blox-list li em{
+	color:#efefef;}
+.waterloo_marshall ul.dropdown ul a:link, ul.dropdown ul a:visited {
+    color: black;
+}	
+.waterloo_marshall #blox-footer {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #4E7B8A;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+}
+
+#blox-html-container.waterloo_marshall {
+    background: none repeat scroll 0 center #e8e5e5;
+}
+.waterloo_marshall #nav.dropdown li ul li a{color:black !important;}
+.waterloo_marshall #nav.dropdown li ul li a:hover{color:white !important;}
+
+/* //////////////////////////////////// Lodi ///////
+	Colors are grouped into foreground(fg#),background(bg#), border(b#)*/
+
+/* ------- COLOR 1 ------- */
+.lodi_enterprise .fg1	{color:#7a7c54!important;}
+.lodi_enterprise .bg1	{background-color:#7a7c54!important;}
+.lodi_enterprise .b1	{border-color:#7a7c54!important;}
+.lodi_enterprise .blox-breaking-news,.lodi_enterprise .blox-breaking-news ul,.lodi_enterprise .blox-breaking-news ul li {
+    background-color: #DA3F3D !important;
+}
+
+.lodi_enterprise ul.dropdown,
+.lodi_enterprise ul.dropdown li,
+.lodi_enterprise .core-slider.horizontal.showcase,
+.lodi_enterprise .highlight-dark,
+.lodi_enterprise .mega-bg{
+	background-color:#7a7c54!important;}
+.lodi_enterprise ul.dropdown,
+.lodi_enterprise ul.dropdown li,
+.lodi_enterprise .marketplace.sectionHead,
+.lodi_enterprise .blox-title h3,
+.lodi_enterprise .blox-title h3 a,
+.lodi_enterprise #blox-wrapper .heading.detail h1 a,
+.lodi_enterprise .calendar-widget-event-list h3{
+	border-color:#7a7c54;
+	color:#7a7c54;}
+    
+/* ------- COLOR 2 ------- */
+.lodi_enterprise .fg2 {color:#55563d!important;}
+.lodi_enterprise .bg2 {background-color:#55563d!important;}
+.lodi_enterprise .b2  {border-color:#55563d!important;}
+.lodi_enterprise ul.dropdown li.active-vertical,
+.lodi_enterprise ul.dropdown li.active-horizontal,
+.lodi_enterprise own li.hover,
+.lodi_enterprise ul.dropdown li:hover,
+.lodi_enterprise ul.dropdown ul li.hover,
+.lodi_enterprise ul.dropdown ul li.hover a,
+.lodi_enterprise ul.dropdown ul li:hover,
+.lodi_enterprise ul.dropdown ul li:hover a,
+.lodi_enterprise .day-partition,
+.lodi_enterprise #blog-archives-list h4{
+	background-color:#55563d!important;}
+.lodi_enterprise .blox-title,
+.lodi_enterprise .blox-title a,
+.lodi_enterprise .blox-sub-title,
+.lodi_enterprise .blox-sub-title a,
+.lodi_enterprise .blox-title h3,
+.lodi_enterprise .blox-sub-title h4,
+.lodi_enterprise .blox-index h3,
+.lodi_enterprise #blox-footer .footer-section-block h4,
+.lodi_enterprise #blox-footer p,
+.lodi_enterprise .soft .blox-title h3 a,
+.lodi_enterprise .marketplace.categoriesList h3,
+.lodi_enterprise .marketplace.categoriesList h3 a,
+.lodi_enterprise .marketplace div h3,
+.lodi_enterprise .marketplace .blox-title h3{
+	border-color:#55563d;
+	color:#7a7c54;}
+.lodi_enterprise ul.dropdown ul,
+.lodi_enterprise ul.dropdown ul li{
+	border-color:#55563d;}
+    
+/* ------- COLOR 3 ------- */
+.lodi_enterprise .fg3	{color:#ffffff!important;}
+.lodi_enterprise .bg3	{background-color:#ffffff!important;}	
+.lodi_enterprise .b3	{border-color:#ffffff!important;}
+
+.lodi_enterprise #businessSearch.search-box,
+.lodi_enterprise #calendarSearch.search-box,
+.lodi_enterprise ul.dropdown ul,
+.lodi_enterprise ul.dropdown ul li{
+	background-color:#ffffff!important;}	
+.lodi_enterprise .highlight-dark .blox-title,
+.lodi_enterprise .highlight-dark .blox-sub-title,
+.lodi_enterprise .highlight-dark .blox-title h3,
+.lodi_enterprise .highlight-dark .blox-sub-title h4,
+.lodi_enterprise .highlight-dark p,
+.lodi_enterprise .highlight-dark a,
+.lodi_enterprise .highlight-dark .blox-list li a,
+.lodi_enterprise #blox-html-container .highlight-dark .blox-comments li,
+.lodi_enterprise #blox-html-container .highlight-dark .blox-comments li a,
+.lodi_enterprise #blox-html-container .highlight-dark .blox-comments li a em,
+.lodi_enterprise .blox-comments li a,
+.lodi_enterprise .blox-no-comments li a,
+.lodi_enterprise .blox-comments li span.blox-updated,
+.lodi_enterprise .blox-list li{
+	border-color:#ffffff!important;
+	color:#666666!important;}
+
+
+/* ------- COLOR 4 ------- */
+.lodi_enterprise .fg4	{color:#ffffff!important;}
+.lodi_enterprise .bg4	{background-color:#ffffff!important;}	
+.lodi_enterprise .b4	{border-color:#ffffff!important;}	
+
+.lodi_enterprise #user-comment-area #comment-log-in-area .button a,
+.lodi_enterprise #aboutThisSection .moreInfo,
+.lodi_enterprise .marketplace .blox-featured-listings-holder li h5.moreInfo,
+.lodi_enterprise .heading.heading-cal .button.submit,
+.lodi_enterprise #eventDetail .button.submit{
+	background-color:#ffffff;}
+.lodi_enterprise .blox-bottom-block-holder ul li a,
+.lodi_enterprise .slideshow-rule .item-list .group .item h4 a,
+.lodi_enterprise .slideshow-rule .item-list .group .item h4 a:hover,
+.lodi_enterprise .blox-column .blox-list li .blox-headline a,
+.lodi_enterprise #blox-story-text p a,
+.lodi_enterprise .online-package-options li a,
+.lodi_enterprise .calendar-widget-event-list .blox-recent-block a,
+.lodi_enterprise .calendar .blox-specials-gallery ul li a,
+.lodi_enterprise .calendar .blox-recent-list li h4 a,
+.lodi_enterprise li.search-result.event a,
+.lodi_enterprise .blox-list li em{
+	color:#ffffff;}
+.lodi_enterprise ul.dropdown ul a:link,.lodi_enterprise ul.dropdown ul a:visited {
+    color: black !important;
+}	
+.lodi_enterprise #blox-footer {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #7a7c54;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+}
+#blox-html-container.lodi_enterprise {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #e8e5e5 !important;
+    background-image: none;
+    background-origin: padding-box;
+    background-repeat: repeat;
+    background-size: auto auto;
+}
+.lodi_enterprise #nav.dropdown li ul li a:hover{color:white !important;}
+
+
+
+/* //////////////////////////////////// Cambridge ///////
+	Colors are grouped into foreground(fg#),background(bg#), border(b#)*/
+
+/* ------- COLOR 1 ------- */
+.cambridge_deerfield .fg1	{color:#0a3f6d!important;}
+.cambridge_deerfield .bg1	{background-color:#0a3f6d!important;}
+.cambridge_deerfield .b1	{border-color:#0a3f6d!important;}
+.cambridge_deerfield .blox-breaking-news,.cambridge_deerfield .blox-breaking-news ul,.cambridge_deerfield .blox-breaking-news ul li {
+    background-color: #DA3F3D !important;
+}
+
+.cambridge_deerfield ul.dropdown,
+.cambridge_deerfield ul.dropdown li,
+.cambridge_deerfield .core-slider.horizontal.showcase,
+.cambridge_deerfield .highlight-dark,
+.cambridge_deerfield .mega-bg{
+	background-color:#0a3f6d!important;}
+.cambridge_deerfield ul.dropdown,
+.cambridge_deerfield ul.dropdown li,
+.cambridge_deerfield .marketplace.sectionHead,
+.cambridge_deerfield .blox-title h3,
+.cambridge_deerfield .blox-title h3 a,
+.cambridge_deerfield #blox-wrapper .heading.detail h1 a,
+.cambridge_deerfield .calendar-widget-event-list h3{
+	border-color:#0a3f6d;
+	color:#0a3f6d;}
+    
+/* ------- COLOR 2 ------- */
+.cambridge_deerfield .fg2 {color:#718ca3!important;}
+.cambridge_deerfield .bg2 {background-color:#718ca3!important;}
+.cambridge_deerfield .b2  {border-color:#718ca3!important;}
+
+.cambridge_deerfield ul.dropdown li.active-vertical,
+.cambridge_deerfield ul.dropdown li.active-horizontal,
+.cambridge_deerfield own li.hover,
+.cambridge_deerfield ul.dropdown li:hover,
+.cambridge_deerfield ul.dropdown ul li.hover,
+.cambridge_deerfield ul.dropdown ul li.hover a,
+.cambridge_deerfield ul.dropdown ul li:hover,
+.cambridge_deerfield ul.dropdown ul li:hover a,
+.cambridge_deerfield .day-partition,
+.cambridge_deerfield #blog-archives-list h4{
+	background-color:#718ca3!important;}
+.cambridge_deerfield .blox-title,
+.cambridge_deerfield .blox-title a,
+.cambridge_deerfield .blox-sub-title,
+.cambridge_deerfield .blox-sub-title a,
+.cambridge_deerfield .blox-title h3,
+.cambridge_deerfield .blox-sub-title h4,
+.cambridge_deerfield .blox-index h3,
+.cambridge_deerfield #blox-footer .footer-section-block h4,
+.cambridge_deerfield #blox-footer p,
+.cambridge_deerfield .soft .blox-title h3 a,
+.cambridge_deerfield .marketplace.categoriesList h3,
+.cambridge_deerfield .marketplace.categoriesList h3 a,
+.cambridge_deerfield .marketplace div h3,
+.cambridge_deerfield .marketplace .blox-title h3{
+	border-color:#718ca3;
+	color:#0A3F6D;}
+.cambridge_deerfield ul.dropdown ul,
+.cambridge_deerfield ul.dropdown ul li{
+	border-color:#718ca3;}
+    
+/* ------- COLOR 3 ------- */
+.cambridge_deerfield .fg3	{color:#ffffff!important;}
+.cambridge_deerfield .bg3	{background-color:#ffffff!important;}	
+.cambridge_deerfield .b3	{border-color:#ffffff!important;}
+
+.cambridge_deerfield #businessSearch.search-box,
+.cambridge_deerfield #calendarSearch.search-box,
+.cambridge_deerfield ul.dropdown ul,
+.cambridge_deerfield ul.dropdown ul li{
+	background-color:#ffffff!important;}	
+.cambridge_deerfield .highlight-dark .blox-title,
+.cambridge_deerfield .highlight-dark .blox-sub-title,
+.cambridge_deerfield .highlight-dark .blox-title h3,
+.cambridge_deerfield .highlight-dark .blox-sub-title h4,
+.cambridge_deerfield .highlight-dark p,
+.cambridge_deerfield .highlight-dark a,
+.cambridge_deerfield .highlight-dark .blox-list li a,
+.cambridge_deerfield #blox-html-container .highlight-dark .blox-comments li,
+.cambridge_deerfield #blox-html-container .highlight-dark .blox-comments li a,
+.cambridge_deerfield #blox-html-container .highlight-dark .blox-comments li a em,
+.cambridge_deerfield .blox-comments li a,
+.cambridge_deerfield .blox-no-comments li a,
+.cambridge_deerfield .blox-comments li span.blox-updated,
+.cambridge_deerfield .blox-list li{
+	border-color:#ffffff!important;
+	color:#666666!important;}
+
+
+/* ------- COLOR 4 ------- */
+.cambridge_deerfield .fg4	{color:#ffffff!important;}
+.cambridge_deerfield .bg4	{background-color:#ffffff!important;}	
+.cambridge_deerfield .b4	{border-color:#ffffff!important;}	
+
+.cambridge_deerfield #user-comment-area #comment-log-in-area .button a,
+.cambridge_deerfield #aboutThisSection .moreInfo,
+.cambridge_deerfield .marketplace .blox-featured-listings-holder li h5.moreInfo,
+.cambridge_deerfield .heading.heading-cal .button.submit,
+.cambridge_deerfield #eventDetail .button.submit{
+	background-color:#ffffff;}
+.cambridge_deerfield .blox-bottom-block-holder ul li a,
+.cambridge_deerfield .slideshow-rule .item-list .group .item h4 a,
+.cambridge_deerfield .slideshow-rule .item-list .group .item h4 a:hover,
+.cambridge_deerfield .blox-column .blox-list li .blox-headline a,
+.cambridge_deerfield #blox-story-text p a,
+.cambridge_deerfield .online-package-options li a,
+.cambridge_deerfield .calendar-widget-event-list .blox-recent-block a,
+.cambridge_deerfield .calendar .blox-specials-gallery ul li a,
+.cambridge_deerfield .calendar .blox-recent-list li h4 a,
+.cambridge_deerfield li.search-result.event a,
+.cambridge_deerfield .blox-list li em{
+	color:#ffffff;}
+.cambridge_deerfield ul.dropdown ul a:link,.cambridge_deerfield ul.dropdown ul a:visited {
+    color: black !important;
+}	
+.cambridge_deerfield #nav.dropdown li ul li a:hover{color:white !important;}
+.cambridge_deerfield #blox-footer {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #0a3f6d;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+}
+#blox-html-container.cambridge_deerfield {
+    background-color: #e8e5e5;
+}
+
+
+/* //////////////////////////////////// Deforest ///////
+	Colors are grouped into foreground(fg#),background(bg#), border(b#)*/
+
+/* ------- COLOR 1 ------- */
+.deforest_times .fg1	{color:#474647!important;}
+.deforest_times .bg1	{background-color:#474647!important;}
+.deforest_times .b1	{border-color:#474647!important;}
+.deforest_times .blox-breaking-news,.deforest_times .blox-breaking-news ul,.deforest_times .blox-breaking-news ul li {
+    background-color: #DA3F3D !important;
+}
+
+.deforest_times ul.dropdown,
+.deforest_times ul.dropdown li,
+.deforest_times .core-slider.horizontal.showcase,
+.deforest_times .highlight-dark,
+.deforest_times .mega-bg{
+	background-color:#474647!important;}
+.deforest_times ul.dropdown,
+.deforest_times ul.dropdown li,
+.deforest_times .marketplace.sectionHead,
+.deforest_times .blox-title h3,
+.deforest_times .blox-title h3 a,
+.deforest_times #blox-wrapper .heading.detail h1 a,
+.deforest_times .calendar-widget-event-list h3{
+	border-color:#474647;
+	color:#474647;}
+    
+/* ------- COLOR 2 ------- */
+.deforest_times .fg2 {color:#666666!important;}
+.deforest_times .bg2 {background-color:#666666!important;}
+.deforest_times .b2  {border-color:#666666!important;}
+
+.deforest_times ul.dropdown li.active-vertical,
+.deforest_times ul.dropdown li.active-horizontal,
+.deforest_times own li.hover,
+.deforest_times ul.dropdown li:hover,
+.deforest_times ul.dropdown ul li.hover,
+.deforest_times ul.dropdown ul li.hover a,
+.deforest_times ul.dropdown ul li:hover,
+.deforest_times ul.dropdown ul li:hover a,
+.deforest_times .day-partition,
+.deforest_times #blog-archives-list h4{
+	background-color:#666666!important;}
+.deforest_times .blox-title,
+.deforest_times .blox-title a,
+.deforest_times .blox-sub-title,
+.deforest_times .blox-sub-title a,
+.deforest_times .blox-title h3,
+.deforest_times .blox-sub-title h4,
+.deforest_times .blox-index h3,
+.deforest_times #blox-footer .footer-section-block h4,
+.deforest_times #blox-footer p,
+.deforest_times .soft .blox-title h3 a,
+.deforest_times .marketplace.categoriesList h3,
+.deforest_times .marketplace.categoriesList h3 a,
+.deforest_times .marketplace div h3,
+.deforest_times .marketplace .blox-title h3{
+	border-color:#666666;
+	color:#000000;}
+.deforest_times ul.dropdown ul,
+.deforest_times ul.dropdown ul li{
+	border-color:#666666;}
+    
+/* ------- COLOR 3 ------- */
+.deforest_times .fg3	{color:#ffffff!important;}
+.deforest_times .bg3	{background-color:#ffffff!important;}	
+.deforest_times .b3	{border-color:#ffffff!important;}
+
+.deforest_times #businessSearch.search-box,
+.deforest_times #calendarSearch.search-box,
+.deforest_times ul.dropdown ul,
+.deforest_times ul.dropdown ul li{
+	background-color:#ffffff!important;}	
+.deforest_times .highlight-dark .blox-title,
+.deforest_times .highlight-dark .blox-sub-title,
+.deforest_times .highlight-dark .blox-title h3,
+.deforest_times .highlight-dark .blox-sub-title h4,
+.deforest_times .highlight-dark p,
+.deforest_times .highlight-dark a,
+.deforest_times .highlight-dark .blox-list li a,
+.deforest_times #blox-html-container .highlight-dark .blox-comments li,
+.deforest_times #blox-html-container .highlight-dark .blox-comments li a,
+.deforest_times #blox-html-container .highlight-dark .blox-comments li a em,
+.deforest_times .blox-comments li a,
+.deforest_times .blox-no-comments li a,
+.deforest_times .blox-comments li span.blox-updated,
+.deforest_times .blox-list li{
+	border-color:#ffffff!important;
+	color:#666666!important;}
+
+
+/* ------- COLOR 4 ------- */
+.deforest_times .fg4	{color:#ffffff!important;}
+.deforest_times .bg4	{background-color:#ffffff!important;}	
+.deforest_times .b4	{border-color:#ffffff!important;}	
+
+.deforest_times #user-comment-area #comment-log-in-area .button a,
+.deforest_times #aboutThisSection .moreInfo,
+.deforest_times .marketplace .blox-featured-listings-holder li h5.moreInfo,
+.deforest_times .heading.heading-cal .button.submit,
+.deforest_times #eventDetail .button.submit{
+	background-color:#ffffff;}
+.deforest_times .blox-bottom-block-holder ul li a,
+.deforest_times .slideshow-rule .item-list .group .item h4 a,
+.deforest_times .slideshow-rule .item-list .group .item h4 a:hover,
+.deforest_times .blox-column .blox-list li .blox-headline a,
+.deforest_times #blox-story-text p a,
+.deforest_times .online-package-options li a,
+.deforest_times .calendar-widget-event-list .blox-recent-block a,
+.deforest_times .calendar .blox-specials-gallery ul li a,
+.deforest_times .calendar .blox-recent-list li h4 a,
+.deforest_times li.search-result.event a,
+.deforest_times .blox-list li em{
+	color:#ffffff;}
+.deforest_times ul.dropdown ul a:link,.deforest_times ul.dropdown ul a:visited {
+    color: black !important;
+}	
+.deforest_times #nav.dropdown li ul li a:hover{color:white !important;}
+.deforest_times #blox-footer {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #474647;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+}
+
+
+
+/* //////////////////////////////////// Milton Courier ///////
+	Colors are grouped into foreground(fg#),background(bg#), border(b#)*/
+
+/* ------- COLOR 1 ------- */
+.milton_courier .fg1	{color:#474647!important;}
+.milton_courier .bg1	{background-color:#474647!important;}
+.milton_courier .b1	{border-color:#474647!important;}
+.milton_courier .blox-breaking-news,.milton_courier .blox-breaking-news ul,.milton_courier .blox-breaking-news ul li {
+    background-color: #DA3F3D !important;
+}
+
+.milton_courier ul.dropdown,
+.milton_courier ul.dropdown li,
+.milton_courier .core-slider.horizontal.showcase,
+.milton_courier .highlight-dark,
+.milton_courier .mega-bg{
+	background-color:#474647!important;}
+.milton_courier ul.dropdown,
+.milton_courier ul.dropdown li,
+.milton_courier .marketplace.sectionHead,
+.milton_courier .blox-title h3,
+.milton_courier .blox-title h3 a,
+.milton_courier #blox-wrapper .heading.detail h1 a,
+.milton_courier .calendar-widget-event-list h3{
+	border-color:#474647;
+	color:#474647;}
+    
+/* ------- COLOR 2 ------- */
+.milton_courier .fg2 {color:#666666!important;}
+.milton_courier .bg2 {background-color:#666666!important;}
+.milton_courier .b2  {border-color:#666666!important;}
+
+.milton_courier ul.dropdown li.active-vertical,
+.milton_courier ul.dropdown li.active-horizontal,
+.milton_courier own li.hover,
+.milton_courier ul.dropdown li:hover,
+.milton_courier ul.dropdown ul li.hover,
+.milton_courier ul.dropdown ul li.hover a,
+.milton_courier ul.dropdown ul li:hover,
+.milton_courier ul.dropdown ul li:hover a,
+.milton_courier .day-partition,
+.milton_courier #blog-archives-list h4{
+	background-color:#666666!important;}
+.milton_courier .blox-title,
+.milton_courier .blox-title a,
+.milton_courier .blox-sub-title,
+.milton_courier .blox-sub-title a,
+.milton_courier .blox-title h3,
+.milton_courier .blox-sub-title h4,
+.milton_courier .blox-index h3,
+.milton_courier #blox-footer .footer-section-block h4,
+.milton_courier #blox-footer p,
+.milton_courier .soft .blox-title h3 a,
+.milton_courier .marketplace.categoriesList h3,
+.milton_courier .marketplace.categoriesList h3 a,
+.milton_courier .marketplace div h3,
+.milton_courier .marketplace .blox-title h3{
+	border-color:#666666;
+	color:#000000;}
+.milton_courier ul.dropdown ul,
+.milton_courier ul.dropdown ul li{
+	border-color:#666666;}
+    
+/* ------- COLOR 3 ------- */
+.milton_courier .fg3	{color:#efefef!important;}
+.milton_courier .bg3	{background-color:#efefef!important;}	
+.milton_courier .b3	{border-color:#efefef!important;}
+
+.milton_courier #businessSearch.search-box,
+.milton_courier #calendarSearch.search-box,
+.milton_courier ul.dropdown ul,
+.milton_courier ul.dropdown ul li{
+	background-color:#efefef!important;}	
+.milton_courier .highlight-dark .blox-title,
+.milton_courier .highlight-dark .blox-sub-title,
+.milton_courier .highlight-dark .blox-title h3,
+.milton_courier .highlight-dark .blox-sub-title h4,
+.milton_courier .highlight-dark p,
+.milton_courier .highlight-dark a,
+.milton_courier .highlight-dark .blox-list li a,
+.milton_courier #blox-html-container .highlight-dark .blox-comments li,
+.milton_courier #blox-html-container .highlight-dark .blox-comments li a,
+.milton_courier #blox-html-container .highlight-dark .blox-comments li a em,
+.milton_courier .blox-comments li a,
+.milton_courier .blox-no-comments li a,
+.milton_courier .blox-comments li span.blox-updated,
+.milton_courier .blox-list li{
+	border-color:#efefef!important;
+	color:#666666!important;}
+
+
+/* ------- COLOR 4 ------- */
+.milton_courier .fg4	{color:#ffffff!important;}
+.milton_courier .bg4	{background-color:#ffffff!important;}	
+.milton_courier .b4	{border-color:#ffffff!important;}	
+
+.milton_courier #user-comment-area #comment-log-in-area .button a,
+.milton_courier #aboutThisSection .moreInfo,
+.milton_courier .marketplace .blox-featured-listings-holder li h5.moreInfo,
+.milton_courier .heading.heading-cal .button.submit,
+.milton_courier #eventDetail .button.submit{
+	background-color:#ffffff;}
+.milton_courier .blox-bottom-block-holder ul li a,
+.milton_courier .slideshow-rule .item-list .group .item h4 a,
+.milton_courier .slideshow-rule .item-list .group .item h4 a:hover,
+.milton_courier .blox-column .blox-list li .blox-headline a,
+.milton_courier #blox-story-text p a,
+.milton_courier .online-package-options li a,
+.milton_courier .calendar-widget-event-list .blox-recent-block a,
+.milton_courier .calendar .blox-specials-gallery ul li a,
+.milton_courier .calendar .blox-recent-list li h4 a,
+.milton_courier li.search-result.event a,
+.milton_courier .blox-list li em{
+	color:#ffffff;}
+.milton_courier ul.dropdown ul a:link,.milton_courier ul.dropdown ul a:visited {
+    color: black !important;
+}	
+.milton_courier #blox-footer {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #474647;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+}
+#blox-html-container.milton_courier {
+    background: none repeat scroll 0 center #e8e5e5;
+}
+
+.milton_courier #nav.dropdown li ul li a:hover{color:white !important;}
+
+/* //////////////////////////////////// Waunakee ///////
+	Colors are grouped into foreground(fg#),background(bg#), border(b#)*/
+
+/* ------- COLOR 1 ------- */
+.waunakee_tribune .fg1	{color:#5b2d70!important;}
+.waunakee_tribune .bg1	{background-color:#5b2d70!important;}
+.waunakee_tribune .b1	{border-color:#5b2d70!important;}
+.waunakee_tribune .blox-breaking-news,.waunakee_tribune .blox-breaking-news ul,.waunakee_tribune .blox-breaking-news ul li {
+    background-color: #da3f3d!important;
+}
+
+.waunakee_tribune ul.dropdown,
+.waunakee_tribune ul.dropdown li,
+.waunakee_tribune .core-slider.horizontal.showcase,
+.waunakee_tribune .highlight-dark,
+.waunakee_tribune .mega-bg{
+	background-color:#5b2d70!important;}
+.waunakee_tribune ul.dropdown,
+.waunakee_tribune ul.dropdown li,
+.waunakee_tribune .marketplace.sectionHead,
+.waunakee_tribune .blox-title h3,
+.waunakee_tribune .blox-title h3 a,
+.waunakee_tribune #blox-wrapper .heading.detail h1 a,
+.waunakee_tribune .calendar-widget-event-list h3{
+	border-color:#5b2d70;
+	color:#5b2d70;}
+    
+/* ------- COLOR 2 ------- */
+.waunakee_tribune .fg2 {color:#390352!important;}
+.waunakee_tribune .bg2 {background-color:#390352!important;}
+.waunakee_tribune .b2  {border-color:#390352!important;}
+
+.waunakee_tribune ul.dropdown li.active-vertical,
+.waunakee_tribune ul.dropdown li.active-horizontal,
+.waunakee_tribune own li.hover,
+.waunakee_tribune ul.dropdown li:hover,
+.waunakee_tribune ul.dropdown ul li.hover,
+.waunakee_tribune ul.dropdown ul li.hover a,
+.waunakee_tribune ul.dropdown ul li:hover,
+.waunakee_tribune ul.dropdown ul li:hover a,
+.waunakee_tribune .day-partition,
+.waunakee_tribune #blog-archives-list h4{
+	background-color:#390352!important;}
+.waunakee_tribune .blox-title,
+.waunakee_tribune .blox-title a,
+.waunakee_tribune .blox-sub-title,
+.waunakee_tribune .blox-sub-title a,
+.waunakee_tribune .blox-title h3,
+.waunakee_tribune .blox-sub-title h4,
+.waunakee_tribune .blox-index h3,
+.waunakee_tribune #blox-footer .footer-section-block h4,
+.waunakee_tribune #blox-footer p,
+.waunakee_tribune .soft .blox-title h3 a,
+.waunakee_tribune .marketplace.categoriesList h3,
+.waunakee_tribune .marketplace.categoriesList h3 a,
+.waunakee_tribune .marketplace div h3,
+.waunakee_tribune .marketplace .blox-title h3{
+	border-color:#390352;
+	color:#390352;}
+.waunakee_tribune ul.dropdown ul,
+.waunakee_tribune ul.dropdown ul li{
+	border-color:#390352;}
+    
+/* ------- COLOR 3 ------- */
+.waunakee_tribune .fg3	{color:#efefef!important;}
+.waunakee_tribune .bg3	{background-color:#efefef!important;}	
+.waunakee_tribune .b3	{border-color:#efefef!important;}
+
+.waunakee_tribune #businessSearch.search-box,
+.waunakee_tribune #calendarSearch.search-box,
+.waunakee_tribune ul.dropdown ul,
+.waunakee_tribune ul.dropdown ul li{
+	background-color:#efefef!important;}	
+.waunakee_tribune .highlight-dark .blox-title,
+.waunakee_tribune .highlight-dark .blox-sub-title,
+.waunakee_tribune .highlight-dark .blox-title h3,
+.waunakee_tribune .highlight-dark .blox-sub-title h4,
+.waunakee_tribune .highlight-dark p,
+.waunakee_tribune .highlight-dark a,
+.waunakee_tribune .highlight-dark .blox-list li a,
+.waunakee_tribune #blox-html-container .highlight-dark .blox-comments li,
+.waunakee_tribune #blox-html-container .highlight-dark .blox-comments li a,
+.waunakee_tribune #blox-html-container .highlight-dark .blox-comments li a em,
+.waunakee_tribune .blox-comments li a,
+.waunakee_tribune .blox-no-comments li a,
+.waunakee_tribune .blox-comments li span.blox-updated,
+.waunakee_tribune .blox-list li{
+	border-color:#efefef!important;
+	color:#666666!important;}
+
+/* ------- COLOR 4 ------- */
+.waunakee_tribune .fg4	{color:#ffffff!important;}
+.waunakee_tribune .bg4	{background-color:#ffffff!important;}	
+.waunakee_tribune .b4	{border-color:#ffffff!important;}	
+
+.waunakee_tribune #user-comment-area #comment-log-in-area .button a,
+.waunakee_tribune #aboutThisSection .moreInfo,
+.waunakee_tribune .marketplace .blox-featured-listings-holder li h5.moreInfo,
+.waunakee_tribune .heading.heading-cal .button.submit,
+.waunakee_tribune #eventDetail .button.submit{
+	background-color:#ffffff;}
+.waunakee_tribune .blox-bottom-block-holder ul li a,
+.waunakee_tribune .slideshow-rule .item-list .group .item h4 a,
+.waunakee_tribune .slideshow-rule .item-list .group .item h4 a:hover,
+.waunakee_tribune .blox-column .blox-list li .blox-headline a,
+.waunakee_tribune #blox-story-text p a,
+.waunakee_tribune .online-package-options li a,
+.waunakee_tribune .calendar-widget-event-list .blox-recent-block a,
+.waunakee_tribune .calendar .blox-specials-gallery ul li a,
+.waunakee_tribune .calendar .blox-recent-list li h4 a,
+.waunakee_tribune li.search-result.event a,
+.waunakee_tribune .blox-list li em{
+	color:#ffffff;}
+.waunakee_tribune ul.dropdown ul a:link,.waunakee_tribune ul.dropdown ul a:visited {
+    color: black !important;
+}	
+.waunakee_tribune #nav.dropdown li ul li a:hover{color:white !important;}
+.waunakee_tribune #blox-footer {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #5b2d70;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+}
+
+#blox-html-container.waunakee_tribune {
+    background: none repeat scroll 0 center #e8e5e5;
+}
+
+
+
+
+
+.front .blox-breaking-news,
+.front .blox-breaking-news,.front .blox-breaking-news ul,.front .blox-breaking-news ul li {
+    background-color: #DA3F3D !important;
+}
+
+
+.blox-title h3, .blox-sub-title h4 {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+#blox-footer p.copyright strong a,
+#blox-footer p.copyright,
+#blox-footer p.copyright a{color:white;}
+#blox-footer{margin-bottom:0;padding-bottom:0;}
+
+
+/* ------- Highlight-Grey fix ------- */
+.waunakee_tribune #blox-html-container .highlight-grey .blox-comments li,
+.waunakee_tribune #blox-html-container .highlight-grey .blox-comments li a,
+.waunakee_tribune #blox-html-container .highlight-grey .blox-comments li a em,
+.waunakee_tribune .highlight-grey .blox-comments li,
+.waunakee_tribune .highlight-grey .blox-comments li a,
+.waunakee_tribune .highlight-grey .blox-comments li a em,
+.waunakee_tribune .highlight-grey .blox-list li,
+.waunakee_tribune .highlight-grey .blox-comments li span, 
+.waunakee_tribune .highlight-grey .blox-no-comments li span {
+	border-color:#666!important;
+	color:#666!important;}
+        
+.waunakee_tribune ul.dropdown li:hover > a,.waunakee_tribune ul.dropdown li.hover > a,.waunakee_tribune ul.dropdown li.active-vertical
+> a,.waunakee_tribune li.active-horizontal > a {color:white !important;}
+
+.footer-section-block.search form .col1, .footer-section-block.search form .col2, .footer-section-block.search form .col3{padding-right:0;}
+
+
+
+/* date line color changes */
+.monona_cottage_grove .day-partition{
+    background: #0A3F6D !important;
+}
+.poynette_press .day-partition{
+    background: #656161 !important;
+}
+.mcfarland_thistle .day-partition{
+    background: #827F7F !important;
+}
+.sun_prairie_star .day-partition{
+    background: #585858 !important;
+}
+
+
+#blox-story-text p a {color:black !important;}
+
+/* ------- This hides the title on the Milton Courier - pigskin pick'em pages ------- 
+.milton_courier.pigskin_pickem #index-section-title { display: none; }
+*/
+/* ------- This changes the background on the title for the custom block with the custom_title_link CSS --------
+*/
+.custom_title_link.tncms-block h3 {
+background:#EFEFEF;
+padding: 5px 10px;
+}
+
+.custom_hide_section .core-slider.horizontal.showcase .group .item .section {display: none !important}
+
+.custom_size .blox-recent-list li .avatar {width: 200px !important}
+
+/* ------- Adding Top Navigation #522922 ------- */
+#extra-nav {
+  background-color: #F4F4F4;
+  border-bottom: medium none;
+  margin: 10px 0;
+  padding: 10px;
+}
+#extra-nav ul {
+  padding: 4px 0 7px;
+}
+#extra-nav ul#extra-left {
+  float: right;
+  font-size: 12px;
+  line-height: 0;
+  position: relative;
+  top: 2px;
+}
+#extra-nav li {
+  border-left: 1px solid #CCCCCC;
+  display: inline;
+  padding: 2px 5px;
+}
+.waterloo_marshall #extra-nav {
+  background-color: #DDDDDD;
+}
+
+
+
+/**********************custom_special_section class for headline list to change the block CSS */
+ 
+.custom_special_section .blox-recent-block {
+height: 100%;
+overflow: visible
+}
+ 
+.custom_special_section .blox-recent-list li {
+width: 120px;
+}
+
+/* Matt #525377*/
+/*blox-photo-gallery-list li {
+width: 132px;
+background: white;
+height: 136px;
+margin-right: 10px;
+margin-bottom: 15px;
+border: 4px solid clear;
+float: left;
+position: relative;
+overflow: hidden;
+}
+
+
+blox-photo-gallery-list .blox-bottom-block {
+width: 100%;
+height: 39px;
+background-color: white;
+}
+
+.container_12 .grid_8 .blox-photo-gallery-list .blox-bottom-block div, .container_12 .grid_8 .blox-photo-gallery-list .bottom-block div {
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+border-radius: 0;
+width: 96%;
+background: white;
+}*/
+.free_subscription .fieldset-help {
+    color: #000000;
+    font-style: normal;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+/* jmjh 526641 */
+#tncms-region-center-ten-front .blox-photo-gallery-list li {
+background: none repeat scroll 0 0 #FFFFFF;
+border: 0px solid #ffffff;
+}
+/*trent 528172 */
+.golf #index-section-title {display:none;}
+/*trent #528717 */
+#tncms-block-96429 #nav-container-feat-business {display:none;}

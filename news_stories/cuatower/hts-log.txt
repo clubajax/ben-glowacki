@@ -1,0 +1,23 @@
+HTTrack3.43+htsswf+htsjava launched on Thu, 17 Feb 2011 17:12:12 at http://www.cuatower.com/2.5299/speaker-matt-glowacki-discusses-predjudice-with-family-guy-1.822307 +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2008], %s -->" -%l "en, en, *" http://www.cuatower.com/2.5299/speaker-matt-glowacki-discusses-predjudice-with-family-guy-1.822307 -O1 "L:\Clients\Myriad Communications\website 2007\flash design\news_stories\cuatower" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:15:59	Error: 	"/2.5299/$m.local.imageUrl" (404) at link www.cuatower.com/2.5299/$m.local.imageUrl (from www.cuatower.com/2.5299/speaker-matt-glowacki-discusses-predjudice-with-family-guy-1.822307)
+17:18:04	Error: 	"/2.5299/restserver.php" (404) at link www.cuatower.com/2.5299/restserver.php (from connect.facebook.net/en_US/all.js)
+17:18:05	Error: 	"Not Found" (404) at link www.cuatower.com/2.5299/static/ (from connect.facebook.net/en_US/all.js)
+17:18:05	Error: 	"Not Found" (404) at link www.cuatower.com/2.5299/www.addthis.com/ (from s7.addthis.com/js/250/addthis_widget.js)
+17:18:05	Error: 	"/2.5299/static/r07/sh32.html" (404) at link www.cuatower.com/2.5299/static/r07/sh32.html (from s7.addthis.com/js/250/addthis_widget.js)
+17:18:05	Error: 	"/2.5299/static/r07/menu68.js" (404) at link www.cuatower.com/2.5299/static/r07/menu68.js (from s7.addthis.com/js/250/addthis_widget.js)
+17:18:07	Error: 	"/2.5299/addthis_widget.js" (404) at link www.cuatower.com/2.5299/addthis_widget.js (from s7.addthis.com/js/250/addthis_widget.js)
+17:18:07	Info: 	engine: warning: entry cleaned up, but no trace on heap: zulu.tweetmeme.com/b.gif (L:/Clients/Myriad Communications/website 2007/flash design/news_stories/cuatower/zulu.tweetmeme.com/b.gif)
+17:18:08	Info: 	engine: warning: entry cleaned up, but no trace on heap: zulu.tweetmeme.com/button_loader.gif (L:/Clients/Myriad Communications/website 2007/flash design/news_stories/cuatower/zulu.tweetmeme.com/button_loader.gif)
+17:18:09	Error: 	"/2.5299/static/r05/feed00.gif" (404) at link www.cuatower.com/2.5299/static/r05/feed00.gif (from s7.addthis.com/js/250/addthis_widget.js)
+17:18:09	Warning: 	File seems complete (same size), but there was a cache read error: zulu.tweetmeme.com/b.gif
+17:18:09	Warning: 	File seems complete (same size), but there was a cache read error: zulu.tweetmeme.com/button_loader.gif
+
+HTTrack Website Copier/3.43 mirror complete in 5 minutes 57 seconds : 62 links scanned, 53 files written (1255593 bytes overall) [1168277 bytes received at 3272 bytes/sec], 176420 bytes transfered using HTTP compression in 5 files, ratio 31%, 2.0 requests per connection
+(8 errors, 2 warnings, 2 messages)

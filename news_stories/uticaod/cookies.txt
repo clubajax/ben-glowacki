@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.quantserve.com	TRUE	/	FALSE	1999999999	mc	4ec565a5-9d40a-15dd5-b4704
+

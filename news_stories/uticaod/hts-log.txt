@@ -1,0 +1,164 @@
+HTTrack3.43+htsswf+htsjava launched on Thu, 17 Nov 2011 14:26:03 at http://www.uticaod.com/living/x2146635165/MVCC-speaker-Diversity-is-not-noticing-the-differences +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%P0nxs2u1%s%uN102%I0p7DaK0H0%kf2o0A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2008], %s -->" -%l "en, en, *" http://www.uticaod.com/living/x2146635165/MVCC-speaker-Diversity-is-not-noticing-the-differences -O1 "L:\Clients\Myriad Communications\Download\uticaod\uticaod" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:26:04	Info: 	Note: due to www.uticaod.com remote robots.txt rules, links begining with these path will be forbidden: /mi-holland, /*?view, /!/, /promotions (see in the options to disable this)
+14:26:04	Warning: 	Previous file not found (erased by user ?), recatching: www.uticaod.com/living/x2146635165/MVCC-speaker-Diversity-is-not-noticing-the-differences
+14:26:04	Info: 	engine: transfer-status: link added: www.uticaod.com/living/x2146635165/MVCC-speaker-Diversity-is-not-noticing-the-differences -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.com/html/mvcc-speaker-diversity-is-not-noticing-the-differences.html
+14:26:05	Info: 	engine: transfer-status: link added: www.uticaod.com/features/x2146635165/MVCC-speaker-Diversity-is-not-noticing-the-differences -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.com/html/mvcc-speaker-diversity-is-not-noticing-the-differences-2.html
+14:26:06	Info: 	engine: transfer-status: link added: d1aivi5dp2wry5.cloudfront.net/pixel.gif -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/d1aivi5dp2wry5.cloudfront.net/images/pixel.gif
+14:26:07	Info: 	engine: transfer-status: link added: www.uticaod.com/living/rss -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.com/images/rsshtml.html
+14:26:07	Warning: 	Previous file not found (erased by user ?), recatching: www.uticaod.com/living/x2146635165/MVCC-speaker-Diversity-is-not-noticing-the-differences?photo=0
+14:26:08	Info: 	engine: transfer-status: link added: www.uticaod.com/living/x2146635165/MVCC-speaker-Diversity-is-not-noticing-the-differences?photo=0 -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.com/html/mvcc-speaker-diversity-is-not-noticing-the-differences0015.html
+14:26:08	Info: 	engine: transfer-status: link added: www.uticaod.com/features/rss -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.com/images/rsshtml-2.html
+14:26:08	Warning: 	Previous file not found (erased by user ?), recatching: global.static.ghm.zope.net/resources/deep_dish/css/dd_base.css
+14:26:09	Info: 	engine: transfer-status: link added: global.static.ghm.zope.net/resources/deep_dish/css/dd_base.css -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/images/dd_base.css
+14:26:09	Warning: 	Previous file not found (erased by user ?), recatching: global.static.ghm.zope.net/resources/deep_dish/css/iyp.css
+14:26:09	Info: 	engine: transfer-status: link added: global.static.ghm.zope.net/resources/deep_dish/css/iyp.css -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/images/iyp.css
+14:26:09	Warning: 	Previous file not found (erased by user ?), recatching: global.static.ghm.zope.net/resources/deep_dish/css/color_base.css
+14:26:09	Info: 	engine: transfer-status: link added: global.static.ghm.zope.net/resources/deep_dish/css/color_base.css -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/images/color_base.css
+14:26:10	Warning: 	Previous file not found (erased by user ?), recatching: global.static.ghm.zope.net/resources/deep_dish/css/color_blue.css
+14:26:10	Info: 	engine: transfer-status: link added: global.static.ghm.zope.net/resources/deep_dish/css/color_blue.css -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/images/color_blue.css
+14:26:10	Warning: 	Previous file not found (erased by user ?), recatching: global.static.ghm.zope.net/resources/deep_dish/css/dd_print.css
+14:26:10	Info: 	engine: transfer-status: link added: global.static.ghm.zope.net/resources/deep_dish/css/dd_print.css -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/images/dd_print.css
+14:26:10	Warning: 	Previous file not found (erased by user ?), recatching: global.static.ghm.zope.net/resources/global/css_comments.css
+14:26:11	Info: 	engine: transfer-status: link added: global.static.ghm.zope.net/resources/global/css_comments.css -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/images/css_comments.css
+14:26:11	Warning: 	Previous file not found (erased by user ?), recatching: global.static.ghm.zope.net/resources/deep_dish/scripts/jquery.jcarousel.pack.js
+14:26:12	Info: 	engine: transfer-status: link added: global.static.ghm.zope.net/resources/deep_dish/scripts/jquery.jcarousel.pack.js -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/images/jquery.jcarousel.pack.js
+14:26:12	Warning: 	Previous file not found (erased by user ?), recatching: global.static.ghm.zope.net/resources/deep_dish/scripts/feed_handler.js
+14:26:12	Info: 	engine: transfer-status: link added: global.static.ghm.zope.net/resources/deep_dish/scripts/feed_handler.js -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/images/feed_handler.js
+14:26:12	Warning: 	Previous file not found (erased by user ?), recatching: global.static.ghm.zope.net/resources/deep_dish/scripts/nav.js
+14:26:12	Info: 	engine: transfer-status: link added: global.static.ghm.zope.net/resources/deep_dish/scripts/nav.js -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/images/nav.js
+14:26:12	Warning: 	Previous file not found (erased by user ?), recatching: global.static.ghm.zope.net/resources/deep_dish/scripts/global.js
+14:26:13	Info: 	engine: transfer-status: link added: global.static.ghm.zope.net/resources/deep_dish/scripts/global.js -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/images/global.js
+14:26:13	Warning: 	Previous file not found (erased by user ?), recatching: s.ppjol.net/pp.js
+14:26:13	Info: 	engine: transfer-status: link added: s.ppjol.net/pp.js -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/images/pp.js
+14:26:13	Warning: 	Previous file not found (erased by user ?), recatching: dv2.gatehousemedia.com/matt/reg/comments.js
+14:26:15	Info: 	engine: transfer-status: link added: dv2.gatehousemedia.com/matt/reg/comments.js -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/dv2.gatehousemedia.com/images/comments.js
+14:26:15	Warning: 	Previous file not found (erased by user ?), recatching: e.yieldmanager.net/script.js
+14:26:15	Info: 	engine: transfer-status: link added: e.yieldmanager.net/script.js -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/e.yieldmanager.net/images/script.js
+14:26:18	Warning: 	Previous file not found (erased by user ?), recatching: www.uticaod.net/circulation/Subscribe_here_300x50.jpg
+14:26:20	Info: 	engine: transfer-status: link added: www.uticaod.net/circulation/Subscribe_here_300x50.jpg -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.net/images/subscribe_here_300x50.jpg
+14:26:20	Warning: 	Previous file not found (erased by user ?), recatching: utica.static.ghm.zope.net/resources/rockford/style_images_v2/button_search_ipy.gif
+14:26:20	Info: 	engine: transfer-status: link added: utica.static.ghm.zope.net/resources/rockford/style_images_v2/button_search_ipy.gif -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/utica.static.ghm.zope.net/images/button_search_ipy.gif
+14:26:21	Warning: 	Previous file not found (erased by user ?), recatching: w.sharethis.com/button/buttons.js
+14:26:21	Info: 	engine: transfer-status: link added: w.sharethis.com/button/buttons.js -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/w.sharethis.com/images/buttons.js
+14:26:21	Error: 	"Not Found" (404) at link global.static.ghm.zope.net/resources/deep_dish/ndnover.png (from www.uticaod.com/living/x2146635165/MVCC-speaker-Diversity-is-not-noticing-the-differences)
+14:26:21	Warning: 	Previous file not found (erased by user ?), recatching: thumbnail.newsinc.com/23548859.jpg
+14:26:22	Info: 	engine: transfer-status: link added: thumbnail.newsinc.com/23548859.jpg -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/thumbnail.newsinc.com/images/23548859.jpg
+14:26:23	Warning: 	Previous file not found (erased by user ?), recatching: edge.quantserve.com/quant.js
+14:26:24	Info: 	engine: transfer-status: link added: edge.quantserve.com/quant.js -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/edge.quantserve.com/images/quant.js
+14:26:24	Warning: 	Previous file not found (erased by user ?), recatching: pixel.quantserve.com/pixel/p-573scDfDoUH6o.gif
+14:26:24	Info: 	engine: transfer-status: link added: pixel.quantserve.com/pixel/p-573scDfDoUH6o.gif -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/pixel.quantserve.com/images/p-573scdfdouh6o.gif
+14:26:24	Warning: 	Previous file not found (erased by user ?), recatching: cm.npc-gatehouse.overture.com/partner/js/ypn.js
+14:26:24	Info: 	engine: transfer-status: link added: cm.npc-gatehouse.overture.com/partner/js/ypn.js -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/cm.npc-gatehouse.overture.com/images/ypn.js
+14:26:24	Warning: 	Previous file not found (erased by user ?), recatching: 209.20.84.187/blank.gif?site_id=utica&storyurl=http://www.uticaod.com/living/x2146635165/MVCC-speaker-Diversity-is-not-noticing-the-differences&zip=13501&title=MVCC speaker: Diversity is not ‘noticing the differences’&comment_count=__comment_count__&pubdate=2011-11-16&section=lifestyles
+14:26:25	Info: 	engine: transfer-status: link added: 209.20.84.187/blank.gif?site_id=utica&storyurl=http://www.uticaod.com/living/x2146635165/MVCC-speaker-Diversity-is-not-noticing-the-differences&zip=13501&title=MVCC speaker: Diversity is not ‘noticing the differences’&comment_count=__comment_count__&pubdate=2011-11-16&section=lifestyles -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/209.20.84.187/images/blankb1b5.gif
+14:26:25	Warning: 	Previous file not found (erased by user ?), recatching: global.static.ghm.zope.net/resources/global/ghs_wa.js
+14:26:25	Info: 	engine: transfer-status: link added: global.static.ghm.zope.net/resources/global/ghs_wa.js -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/images/ghs_wa.js
+14:26:25	Warning: 	Previous file not found (erased by user ?), recatching: c5.zedo.com/jsc/c5/fhs.js
+14:26:26	Info: 	engine: transfer-status: link added: c5.zedo.com/jsc/c5/fhs.js -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/c5.zedo.com/images/fhs.js
+14:26:37	Warning: 	Previous file not found (erased by user ?), recatching: test-site-3.static.ghm.zope.net/resources/rockford/style_images_v2/tl_logo_bg.gif
+14:26:37	Info: 	engine: transfer-status: link added: test-site-3.static.ghm.zope.net/resources/rockford/style_images_v2/tl_logo_bg.gif -> L:/Clients/Myriad Communications/Download/uticaod/uticaod/test-site-3.static.ghm.zope.net/images/tl_logo_bg.gif
+14:26:40	Error: 	"Not Found" (404) at link global.static.ghm.zope.net/resources/global/images/plus_icon_white.gif (from global.static.ghm.zope.net/resources/global/css_comments.css)
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.com/living/x2146635165/MVCC-speaker-Diversity-is-not-noticing-the-differences.html
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/thumbnail.newsinc.com/23548859.jpg
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/css/dd_base.css
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/css/iyp.css
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/css/color_base.css
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/css/color_blue.css
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/css/dd_print.css
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/global/css_comments.css
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/scripts/jquery.jcarousel.pack.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/scripts/feed_handler.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/scripts/nav.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/scripts/global.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/pp.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/dv2.gatehousemedia.com/matt/reg/comments.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/e.yieldmanager.net/script.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.com/living/x2146635165/MVCC-speaker-Diversity-is-not-noticing-the-differences0015.html
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.net/circulation/Subscribe_here_300x50.jpg
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/utica.static.ghm.zope.net/resources/rockford/style_images_v2/button_search_ipy.gif
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/w.sharethis.com/button/buttons.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/edge.quantserve.com/quant.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/pixel.quantserve.com/pixel/p-573scDfDoUH6o.gif
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/cm.npc-gatehouse.overture.com/partner/js/ypn.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/global/ghs_wa.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/c5.zedo.com/jsc/c5/fhs.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/test-site-3.static.ghm.zope.net/resources/rockford/style_images_v2/tl_logo_bg.gif
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/css/pp.css
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/apis.google.com/js/plusone.js
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/209.20.84.187/blankb1b5.gif
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancybox.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_close.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_title_over.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancybox-x.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/blank.gif
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancybox-y.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/bottom-branding-bg.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/bottom-branding-powered-by.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/bottom-branding-privacy.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_loading.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_title_left.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_title_main.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_title_right.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_nav_left.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_nav_right.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_shadow_n.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_shadow_ne.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_shadow_e.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_shadow_se.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_shadow_s.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_shadow_sw.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_shadow_w.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/fancy_shadow_nw.png
+14:26:43	Info: 	Purging L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/pp_sign-in_button.png
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/css/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.com/archive/x1944400702/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.com/archive/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/scripts/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/dv2.gatehousemedia.com/matt/reg/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/dv2.gatehousemedia.com/matt/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/imgs/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/logos/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/deep_dish/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.net/circulation/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/utica.static.ghm.zope.net/resources/rockford/style_images_v2/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/utica.static.ghm.zope.net/resources/rockford/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/utica.static.ghm.zope.net/resources/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/w.sharethis.com/button/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/pixel.quantserve.com/pixel/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/cm.npc-gatehouse.overture.com/partner/js/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/cm.npc-gatehouse.overture.com/partner/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/c5.zedo.com/jsc/c5/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/c5.zedo.com/jsc/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/dv2.gatehousemedia.com/ugc/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/test-site-3.static.ghm.zope.net/resources/rockford/style_images_v2/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/test-site-3.static.ghm.zope.net/resources/rockford/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/test-site-3.static.ghm.zope.net/resources/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/global/images/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/global/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/wickedlocal/images/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/wickedlocal/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/global.static.ghm.zope.net/resources/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/ajax.googleapis.com/ajax/libs/jquery/1.5.2/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/ajax.googleapis.com/ajax/libs/jquery/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/ajax.googleapis.com/ajax/libs/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/ajax.googleapis.com/ajax/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/ajax.googleapis.com/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/css/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/apis.google.com/js/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/apis.google.com/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.com/living/x2146635165/3b__/4d.53.3a/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.com/living/x2146635165/3b__/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/www.uticaod.com/living/x2146635165/4d/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/fb/
+14:26:43	Info: 	Purging directory L:/Clients/Myriad Communications/Download/uticaod/uticaod/s.ppjol.net/static/
+
+HTTrack Website Copier/3.43 mirror complete in 40 seconds : 100 links scanned, 97 files written (752546 bytes overall), 30 files updated [340026 bytes received at 8500 bytes/sec], 306420 bytes transfered using HTTP compression in 7 files, ratio 22%
+(2 errors, 26 warnings, 125 messages)

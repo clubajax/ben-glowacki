@@ -1,0 +1,106 @@
+/* Colors :|: Blocks ========================= */
+	body {background:#fff url('body_bg_white.png') repeat-y top center;}
+	#top_header {background-color: #050601; color:#fff;border-bottom:2px solid #e0dcdc;}
+	#masthead {background-color:#fff;}
+	#news_now_block {border-left:2px dotted #dbdbdb;}
+	#footer {background-color: #000; color:#fff;} /*border-top:3px solid #e0dcdc;*/
+	#owrap {border-left:1px solid #eee;border-right:1px solid #eee; }
+	
+	#main_nav {border-top:1px solid #e0dcdc; background:#fdfdfc url('nav_bg_grey.gif') repeat-x top center;}
+	#main_nav ul {list-style:none; background:#fdfdfc url('nav_bg_grey.gif') repeat-x top center; border-left:1px solid #e2e2e2;}
+	#main_nav li {list-style:none;}
+	#main_nav li a {color:#050601; border-right:1px solid #e2e2e2;}
+	#main_nav li a:hover, #main_nav li a.current  {color:#fff; background:#6a797e url('nav_bg_grey_dark.gif') repeat-x bottom center; }
+	
+	#video_nav {border-top:1px solid #e0dcdc; }
+	#video_nav ul {list-style:none; border-left:1px solid #e2e2e2;border-right:1px solid #e2e2e2;}
+	#video_nav li {list-style:none;}
+    #video_nav li a {padding:10px;  display:block; text-decoration:none; font-weight:bold; font-size:100%;}	
+	#video_nav li a {color:#050601; border-bottom:1px solid #e2e2e2; background:#fdfdfc url('nav_bg_grey.gif') repeat-x top center;}
+	#video_nav li a:hover, #video_nav li a.current  {color:#fff; background:#6a797e url('nav_bg_grey_dark.gif') repeat-x bottom center; }	
+	
+	#sub_nav {border-bottom:2px solid #626f73; background:#6a797e url('nav_bg_grey_dark_rev.gif') repeat-x top center; }
+	#sub_nav ul {list-style:none; background:#6a797e url('nav_bg_grey_dark_rev.gif') repeat-x top center; }
+	#sub_nav li {list-style:none; border-right:1px solid #626f73}
+	#sub_nav li a {color:#dce2e6}
+	#sub_nav li a:hover, #sub_nav li a.current  {color:#fff; }
+	
+	#hot_links .sitemap_header{color:#6a797e;}
+	#hot_links a {border-right:1px solid #6a797e; margin-right:5px; padding-right:5px;}
+	#hot_links a:hover {text-decoration:underline}
+	#hot_links {font-weight:bold}
+    #hot_links .hotlinks_header {color:#fff; font-weight:bold; background:#fdfdfc url('hotlink_bg_red.png') no-repeat right center; padding:5px; padding-right:20px}			
+	
+	#sitemap {border-top:5px solid #000; background:#3c4043; color:#fff;}
+	#sitemap a {color:#b9bdc0}
+	.sitemap_header {border-bottom:2px dotted #000;}
+
+/* Colors :|: Text ========================= */	
+	.section_timestamp, .tease_timestamp {color:#647890;}
+	.ads_header {border-bottom:2px dotted #dbdbdb; border-top:5px solid #6e6273; padding-top:5px}
+	.section_header,.media_header {border-bottom:2px dotted #dbdbdb; border-top:5px solid #6a797e; padding-top:5px}	
+	.companion_block {border-top:5px solid #6a797e; margin-top:20px; padding-top:15px}
+	.tease_headline, .first_headline, .related_headline, #twitter_update_list li, .related_photo, .related_link, .related_page, .related_poll, .related_audio, .related_ss, .related_video, .related_sidebar, .related_mp3, .related_map, .file_default, .file_doc, .file_xls, .file_img, .file_zip, .file_pdf, .file_ppt {border-bottom:2px dotted #dbdbdb;}	
+	.tease_block {background:#fff;}
+	.more {font-weight:bold; padding:7px 5px; background:#dce2e6}
+	.more a { color:#335566;}
+	.more a:hover{text-decoration:underline;}
+	#footer a {color:#afd6f5;}
+	#footer a:hover{text-decoration:underline;}
+	.tease_block {padding-left:3px; }
+	.promo_block {background:#dce2e6;}
+	.promo_block .tease_headline {}
+	.promo_block .more {background:#7799aa;}
+    .promo_block .more a {color:#FFF}
+	.block {border:1px solid #c4cace}
+	
+	hr {background-color: #dbdbdb; height: 1px; padding:0; margin:0px; margin-bottom:10px; border:none}
+	.line {border-bottom:2px dotted #dbdbdb;}
+	
+	#featured_block {} /* height: 400px; */
+	#featured_block  .tease_headline, .related_headline {border-bottom:2px dotted #dbdbdb;}
+	
+	#promo_container a {color:white;}
+	#promo_parent {border:5px solid #000; border-left:none; border-right:none; background:#3c4043;}
+	
+	.tab_link {border-left:1px solid #626f73; border-bottom:1px solid #6a797e; background:#6a797e url('nav_bg_grey_dark.gif') repeat-x bottom center; }
+	.tab_link div {border-right:1px solid #6a797e; }
+	.tab_link .current, .tab_link a:hover {color:#fff;}	
+	
+	.sidebar {background:#dce2e6;}
+
+/* Top Ads :|: New England =========================== */	
+	.property, .car, .topad .ad, #top_ads a, .top_ads a, .ghs_ad {border-bottom:2px dotted #dbdbdb;}
+	.morelink {text-align:right; font-weight:bold; padding:7px 5px; background:#dce2e6}
+	.morelink a { color:#335566;}
+	.morelink a:hover{text-decoration:underline;}
+
+/* Carousel :|:  =========================== */		
+/*	
+	.jcarousel-skin-thumb a {color:#FFF;}
+	.thumb-center{text-align:center;  margin:0px 0px 0px 0px;}
+	.thumb-center a{padding:3px 5px 3px 5px; color:#fff; margin:7px auto;}
+	.jcarousel-skin-thumb {width: 305px;height: 19px; padding-top:6px;}
+	.jcarousel-skin .jcarousel-container-horizontal {padding:0px;margin:0px;width: 292px;}
+	.jc_thumb{border:1px #c4cace solid;background-color:#dce2e6;}	
+	.jcarousel-skin .jcarousel-clip-horizontal {width: 302px;}
+	.jcarousel-skin .jcarousel-item {width: 292px;padding:10px 5px 5px 5px;}
+	.jcarousel-skin .jcarousel-item-placeholder {background: #0a0e19; }
+	.item-background{width:290px; background-color:#dce2e6;  padding-top:0px;}
+	.jcarousel-skin-thumb {border-top:5px solid #0a0e19; border-bottom:1px dotted #8d8870;}
+*/
+	.jcarousel-skin-thumb a {color:#FFF; font-family:sans-serif;}
+	.thumb-center{text-align:center;  margin:0px 0px 0px 0px;}
+	.thumb-center a{padding:5px 10px; color:#fff; margin:7px auto;/* the buttons */}
+	.jcarousel-skin-thumb {width: 410px; height: 25px; padding-top:10px;}
+	.jcarousel-skin .jcarousel-container-horizontal {padding:0px;margin:0px;width: 392px;}
+	.jc_thumb{border:1px #c4cace solid;background-color:#0a0e19;}
+	.jc_thumb_current{border:1px #c4cace solid;background-color:#2773ba;}
+	/* This is the size of the internal container */
+	.jcarousel-skin .jcarousel-clip-horizontal {width: 402px;}
+	.jcarousel-skin .jcarousel-item {width: 392px;padding:10px 5px 5px 5px;}
+	.jcarousel-skin .jcarousel-item-placeholder {background: #0a0e19; }
+	.item-background{width:390px; padding-top:0px;}
+	.jcarousel-skin-thumb {border-top:5px solid #0a0e19; border-bottom:1px dotted #8d8870;}
+	.current_thumb{background-color:#2773ba;}
+	.previous_thumb{background-color:#0a0e19;}

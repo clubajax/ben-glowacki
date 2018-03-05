@@ -1,0 +1,145 @@
+HTTrack3.43+htsswf+htsjava launched on Thu, 17 Feb 2011 16:07:19 at http://live.psu.edu/story/51031 +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2008], %s -->" -%l "en, en, *" http://live.psu.edu/story/51031 -O1 "L:\Clients\Myriad Communications\website 2007\flash design\news_stories\pennstate" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:07:19	Info: 	Note: due to live.psu.edu remote robots.txt rules, links begining with these path will be forbidden: /still_life/, /pstory/, /printstory/, /code/, /html_snippets/, /includes/, /templates/, /images/, /js/, /flash/, /javascript/, /iphone/, /m/, /pdfstory/, /albumxml/, /search/, /index.php (see in the options to disable this)
+16:07:19	Warning: 	Previous file not found (erased by user ?), recatching: live.psu.edu/story/51031
+16:07:20	Info: 	engine: transfer-status: link added: live.psu.edu/story/51031 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51031.html
+16:07:20	Info: 	engine: transfer-status: link added: live.psu.edu/css/style.css?cache2 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/css/style5837.css
+16:07:21	Info: 	engine: transfer-status: link added: live.psu.edu/css/print.css -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/css/print.css
+16:07:21	Info: 	engine: transfer-status: link added: www.psu.edu/images/psuicon.png -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/www.psu.edu/images/psuicon.png
+16:07:23	Info: 	engine: transfer-status: link added: live.psu.edu/slthumb/userpics/10004/normal_02bball_4483.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/slthumb/userpics/10004/normal_02bball_4483.jpg
+16:07:23	Info: 	engine: transfer-status: link added: live.psu.edu/slthumb/userpics/10004/normal_spring_career_days01.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/slthumb/userpics/10004/normal_spring_career_days01.jpg
+16:07:23	Info: 	engine: transfer-status: link added: ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js
+16:07:23	Info: 	engine: transfer-status: link added: live.psu.edu/slthumb/userpics/10004/normal_LateNight_PennState06.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/slthumb/userpics/10004/normal_LateNight_PennState06.jpg
+16:07:24	Info: 	engine: transfer-status: link added: live.psu.edu/slthumb/userpics/10004/normal_bon_jovi09.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/slthumb/userpics/10004/normal_bon_jovi09.jpg
+16:07:24	Info: 	engine: transfer-status: link added: live.psu.edu/slthumb/userpics/10004/normal_bonjovi4340.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/slthumb/userpics/10004/normal_bonjovi4340.jpg
+16:07:26	Info: 	engine: transfer-status: link added: i.ytimg.com/vi/IsmcSwuyn5A/0.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/i.ytimg.com/vi/IsmcSwuyn5A/0.jpg
+16:07:27	Info: 	engine: transfer-status: link added: i.ytimg.com/vi/3WmzJl2HthQ/0.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/i.ytimg.com/vi/3WmzJl2HthQ/0.jpg
+16:07:27	Info: 	engine: transfer-status: link added: i.ytimg.com/vi/XoRa-nXDymA/0.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/i.ytimg.com/vi/XoRa-nXDymA/0.jpg
+16:07:28	Info: 	engine: transfer-status: link added: i.ytimg.com/vi/FsN7HsGv31M/0.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/i.ytimg.com/vi/FsN7HsGv31M/0.jpg
+16:07:29	Info: 	engine: transfer-status: link added: i.ytimg.com/vi/BxZ25q1Ey80/0.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/i.ytimg.com/vi/BxZ25q1Ey80/0.jpg
+16:07:30	Info: 	engine: transfer-status: link added: i.ytimg.com/vi/l65GVJ7xIPw/0.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/i.ytimg.com/vi/l65GVJ7xIPw/0.jpg
+16:07:31	Info: 	engine: transfer-status: link added: ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js
+16:07:31	Info: 	engine: transfer-status: link added: i.ytimg.com/vi/i6klPvvoMvc/0.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/i.ytimg.com/vi/i6klPvvoMvc/0.jpg
+16:07:32	Info: 	engine: transfer-status: link added: i.ytimg.com/vi/gE0dJnXiHTo/0.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/i.ytimg.com/vi/gE0dJnXiHTo/0.jpg
+16:07:32	Info: 	engine: transfer-status: link added: live.psu.edu/story/51345 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51345.html
+16:07:33	Info: 	engine: transfer-status: link added: live.psu.edu/story/51398 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51398.html
+16:07:33	Info: 	engine: transfer-status: link added: i.ytimg.com/vi/XFsAxlQe5gw/0.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/i.ytimg.com/vi/XFsAxlQe5gw/0.jpg
+16:07:33	Info: 	engine: transfer-status: link added: i.ytimg.com/vi/Qke0ykv5Yc4/0.jpg -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/i.ytimg.com/vi/Qke0ykv5Yc4/0.jpg
+16:07:33	Info: 	engine: transfer-status: link added: live.psu.edu/story/51335 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51335.html
+16:07:34	Info: 	engine: transfer-status: link added: live.psu.edu/story/51333 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51333.html
+16:07:35	Info: 	engine: transfer-status: link added: live.psu.edu/story/51334 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51334.html
+16:07:35	Info: 	engine: transfer-status: link added: live.psu.edu/story/51477 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51477.html
+16:07:35	Info: 	engine: transfer-status: link added: live.psu.edu/story/51472 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51472.html
+16:07:36	Info: 	engine: transfer-status: link added: live.psu.edu/story/51468 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51468.html
+16:07:37	Info: 	engine: transfer-status: link added: live.psu.edu/story/51385 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51385.html
+16:07:37	Info: 	engine: transfer-status: link added: live.psu.edu/story/51457 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51457.html
+16:07:38	Info: 	engine: transfer-status: link added: live.psu.edu/story/51399 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51399.html
+16:07:38	Info: 	engine: transfer-status: link added: live.psu.edu/story/51240 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51240.html
+16:07:39	Info: 	engine: transfer-status: link added: live.psu.edu/story/51219 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51219.html
+16:07:40	Info: 	engine: transfer-status: link added: live.psu.edu/story/51217 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51217.html
+16:07:40	Info: 	engine: transfer-status: link added: live.psu.edu/story/51216 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51216.html
+16:07:41	Info: 	engine: transfer-status: link added: live.psu.edu/story/51252 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51252.html
+16:07:41	Info: 	engine: transfer-status: link added: live.psu.edu/story/51478 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51478.html
+16:07:42	Info: 	engine: transfer-status: link added: live.psu.edu/story/51391 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51391.html
+16:07:42	Info: 	engine: transfer-status: link added: live.psu.edu/story/51365 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51365.html
+16:07:43	Info: 	engine: transfer-status: link added: live.psu.edu/story/51475 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51475.html
+16:07:44	Info: 	engine: transfer-status: link added: live.psu.edu/story/51474 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51474.html
+16:07:44	Info: 	engine: transfer-status: link added: live.psu.edu/story/51470 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51470.html
+16:07:45	Info: 	engine: transfer-status: link added: live.psu.edu/story/51465 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51465.html
+16:07:46	Info: 	engine: transfer-status: link added: live.psu.edu/story/51473 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51473.html
+16:07:46	Info: 	engine: transfer-status: link added: live.psu.edu/story/51471 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51471.html
+16:07:47	Info: 	engine: transfer-status: link added: live.psu.edu/story/51419 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51419.html
+16:07:47	Info: 	engine: transfer-status: link added: live.psu.edu/story/51417 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51417.html
+16:07:48	Info: 	engine: transfer-status: link added: live.psu.edu/story/51467 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51467.html
+16:07:48	Info: 	engine: transfer-status: link added: live.psu.edu/story/51336 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51336.html
+16:07:49	Info: 	engine: transfer-status: link added: live.psu.edu/story/51360 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51360.html
+16:07:50	Info: 	engine: transfer-status: link added: live.psu.edu/story/51444 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51444.html
+16:07:51	Info: 	engine: transfer-status: link added: live.psu.edu/story/51432 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51432.html
+16:07:51	Info: 	engine: transfer-status: link added: live.psu.edu/story/51445 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51445.html
+16:07:52	Info: 	engine: transfer-status: link added: live.psu.edu/story/51443 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51443.html
+16:07:52	Info: 	engine: transfer-status: link added: live.psu.edu/story/51411 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51411.html
+16:07:53	Info: 	engine: transfer-status: link added: live.psu.edu/story/51414 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51414.html
+16:07:53	Info: 	engine: transfer-status: link added: live.psu.edu/story/51313 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51313.html
+16:07:54	Info: 	engine: transfer-status: link added: live.psu.edu/story/51265 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51265.html
+16:07:55	Info: 	engine: transfer-status: link added: live.psu.edu/story/51453 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51453.html
+16:07:55	Info: 	engine: transfer-status: link added: live.psu.edu/story/51364 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51364.html
+16:07:56	Info: 	engine: transfer-status: link added: live.psu.edu/story/51342 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51342.html
+16:07:57	Info: 	engine: transfer-status: link added: live.psu.edu/story/51433 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51433.html
+16:07:57	Info: 	engine: transfer-status: link added: live.psu.edu/story/51423 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51423.html
+16:07:58	Info: 	engine: transfer-status: link added: live.psu.edu/story/51476 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51476.html
+16:07:59	Info: 	engine: transfer-status: link added: live.psu.edu/story/51339 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51339.html
+16:07:59	Info: 	engine: transfer-status: link added: live.psu.edu/story/51338 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51338.html
+16:08:00	Info: 	engine: transfer-status: link added: live.psu.edu/story/51337 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51337.html
+16:08:00	Info: 	engine: transfer-status: link added: live.psu.edu/story/51300 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51300.html
+16:08:01	Info: 	engine: transfer-status: link added: live.psu.edu/story/51362 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51362.html
+16:08:01	Info: 	engine: transfer-status: link added: live.psu.edu/story/51361 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51361.html
+16:08:02	Info: 	engine: transfer-status: link added: live.psu.edu/story/51358 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51358.html
+16:08:02	Info: 	engine: transfer-status: link added: live.psu.edu/story/51332 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51332.html
+16:08:03	Info: 	engine: transfer-status: link added: live.psu.edu/story/51415 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51415.html
+16:08:04	Info: 	engine: transfer-status: link added: live.psu.edu/story/51344 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51344.html
+16:08:04	Info: 	engine: transfer-status: link added: live.psu.edu/story/51294 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51294.html
+16:08:05	Info: 	engine: transfer-status: link added: live.psu.edu/story/51278 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51278.html
+16:08:05	Info: 	engine: transfer-status: link added: live.psu.edu/story/51466 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51466.html
+16:08:06	Info: 	engine: transfer-status: link added: live.psu.edu/story/47796 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/47796.html
+16:08:07	Info: 	engine: transfer-status: link added: live.psu.edu/story/30949 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/30949.html
+16:08:07	Info: 	engine: transfer-status: link added: live.psu.edu/story/51387 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51387.html
+16:08:08	Info: 	engine: transfer-status: link added: live.psu.edu/story/51412 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51412.html
+16:08:08	Info: 	engine: transfer-status: link added: live.psu.edu/story/51410 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51410.html
+16:08:09	Info: 	engine: transfer-status: link added: live.psu.edu/story/51319 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51319.html
+16:08:10	Info: 	engine: transfer-status: link added: live.psu.edu/story/51380 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51380.html
+16:08:10	Info: 	engine: transfer-status: link added: live.psu.edu/story/51413 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51413.html
+16:08:11	Info: 	engine: transfer-status: link added: live.psu.edu/story/51402 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51402.html
+16:08:12	Info: 	engine: transfer-status: link added: live.psu.edu/story/51363 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51363.html
+16:08:12	Info: 	engine: transfer-status: link added: live.psu.edu/story/51348 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51348.html
+16:08:13	Info: 	engine: transfer-status: link added: live.psu.edu/story/51460 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51460.html
+16:08:13	Info: 	engine: transfer-status: link added: live.psu.edu/story/51459 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51459.html
+16:08:14	Info: 	engine: transfer-status: link added: live.psu.edu/story/51458 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51458.html
+16:08:14	Info: 	engine: transfer-status: link added: live.psu.edu/story/51456 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51456.html
+16:08:15	Info: 	engine: transfer-status: link added: live.psu.edu/story/51441 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51441.html
+16:08:15	Info: 	engine: transfer-status: link added: live.psu.edu/story/51403 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51403.html
+16:08:16	Info: 	engine: transfer-status: link added: live.psu.edu/story/51394 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51394.html
+16:08:17	Info: 	engine: transfer-status: link added: live.psu.edu/story/51384 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51384.html
+16:08:17	Info: 	engine: transfer-status: link added: live.psu.edu/story/51464 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51464.html
+16:08:18	Info: 	engine: transfer-status: link added: live.psu.edu/story/51430 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51430.html
+16:08:18	Info: 	engine: transfer-status: link added: live.psu.edu/story/51426 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51426.html
+16:08:19	Info: 	engine: transfer-status: link added: live.psu.edu/story/46586 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/46586.html
+16:08:20	Info: 	engine: transfer-status: link added: live.psu.edu/story/51212 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51212.html
+16:08:21	Info: 	engine: transfer-status: link added: live.psu.edu/story/51071 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51071.html
+16:08:22	Info: 	engine: transfer-status: link added: live.psu.edu/story/50872 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/50872.html
+16:08:22	Info: 	engine: transfer-status: link added: live.psu.edu/story/50723 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/50723.html
+16:08:23	Info: 	engine: transfer-status: link added: live.psu.edu/story/51409 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51409.html
+16:08:24	Info: 	engine: transfer-status: link added: live.psu.edu/story/51408 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51408.html
+16:08:24	Info: 	engine: transfer-status: link added: live.psu.edu/story/51407 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51407.html
+16:08:25	Info: 	engine: transfer-status: link added: live.psu.edu/story/51463 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51463.html
+16:08:26	Info: 	engine: transfer-status: link added: live.psu.edu/story/50681 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/50681.html
+16:08:27	Info: 	engine: transfer-status: link added: live.psu.edu/story/50582 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/50582.html
+16:08:28	Info: 	engine: transfer-status: link added: live.psu.edu/story/50496 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/50496.html
+16:08:28	Info: 	engine: transfer-status: link added: live.psu.edu/story/51462 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51462.html
+16:08:29	Info: 	engine: transfer-status: link added: live.psu.edu/story/51422 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51422.html
+16:08:30	Info: 	engine: transfer-status: link added: live.psu.edu/story/51404 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51404.html
+16:08:30	Info: 	engine: transfer-status: link added: live.psu.edu/story/51390 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51390.html
+16:08:31	Info: 	engine: transfer-status: link added: live.psu.edu/story/51455 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51455.html
+16:08:32	Info: 	engine: transfer-status: link added: live.psu.edu/story/51454 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51454.html
+16:08:32	Info: 	engine: transfer-status: link added: live.psu.edu/story/51301 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51301.html
+16:08:33	Info: 	engine: transfer-status: link added: live.psu.edu/story/51395 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51395.html
+16:08:34	Info: 	engine: transfer-status: link added: live.psu.edu/story/51393 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51393.html
+16:08:34	Info: 	engine: transfer-status: link added: www.science.psu.edu/alert/photos/research-photos/biology/Carlo-waxwing.JPG -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/www.science.psu.edu/alert/photos/research-photos/biology/Carlo-waxwing.JPG
+16:08:34	Info: 	engine: transfer-status: link added: live.psu.edu/story/51260 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51260.html
+16:08:35	Info: 	engine: transfer-status: link added: live.psu.edu/story/51258 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51258.html
+16:08:35	Info: 	engine: transfer-status: link added: live.psu.edu/story/51429 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51429.html
+16:08:36	Info: 	engine: transfer-status: link added: live.psu.edu/story/51428 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51428.html
+16:08:37	Info: 	engine: transfer-status: link added: live.psu.edu/story/51389 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51389.html
+16:08:38	Info: 	engine: transfer-status: link added: live.psu.edu/story/51388 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51388.html
+16:08:38	Info: 	engine: transfer-status: link added: live.psu.edu/story/51406 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51406.html
+16:08:39	Info: 	engine: transfer-status: link added: live.psu.edu/story/51257 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51257.html
+16:08:40	Info: 	engine: transfer-status: link added: live.psu.edu/story/51353 -> L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/live.psu.edu/story/51353.html
+16:08:40	Info: 	Purging L:/Clients/Myriad Communications/website 2007/flash design/news_stories/pennstate/51031.html
+
+HTTrack Website Copier/3.43 mirror complete in 1 minutes 21 seconds : 132 links scanned, 131 files written (3387889 bytes overall), 131 files updated [1329505 bytes received at 16413 bytes/sec], 2915578 bytes transfered using HTTP compression in 110 files, ratio 27%, 6.0 requests per connection
+(No errors, 1 warnings, 133 messages)

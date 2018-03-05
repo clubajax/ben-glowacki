@@ -1,0 +1,20 @@
+/* Emoticon fix */
+#emoticon-control .blox-emoticon-insert{
+	position:relative;
+	top:-9px;
+	left:-13px;}
+#more-icons-area a.button{
+	width:40px;
+	height:14px;
+	display:-moz-inline-box;
+	float:none;}
+
+/* Comment icon fix */
+.blox-comments-icon {margin-top: 10px; display: -moz-inline-stack;}
+
+/* Facebook Like fix */
+.fb_iframe_widget {float:left;}
+
+/* Marketplace icon fix */
+.promo-box .box .block .description .tools .blox-biz-results-claim-button .ui-icon-person {float:left;}
+

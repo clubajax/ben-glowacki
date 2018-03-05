@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.cuatower.com	TRUE	/	FALSE	1999999999	JSESSIONID	1B6FADC896951B5BD7F99CF887CDE5B6
+admin.collegepublisher.com	TRUE	/	FALSE	1999999999	lastClient	31125133283368290188
+admin2.collegepublisher.com	TRUE	/	FALSE	1999999999	lastClient	31125133283497649268
+www.cuatower.com	TRUE	/	FALSE	1999999999	tmpPersistentuserId	55925faa6abf211c4c7dfb9b87f2b19a
+

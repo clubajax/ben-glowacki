@@ -129,7 +129,7 @@ about {
   margin: 0;  
 }
 
-speaking, book, blog, grid-wrapper { 
+speaking, book, blog, grid-wrapper, promotional { 
 	
 	display: grid;
 	grid-template-areas: 
@@ -208,6 +208,120 @@ speaking article a:hover {
 }
 speaking article * p {
    /*padding-left: 1em;*/
+}
+
+promotional article{
+	font-size: 18px;
+	 line-height: 32px;
+    display: grid;
+    grid-template-columns: 1fr;
+    /*grid-row-template: 100% minmax(200px, 1fr) minmax(200px, 1fr);*/
+    place-content: space-around;
+    grid-column-gap: 40px;
+    grid-row-gap: 10px;
+	padding: 40px 0;
+	
+	border-bottom: 2px solid #dfcb8d;
+}
+
+promotional article .first-column{
+	/*margin-left: 15%;*/
+	    margin: 0 calc(5% - 20px);
+    /*margin-right: calc(5% + 20px);*/
+}
+promotional article .second-column{
+	margin: 0 calc(5% - 20px);
+}
+
+promotional article:nth-child(even){
+	background: #f9f9f9;
+	
+}
+
+promotional article:last-child{
+	border-bottom: 0px solid transparent;
+	
+}
+
+promotional article:first-child {
+	border-top: 1px solid #dfcb8d;
+}
+
+
+.promo-card-container {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 1rem;
+    
+}
+
+
+.promo-card-container div {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(auto, 1fr));
+    /*align-items: start;*/
+    
+}
+
+
+.promo-card {
+    /*box-shadow: 0px 1px 5px #555;*/
+	border: 1px solid #DEDFDD;
+    background-color: white;
+    height: auto;
+    align-self: start;
+}
+
+.promo-card:hover, .promo-card:focus {
+  /*box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .16);
+  transform: scale(1.025);*/
+}
+
+.promo-card__title {
+	display: grid;
+    font-size: 1.25rem;
+font-weight: bold;
+	padding: 0 .25rem;
+    text-align: center;
+	grid-column: 1 / -1;
+	grid-row: 1;
+}
+.promo-card__description {
+    padding: .5rem .5rem 1.3rem;
+    line-height: 1.6em;
+   /* align-self: start;*/
+}
+.promo-card_thumbnail {
+    /*display: grid;
+    align-content: center;
+    object-fit: cover;*/
+    /*align-self: start;*/
+    
+}
+.promo-button {
+    display: grid;
+    background: rgba(27, 82, 175, 1);
+    padding: 10px 20px;
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    transition: .3s ease-out;
+    /*align-self: end;*/
+    max-height: 50px;
+
+}
+.promo-button:hover {
+  background: #143d83 !important;
+}
+.promo-card img {
+    display: grid;
+    align-content: center;
+    /*align-self: start;*/
+    object-fit: cover;
+    max-width: 100%;
+    /*border: 5px solid red;*/
+    margin: 0 auto;
 }
 
 

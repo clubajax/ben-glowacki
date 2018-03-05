@@ -1,0 +1,86 @@
+/* DARK Palette */
+
+/* extra nav*/
+#extra-nav {
+	border-bottom:none;
+	margin:-10px 5px 15px;
+	padding-bottom:5px;}
+
+/*Header */
+#blox-header-vertical-nav h1.vcard,
+#blox-header-vertical-nav h2.vcard{
+	height:90px;
+	margin:10px 0 0;
+	width:265px;
+#blox-header h1.vcard,
+#blox-header h2.vcard{
+	height:59px;
+	margin:21px 0 0;
+	width:275px;}
+
+/* If you have no ads, you'll want to resize the height. */
+#blox-header {
+	height:190px;}
+ul.dropdown a{
+	font-size:11px;
+	text-transform:uppercase;}
+ul.dropdown a:link, ul.dropdown a:visited,
+	#blox-header-vertical-nav a,
+	#extra-nav ul a{
+		color:#E5E7DA;}
+		ul.dropdown li.active-vertical{
+			border-top:none;}
+
+/* nav */
+#blox-html-container {
+	/*	background:#343434 url(../images/wrapper-bg.jpg) repeat-x scroll 0 -1px; 
+ 		background:#343434 url(../images/wrapper-bg-noads.png) repeat-x scroll 0 -1px; */}
+#blox-header-vertical-nav{
+	padding-top:10px;};
+
+#blox-header-vertical-nav,
+#blox-header{ 
+	background: url("http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/components/core_theme_glow/resources/images/glow-bg-50.png") repeat-x scroll 0 19px transparent;
+	/* background: transparent url(../images/glow-bg-50.png) repeat-x scroll -22px -55px;  If there are no top ads */
+	color:#E5E7DA;}
+	#extra-nav ul{
+		border-bottom:0px;
+		color:#E5E7DA;}	
+#blox-wrapper {
+	background:none;}
+#blox-container {
+	background:#fff;
+	padding: 10px 0;}
+.blox-leaderboard{ 
+	background:#E5E7DA;}
+#leaderboard-bottom {
+	margin:20px 0 15px;
+	background:none;}	
+
+/* Footer */
+#blox-footer{
+	/* background:#343434 url(../images/footer-bg.gif) repeat scroll 0 0;} */
+	#blox-footer .blox-bottom-block-holder{
+		border:0;}
+	#blox-footer .footer-section-block{
+		border-right:1px solid #252525;
+		padding-left:10px;}
+		#blox-footer .footer-section-block.end{
+			width:370px;
+			border-right:0;}
+		#blox-footer .footer-section-block h4{
+			border:0;
+			padding:11px 26px 5px 6px;}	
+		#blox-footer p{
+			color:#e5e7db;
+			padding:0 0 0 10px;}
+			.blox-bottom-block-holder ul li a{}	
+			.footer-section-block.search .search-options{
+				border:0;}
+		.copyright {
+			color:#fff;}
+			.copyright a{
+				color:#e5e7db;}	
+#blox-footer .footer-section-block.end {width: 350px;}
+#blox-footer .blox-bottom-block-holder {height: 200px;}
+#blox-footer p.footer-logo {background: transparent url(http://bloximages.newyork1.vip.townnews.com/hngnews.com/content/tncms/live/components/core_theme_glow/resources/images/small-white-logo.png) no-repeat scroll 8px 0; height: 53px; width: 240px; text-indent: -99999px; margin-top: 10px;}

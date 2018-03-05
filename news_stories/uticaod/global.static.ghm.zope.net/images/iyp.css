@@ -1,0 +1,50 @@
+
+input,textarea,select,textfield {font: 11px Helvetica, Arial, sans-serif; color: #666;}
+.border {border:1px solid #d2d2d2}
+.p5 {padding:5px}
+.iyp_box {background: #fff url(../../test-site-3.static.ghm.zope.net/images/tl_logo_bg.gif) no-repeat right 10px;}
+
+#input-holder {
+	white-space: nowrap;
+	height: 22px;
+	width: 240px;
+	padding-left: 22px;
+	padding-bottom: 2px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+
+#input-holder input {
+	font-size: 0.88em;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	display: inline;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#ne-wlb-search-widget-holder {
+	background-color: #FFCC00;
+	margin: auto;
+	border: 1px solid #000000;
+	width: 300px;
+	height:98px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 4px;
+}
+
+#ne-wlb-search-widget-holder input {
+	font-size: 10px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	display: inline;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.m5b {margin-bottom:5px}
+

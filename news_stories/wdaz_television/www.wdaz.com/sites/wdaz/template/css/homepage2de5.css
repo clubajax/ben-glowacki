@@ -1,0 +1,280 @@
+/* FEATURE STORIES WIDGET
+-------------------------------------------------------------------------------- */
+#content .featureStories_box /* container for entire feature slide show in first column */
+{
+	margin: 10px 0 0 20px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #1A0800;
+	width: 305px;
+}
+
+#content .featureStories_box .stripViewer
+{ /* This is the viewing window */
+	position: relative; 
+	overflow: hidden;
+	width: 305px; /* Also specified in .panel  below */
+	clear: both;
+}
+
+#content .featureStories_box .panel
+{ /* Each panel is arranged end-to-end */
+	float:left;
+	width: 305px; /* Also specified in  .stripViewer  above */
+}
+
+#content .featureStories_box h2 /* the headline */
+{
+	font-size: 16px;
+	font-family: "Franklin Gothic",Arial,Helvetica,sans-serif;
+	margin: 3px 0;
+}
+
+#content .featureStories_box p /* the article brief*/
+{
+	margin: 0 0 5px 0;
+	line-height: 17px;
+}
+
+#content .featureUL /* the class for the ul related content */
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	width: 305px;
+}
+
+.featuredIMG /* needed so main photos don't break the styles if too big*/
+{
+	border: 1px solid #000;
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	margin-bottom: 3px;
+}
+
+.featuredIMG img {border:none;}
+
+/* SLIDE BUTTONS IN FEATURE SLIDE STORIES
+-------------------------------------------------------------------------------- */
+.stripNav li.tab1 a /* button not active on slide 1 */
+{ 
+	background-image:url(../gfx/inactive_fc.png); 
+	height:9px; 
+	width:9px; 
+	background-repeat:no-repeat;
+}
+.stripNav li.tab2 a /* button not active on slide 2 */
+{ 
+	background-image:url(../gfx/inactive_fc.png); 
+	height:9px; 
+	width:9px; 
+	background-repeat:no-repeat;
+}
+.stripNav li.tab3 a /* button not active on slide 3 */
+{ 
+	background-image:url(../gfx/inactive_fc.png); 
+	height:9px; 
+	width:9px; 
+	background-repeat:no-repeat;
+}
+.stripNav li.tab4 a /* button not active on slide 4 */
+{ 
+	background-image:url(../gfx/inactive_fc.png); 
+	height:9px; 
+	width:9px; 
+	background-repeat:no-repeat;
+}
+.stripNav li.tab5 a /* button not active on slide 5 */
+{ 
+	background-image:url(../gfx/inactive_fc.png); 
+	height:9px; 
+	width:9px; 
+	background-repeat:no-repeat;
+}
+.stripNav li a:hover
+{ 
+	background-image: url(../gfx/hover_fc.png); 
+	height:9px; 
+	width:9px; 
+	background-repeat:no-repeat;
+}
+.stripNav li a.current /* button on current slide */
+{
+	background-image:url(../gfx/active_fc.png); 
+	background-repeat:no-repeat;
+	height:9px;
+	width:9px;
+}
+
+/* STYLE FOR WIDGET BOX TABS i.e. Calendar Mod and Most Read Mod
+-------------------------------------------------------------------------------- */
+.tabnav
+{
+	margin: 3px 0 7px 0;
+}
+.tabnav ul
+{
+	font-size: 11px;
+	font-family: "Franklin Gothic",Arial,Helvetica,sans-serif;
+	font-weight: bold; 
+	//text-transform: uppercase;
+	height: 26px;
+	padding-left: 10px;
+	background: url(../gfx/tab_bottom.gif) repeat-x bottom;
+}
+
+.tabnav li
+{
+	margin: 0px !Important; 
+	padding: 0;
+  	display: inline;
+  	list-style-type: none;
+}
+	
+.tabnav a:link, .tabnav a:visited
+{
+	float: left;
+	background: #f5f2e8;
+	line-height: 14px;
+	padding: 5px;
+	margin-right: 4px;
+	border: 1px solid #1A0800;
+	text-decoration: none;
+	color: #666;
+}
+
+.tabnav a:link.active, .tabnav a:visited.active
+{
+	border-bottom: 1px solid #fff;
+	background: #fff;
+	color: #000;
+}
+
+.tabnav a:hover {background: #fff;}
+
+/* WEATHER MOD & ALERT 
+-------------------------------------------------------------------------------- */
+.weathertoday {margin: 5px 0 0 10px;}
+.weatherMod {overflow:auto;}/*necessary for weather alerts to slide correctly*/
+.weathertoday img {border: 1px solid #eee; margin: 0 10px 0 0; padding: 2px;}
+
+#showWeatherAlerts {background-color:#CC0000; border:1px solid #740104; text-align:center; font-weight:bold; padding:3px 5px;}
+#showWeatherAlerts a {color:#fff; text-decoration:none;}
+.toggleWeatherMap {display:none; margin-top:5px;}
+.toggleWeatherMap a {color:#CC0000;}
+
+
+/* PHOTO GALLERY
+-------------------------------------------------------------------------------- */
+.photomodule strong /* individual photothumbnails */
+{
+	margin: 2px; /* other browsers */
+	*margin: 1px; /* ie6 */
+	border: 1px solid #000;
+	width: 94px;
+	height: 94px;
+	overflow: hidden;
+	float:left;
+}
+
+.photomodule img {border:none;}
+
+/* MARKETPLACE DEALS MOD
+-------------------------------------------------------------------------------- */
+#sidebar .marketplaceslide
+{
+	border-style: solid;
+	border-color: #12406B;
+	border-width: 0 1px 1px 1px;
+	padding: 5px 7px;
+}
+
+#sidebar .marketplaceslide_header 
+{
+	color:#FFF; 
+	background-color: #12406B; 
+	padding: 3px 6px; 
+	font-weight: bold; 
+	margin: 0;
+}
+
+/* VIDEO MOD
+-------------------------------------------------------------------------------- */
+.videomodule
+{ 
+	margin: 10px 0 0 20px;
+	padding: 0 0 5px 0;
+	width: 305px;
+	border-bottom: 1px solid #ccc;
+}
+
+.videomodule h2 /* widget title */
+{
+	font-size: 16px;
+	font-family: "Franklin Gothic",Arial,Helvetica,sans-serif;
+	margin: 3px 0 3px;
+}
+
+.videomodule ul /* list of videos */
+{
+	padding: 0;
+	margin: 0 0 0 5px;
+	list-style-type: none;
+}
+
+.videomodule li /* list of videos */
+{
+	margin: 2px 0 0 0;
+	padding: 2px 0 5px 25px;
+	background: url(../../../../global_site/template/gfx/icons/camera.gif) no-repeat;
+}
+
+#videoContainer {width:300px; height:169px; margin-bottom: 5px;}
+#titleContainer {font-weight: bold;}
+#briefContainer {margin-bottom: 10px;}
+
+/* DOUBLE PHOTOS IN WIDGET BOX
+-------------------------------------------------------------------------------- */
+.doublephoto {margin:0 0 0 18px; width:132px;} /* container for individual photo */
+.doublephotoIMG {border: 1px solid #000; margin-bottom: 3px;} /* for photo itself */
+
+
+/* BREAKING NEWS
+-------------------------------------------------------------------------------- */
+.breakingnews
+{
+	margin: 8px auto;
+	overflow:auto;
+	background: url(../../../../global_site/template/gfx/breakingnews.gif) no-repeat #f0f0f0;
+	padding-left: 210px;
+	width: 785px;
+}
+
+.breakingnews p {padding: 0; margin: 7px 0;} 
+
+/* POLL
+-------------------------------------------------------------------------------- */
+table.pollresults {width: 95%;}
+table.pollresults td {border-bottom:1px solid #cec093; height:15px;}
+
+/* AREAVOICES
+-------------------------------------------------------------------------------- */
+.areavoices1
+{	
+	padding: 0 5px;
+	margin-bottom: 2px;
+}
+.areavoices2 
+{
+	padding: 5px;
+	margin-bottom: 2px;
+	background-color: #F5F2E8;
+	border: 1px solid #eee;
+}
+
+.areavoices1 img, .areavoices2 img
+{
+	margin: 0 10px 0 0; 
+	border: 1px solid #000; 
+	float: left; 
+}
