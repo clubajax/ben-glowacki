@@ -226,7 +226,8 @@ promotional article{
 
 promotional article .first-column{
 	/*margin-left: 15%;*/
-	    margin: 0 calc(5% - 20px);
+	   /* margin: 0 calc(5% - 20px);*/
+	    margin: 0 calc(9% - 20px);
     /*margin-right: calc(5% + 20px);*/
 }
 promotional article .second-column{
@@ -665,7 +666,7 @@ padding: 0 20px 0 0;
      /*background: #F2F2F2; */
     /* max-width: 921px; */
 		
-    width: 52%;
+    width: 42%;
     /* min-width: 702px; */
     position: relative;
     display: grid;
