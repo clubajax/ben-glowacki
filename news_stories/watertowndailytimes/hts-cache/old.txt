@@ -1,3 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-16:02:07	45/45	---M-Z	200	added ('OK')	text/plain	etag:%22735556812070c81:0%22	http://www.watertowndailytimes.com/robots.txt		(from )
-16:02:07	60312/60312	---MCZ	200	added ('OK')	text/html	date:Sun,%2003%20Nov%202013%2022:02:01%20GMT	http://www.watertowndailytimes.com/article/20131031/NEWS03/710319871	C:/site-download/mattglowacki/watertowndailytimes/710319871.html	(from )

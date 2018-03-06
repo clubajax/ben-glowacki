@@ -1,5 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-www.hngnews.com	TRUE	/	FALSE	1999999999	TNNoMobile	1
-affiliates.eblastengine.com	TRUE	/	FALSE	1999999999	BIGipServerUPICKEM-WEB	50399754.20480.0000
-
