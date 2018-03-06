@@ -164,9 +164,16 @@ speaking article{
 
 speaking article .first-column{
 	/*margin-left: 15%;*/
+	    margin-left: calc(12% + 20px);
+    /*margin-right: calc(5% + 20px);*/
+}
+
+promotions article .first-column{
+	/*margin-left: 15%;*/
 	    margin-left: calc(15% + 20px);
     /*margin-right: calc(5% + 20px);*/
 }
+
 speaking article .second-column{
 	margin-right: calc(15% + 20px);
 }
