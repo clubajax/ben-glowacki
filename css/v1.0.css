@@ -225,7 +225,7 @@ promotional article:first-child {
 }
 
 .promo-card__description {
-	padding: .5rem .5rem 1.3rem;
+	padding: .5rem .8rem;
 	line-height: 1.6em;
 }
 
@@ -1367,6 +1367,7 @@ footer hr {
 		left: 0;
 		display: inline-block;
 		grid-column: 1 / -1;
+		grid-row: 1;
 		clear: both;
 		padding: 20px 0;
 		background: #F2F2F2;
@@ -1376,6 +1377,8 @@ footer hr {
 		font-family: Open Sans;
 		font-weight: bold;
 		font-size: 20px;
+    text-align: center;
+		color: #2E3C4E;
 	}
 
 	.speaking-header span {
