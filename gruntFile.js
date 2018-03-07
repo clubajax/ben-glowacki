@@ -22,7 +22,7 @@ module.exports = function (grunt) {
 				},
 				files: {
 					'./css/main.css': './less/main.less',
-					'./css/layout.css': './less/layout-example.less'
+					// './css/layout.css': './less/layout-example.less'
 				}
 			}
 		},
@@ -43,7 +43,8 @@ module.exports = function (grunt) {
 			// the livereload.js file will check if this is CSS - and if so, reload
 			// the stylesheet, and not the whole page
 			css: {
-				files: ['./css/main.css', './css/layout.css']
+				files: './css/main.css'
+				// files: ['./css/main.css', './css/layout.css']
 			},
 			html: {
 				files: ['./*.html'],
