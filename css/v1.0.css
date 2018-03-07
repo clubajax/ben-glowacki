@@ -912,7 +912,7 @@ cta {
 		font-family: Open Sans;
 		font-weight: bold;
 		font-size: 38px;
-		line-height: 0.8rem;
+		line-height: 0.5em;
 		font-size: calc( 24px + (38 - 24) * ( (100vw - 400px) / ( 1920 - 1024)));
 		color: #133a54 !important;
 		letter-spacing: 0.015em;
@@ -945,30 +945,7 @@ cta {
 		white-space: nowrap;
 		place-content: center left;
 	}
-
-	nav- {
-		grid-column: 6 / -1;
-		font-size: 20px;
-		margin: 0 40px;
-		color: #0E537A;
-		font-size: calc( 18px + (20 - 18) * ( (100vw - 400px) / ( 1920 - 768)));
-	}
-
-	ul- {
-		align-content: center;
-		padding: 0;
-		list-style: none;
-		display: grid;
-		justify-content: space-around;
-		justify-content: end;
-		grid-gap: 1.10em;
-		grid-auto-flow: column;
-	}
 }
-
-@media only screen and (max-width: 1025px) {
-}
-
 @media only screen and (max-width: 968px) {
 	#main-header {
 		display: grid;
