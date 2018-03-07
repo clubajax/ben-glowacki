@@ -8,7 +8,7 @@
     <meta name="author" content="Matt Glowacki">
     <link rel="shortcut icon" href="img/favicon.ico">
     <link href="css/fontawesome-icons.css" rel="stylesheet" type="text/css">
-    <link href="css/v1.0.css" rel="stylesheet" type="text/css">
+    <link href="css/v1.0-old-new.css" rel="stylesheet" type="text/css">
     <link href="css/nav.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/scripts.js"></script>
@@ -91,7 +91,7 @@
             </div>
             <div class="hero-video">
               <div class="videoWrapper">
-                <iframe src="https://www.youtube.com/embed/ob7MxNlT7BA" frameborder="0" allowfullscreen></iframe> 
+                <iframe src="https://www.youtube.com/embed/ob7MxNlT7BA" frameborder="0" allowfullscreen></iframe>
                 <!--width="781" height="469"-->
               </div>
             </div>
@@ -112,7 +112,7 @@
               <!--<img src="img/matt-getting-mail-crop.jpg" width="400" height="444" alt=""/>-->
             </span>
             <!--<main class="card__description">
-              Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun 
+              Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun
               </main>
               <a href="#" class="button">Call to Action</a>-->
           </a>
@@ -127,7 +127,7 @@
               <!--<img src="img/matt-getting-mail-crop.jpg" width="400" height="444" alt=""/>-->
             </span>
             <!--<main class="card__description">
-              Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun 
+              Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun
               </main>
               <a href="#" class="button">Call to Action</a>-->
           </a>
@@ -142,7 +142,7 @@
               <!-- <img src="img/matt-getting-mail-crop.jpg" width="400" height="444" alt=""/>-->
             </span>
             <!--<main class="card__description">
-              Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun 
+              Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun Lorem Ipsum dolor amet sun
               </main>
               <a href="#" class="button">Call to Action</a>-->
           </a>
@@ -192,12 +192,12 @@
     var readout = document.getElementById("readout");
     var stuck = false;
     var stickPoint = getDistance();
-    
+
     function getDistance() {
       var topDist = h.offsetTop;
       return topDist;
     }
-    
+
     window.onscroll = function(e) {
       var distance = getDistance() - window.pageYOffset;
       var offset = window.pageYOffset;
@@ -210,7 +210,7 @@
       t.style.zIndex = '2';
       n.style.zIndex = '1110';
         /*n.style.margin = "84px 0 0 0 "*/
-        
+
       c.style.padding = "10px 0 0 0 "
         stuck = true;
       } else if (stuck && (offset <= stickPoint)){
@@ -224,6 +224,6 @@
         stuck = false;
       }
     }
-      
+
   </script>
 </html>
