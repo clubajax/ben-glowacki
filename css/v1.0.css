@@ -203,6 +203,7 @@ promotional article:first-child {
 .promo-card-container div {
 	display: grid;
 	grid-template-rows: repeat(auto-fit, minmax(auto, 1fr));
+	align-items: center;
 }
 
 .promo-card {
@@ -225,8 +226,8 @@ promotional article:first-child {
 }
 
 .promo-card__description {
-	padding: .5rem .8rem;
-	line-height: 1.6em;
+	padding: .8rem .8rem;
+  line-height: 1.4em;
 }
 
 .promo-card_thumbnail {
