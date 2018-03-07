@@ -1,0 +1,151 @@
+
+.card-box
+{
+	background : #F6F6F6;
+	background : rgba(246, 246, 246, 1);
+	border-style : Solid;
+	border-color : #DEDFDD;
+	border-color : rgba(222, 223, 221, 1);
+	border-width : 1px;
+	/*position : absolute ;
+	left : 809px;
+	top : 1030px;*/
+	width : 300px;
+	height : 395px;
+	border-radius : 0px;
+	/*  -moz-border-radius : 0px;
+	  -webkit-border-radius : 0px;*/
+
+}
+
+
+.card {
+	/*box-shadow: 0px 1px 5px #555;*/
+	background-color: white;
+	padding: 0rem;
+	/*border: 1px solid blue;*/
+	transition:transform .1s ease-in;
+	/*max-width: 320px;*/
+	/*justify-content: center;
+	align-content: center;*/
+	/*grid-column: span 1;*/
+	/*grid-column: 1fr;*/
+	border-radius: 8px 8px 0 0;
+	background : #F6F6F6;
+	background : rgba(246, 246, 246, 1);
+	border-style : Solid;
+	border-color : #DEDFDD;
+	border-color : rgba(222, 223, 221, 1);
+	border-width : 1px;
+	overflow: hidden;
+	display: block;
+	/*min-width: 185px;*/
+	/*max-width: 385px;*/
+	min-width: calc(-50vw + 25vh/2);
+	max-width: calc(100vw + 33vh/3);
+	min-height: 322px;
+	max-height: 400px;
+
+
+	/*display:flex;*/
+	/*flex-direction:column;
+	min-height:100%;*/
+}
+
+.card:hover, .card:focus {
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .16);
+	transform: scale(1.025);
+}
+.card__title {
+	font-family : Open Sans;
+	font-weight : 600;
+	font-size : 24px;
+	font-size: calc( 20px + (24 - 20) * ( (100vw - 400px) / ( 1920 - 1024) ));
+	line-height: 3.15rem;
+	padding: 0.15rem;
+	border-color : #F6F6F6;
+	border-radius: 8px 8px 0 0;
+}
+.card-image01 {
+	position: relative;
+	padding: 0;
+	/*line-height: 1.6em;*/
+	color : #2E3C4E;
+	color : rgb(46, 60, 78);
+	/*border: 1px solid red;*/
+	display: block;
+	background-image : url(../img/matt-getting-mail-crop.jpg);
+	background-repeat : no-repeat;
+
+	background-size: cover;
+	/*background-size: 300px 337px, cover;*/
+	background-position: center center;
+	margin: 0 auto;
+	height: 100%;
+	/* height: 337px;*/
+	width: 100%;
+	/*object-fit: cover;*/
+	max-height: 403px;
+	min-height: 273px;
+}
+.card-image02 {
+	position: relative;
+	padding: 0;
+	/*line-height: 1.6em;*/
+	color : #2E3C4E;
+	color : rgb(46, 60, 78);
+	/*border: 1px solid red;*/
+	display: block;
+	background-image : url(../img/able-bodied-like-me-book-400px--532px.jpg);
+	background-repeat : no-repeat;
+
+	background-size: cover;
+	background-position: top center;
+	margin: 0 auto;
+	height: 100%;
+	/* height: 337px;*/
+	width: 100%;
+	/*object-fit: cover;*/
+	max-height: 403px;
+	min-height: 273px;
+}
+.card-image03 {
+	position: relative;
+	padding: 0;
+	/*line-height: 1.6em;*/
+	color : #2E3C4E;
+	color : rgb(46, 60, 78);
+	/*border: 1px solid red;*/
+	display: block;
+	background-image : url(../img/matt-podium-300px.jpg);
+	background-repeat : no-repeat;
+
+	background-size: cover;
+	background-position: center center;
+	margin: 0 auto;
+	height: 100%;
+	/* height: 337px;*/
+	width: 100%;
+	object-fit: cover;
+	max-height: 403px;
+	min-height: 273px;
+}
+.card .button {
+	display: block;
+	/*background-color: tomato;*/
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	transition: 0.3s ease-out;
+
+}
+.button:hover {
+	background-color: #ff3814;
+}
+.card > img {
+	display: grid;
+	align-content: stretch;
+	/* max-width: 100%;*/
+	object-fit:cover;
+}

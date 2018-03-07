@@ -1,0 +1,125 @@
+header {
+	/*background: #707070;*/
+	grid-area: header;
+
+}
+
+
+
+left-column {
+	/*background: #C9BFBF;*/
+	grid-area: left-column;
+}
+
+section {
+	/*background: #ABABAB;*/
+	grid-area: section;
+
+}
+
+right-column {
+	/*background: #C9C9C9;*/
+	grid-area: right-column;
+}
+
+footer {
+	grid-area: footer;
+	display: grid;
+	box-shadow: 0px 500px 0px 500px #293233;
+
+	background : #293233;
+	background : rgba(41, 50, 51, 1);
+	position: relative;
+	/*  position : absolute ;
+	left : 0px;
+	 top : 1500px;
+	 width : 1920px;*/
+	align-content: center;
+	height: auto;
+	border-top: 2px solid #b9afae;
+
+}
+
+#top-header, header, #top-bar, cta, hero, left-column, section, right-column, footer {
+	padding: 0;
+}
+
+#top-header
+{	grid-area: top-header;
+	background : #E2E2E2;
+	background : rgba(226, 226, 226, 1);
+
+	height : 50px;
+	display: grid;
+	/*min-width: 100vw;*/
+	grid-template-columns: repeat(12, 1fr);
+	place-items: center end;
+
+}
+
+footer form{
+	display: grid;
+}
+
+
+.nav-social-top {
+	grid-column: 6 / -1;
+	font-size : 20px;
+	/*font-size : 2.0rem;*/
+	margin: 0 40px;
+	display: grid;
+
+}
+
+.nav-social-top ul {
+	align-content: center;
+
+	padding: 0;
+	list-style: none;
+	justify-content: space-around;
+	justify-content: end;
+	grid-gap: 25px;
+	grid-auto-flow: column;
+
+}
+
+.nav-social-bottom {
+
+	font-size : 20px;
+	/*font-size : 2.0rem;*/
+	margin: 0 40px;
+	display: block;
+}
+
+.nav-social-bottom ul {
+	align-content: center;
+	grid-column: 1 / -1;
+	padding: 20px 0;
+	list-style: none;
+	justify-content: space-around;
+	justify-content: center;
+	grid-gap: 25px;
+	grid-auto-flow: column;
+	margin: 0 0 0 0;
+
+}
+
+.nav-social-bottom li a, .nav-social-top li a {
+	background-color: transparent;
+}
+.nav-social-bottom li a img, .nav-social-top li a img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	display: grid;
+	place-items: center;
+}
+.nav-social-bottom li a:hover img, .nav-social-top li a:hover img {
+	opacity: .5;
+
+}
+.nav-social-bottom li a:active img, .nav-social-top li a:active img {
+	opacity: 1;
+	color: #a5811c;
+
+}

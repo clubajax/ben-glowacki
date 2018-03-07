@@ -1,0 +1,27 @@
+{
+  "name": "ben-glowacki",
+  "version": "1.0.0",
+  "description": "Matt Glowacki Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clubajax/ben-glowacki.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/clubajax/ben-glowacki/issues"
+  },
+  "homepage": "https://github.com/clubajax/ben-glowacki#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-http-server": "^2.1.0",
+    "grunt-less": "^0.1.7"
+  }
+}
