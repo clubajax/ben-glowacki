@@ -517,48 +517,6 @@ footer form {
 		text-align: left;
 	}
 
-	.video-grid {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(300px, 1fr));
-		grid-template-rows: auto;
-		grid-gap: 10px;
-	}
-
-	.video-grid .one {
-		grid-column: 1 / 2;
-		width: 33vw;
-		height: calc(33vw * (9/16));
-	}
-
-	.video-grid .two {
-		grid-column: 2 / 3;
-		width: 33vw;
-		height: calc(33vw * (9/16));
-	}
-
-	.video-grid>div {
-		position: relative;
-		border: 1px solid rgba(100, 100, 100, 0.6);
-		background-color: rgba(100, 100, 100, 0.3);
-		height: 0;
-		overflow: hidden;
-		place-content: stretch stretch;
-		place-items: stretch;
-		place-self: center;
-		width: 100vw;
-		height: calc(100vw * (9/16));
-	}
-
-	.video-grid iframe {
-		position: absolute;
-		display: grid;
-		top: 0;
-		left: 0;
-		grid-column: 1 / -1;
-		width: 33vw;
-		height: calc(33vw * (9/16));
-	}
-
 	.videos .video-grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(315, 1fr));
@@ -637,49 +595,6 @@ footer form {
 		grid-column-gap: 10px;
 		grid-row-gap: 20px;
 		padding: 40px 0 0;
-	}
-
-	.video-grid {
-		display: grid;
-		grid-template-columns: auto;
-		grid-template-rows: auto;
-		grid-gap: 20px;
-		justify-items: center;
-	}
-
-	.video-grid .one {
-		grid-column: 1 / -1;
-		width: 80vw;
-		height: calc(80vw * (9/16));
-	}
-
-	.video-grid .two {
-		grid-column: 1 / -1;
-		width: 80vw;
-		height: calc(80vw * (9/16));
-	}
-
-	.video-grid>div {
-		position: relative;
-		border: 1px solid rgba(100, 100, 100, 0.6);
-		background-color: rgba(100, 100, 100, 0.3);
-		height: 0;
-		overflow: hidden;
-		place-content: stretch stretch;
-		place-items: stretch;
-		place-self: center;
-		width: 80vw;
-		height: calc(80vw * (9/16));
-	}
-
-	.video-grid iframe {
-		position: absolute;
-		display: grid;
-		top: 0;
-		left: 0;
-		grid-column: 1 / -1;
-		width: 80vw;
-		height: calc(80vw * (9/16));
 	}
 
 	.videos .video-grid {
@@ -793,7 +708,6 @@ grid-template-rows: auto;*/
 		max-height: 480px;
     max-width: 853px;
 }
-
 /*.hero-video {
 	grid-area: hero-video;
 	max-height: 469px;
