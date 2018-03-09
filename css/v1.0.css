@@ -1483,6 +1483,7 @@ footer hr {
 		grid-column: 1 / -1;
 		grid-row: 3;
 		place-content: center;
+		padding-top: 0px;
 	}
 	.videoWrapper {
 			position: relative;
