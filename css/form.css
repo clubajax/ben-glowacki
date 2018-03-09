@@ -188,13 +188,41 @@ fieldset{
 }
 
 
+.date-wrapper {
+    position: relative;
+
+}
+
+.date-wrapper:before {
+    content: '\f073';
+    font-family: FontAwesome;
+    /*color: #133a54;*/
+    color: #1b52af;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    right: 16px;
+    top: 1px;
+    pointer-events: none;
+		z-index: 1;
+}
+
+.date-wrapper:hover:before {
+    content: '\f073';
+    font-family: FontAwesome;
+    /*color: #1b52af;*/
+    color: #007BB5;
+
+   }
+
+
 
 
 #contact-form date-input input{
-	background-image: url('../img/fa-calendar.svg');
+	/*background-image: url('../img/fa-calendar.svg');
 	background-repeat: no-repeat;
-	background-position: right 15px center;
-	background-size: 18px;
+	background-position: right 15px center;*/
+	    cursor: pointer;
 }
 #contact-form date-input{
 	width: 100%;
