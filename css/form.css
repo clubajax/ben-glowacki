@@ -261,5 +261,11 @@ input[type="checkbox"] ~ span{
 }
 
 @media (max-width: 530px) {
-
+	form {
+	    min-height: 100%;
+	    display: grid;
+	    grid-template-rows: 1fr auto;
+	    grid-template-columns: 100%;
+	    margin: 0;
+	}
 }

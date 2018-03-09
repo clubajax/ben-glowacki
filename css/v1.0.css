@@ -1054,6 +1054,16 @@ cta {
 		padding: 10px;
 		grid-auto-flow: column;
 	}
+	contact {
+		display: grid;
+		grid-template-areas: "top-header top-header top-header" "header header header" "top-bar top-bar top-bar" "left-column section right-column" "footer footer footer";
+		grid-template-rows: 50px 80px 50px 1fr 125px;
+		grid-template-columns: minmax(0%, 0px) minmax(88%, 2700px) minmax(0%, 0px);
+		width: 100%;
+		grid-gap: 0;
+		height: 100vh;
+		margin: 0;
+	}
 }
 
 #readout {
@@ -1348,6 +1358,8 @@ footer hr {
 }
 
 @media only screen and (max-width: 768px) {
+
+
 	.card-container {
 		display: grid;
 		padding: 0 3.5em;
@@ -1468,16 +1480,7 @@ footer hr {
 }
 
 @media only screen and (min-width: 530px) {
-	contact {
-		display: grid;
-		grid-template-areas: "top-header top-header top-header" "header header header" "top-bar top-bar top-bar" "left-column section right-column" "footer footer footer";
-		grid-template-rows: 50px 80px 50px 1fr 125px;
-		grid-template-columns: minmax(13%, 500px) minmax(74%, 2700px) minmax(13%, 500px);
-		width: 100%;
-		grid-gap: 0;
-		height: 100%;
-		margin: 0;
-	}
+
 
 	contact #top-bar .cta-presentation {
 		display: none;
@@ -1486,16 +1489,7 @@ footer hr {
 }
 
 @media only screen and (max-width: 530px) {
-	contact {
-		display: grid;
-		grid-template-areas: "top-header top-header top-header" "header header header" "top-bar top-bar top-bar" "left-column section right-column" "footer footer footer";
-		grid-template-rows: 50px 80px 50px 1fr 125px;
-		grid-template-columns: minmax(0%, 0px) minmax(88%, 2700px) minmax(0%, 0px);
-		width: 100%;
-		grid-gap: 0;
-		height: 100vh;
-		margin: 0;
-	}
+
 
 	.vertical-divider {
 		display: none;
@@ -1628,6 +1622,22 @@ footer hr {
 			height: calc(70vw * (9/16));
 	}
 
+	.submit {
+		display: grid;
+		grid-template-columns: auto;
+		grid-row-template: min-content
+	}
+	.submit hr {
+		display: grid;
+		grid-template-columns: auto;
+		grid-row-template: min-content;
+	}
+	.submit button {
+		display: grid;
+		grid-template-columns: auto;
+		grid-row-template: min-content;
+	}
+
 }
 
 @media only screen and (min-width: 500px) {
@@ -1652,6 +1662,16 @@ footer hr {
 }
 
 @media only screen and (min-width: 968px) {
+	contact {
+		display: grid;
+		grid-template-areas: "top-header top-header top-header" "header header header" "top-bar top-bar top-bar" "left-column section right-column" "footer footer footer";
+		grid-template-rows: 50px 80px 50px 1fr 125px;
+		grid-template-columns: minmax(13%, 500px) minmax(74%, 2700px) minmax(13%, 500px);
+		width: 100%;
+		grid-gap: 0;
+		height: 100%;
+		margin: 0;
+	}
 	home {
 		grid-template-columns: 5fr minmax(70%, 6fr) 5fr;
 	}
