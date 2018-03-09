@@ -38,7 +38,8 @@ form button, form .btn {
 }
 
 form button:hover, form button:hover, form button:focus, form button:active, .btn:hover, a.btn:hover, a.btn:focus, a.btn:active {
-	background-color: #007BB5;
+	/*background-color: #007BB5;*/
+	opacity: .8;
 	transition: background-color 0.1s linear;
 }
 
@@ -115,6 +116,7 @@ select::-ms-expand {
 
 .icon-drop:hover:before {
 	color: #007BB5;
+	opacity: .8;
 }
 
 select {
@@ -212,7 +214,7 @@ fieldset{
     font-family: FontAwesome;
     /*color: #1b52af;*/
     color: #007BB5;
-
+opacity: .8;
    }
 
 
@@ -243,12 +245,8 @@ fieldset{
 	font-size: 13px;
 }
 
-
-
-
-
 #contact-form label.checkbox{
-	margin: 60px 0 40px 0;
+	margin: 45px 0 40px 0;
 }
 
 label.checkbox{
@@ -266,15 +264,33 @@ input[type="checkbox"] + ins{
 input[type="checkbox"] + ins:before {
 	content: '\f096'; /* unchecked */
 	display: inline;
-	padding-right: 3px;
+	margin-right: 0.387em;
+	font-size: 24px;
+	vertical-align: middle;
+	/*transition: padding 0.8s linear;*/
+	transition: all 200ms ease-in-out, margin-right 0s linear;
 }
 input[type="checkbox"]:checked + ins:before {
 	content: '\e892'; /* checked */
-	padding-right: 0;
+	margin-right: .25em;
+	font-size: 24px;
+	    color: #1b52af;
+			/*transition: padding 0.8s linear;*/
+			transition: all 200ms ease-in-out, margin-right 0s linear;
 }
+
 input[type="checkbox"] ~ span{
 	display: inline !important;
 }
+input:hover[type="checkbox"]:checked + ins:before {
+	color: #007BB5;
+    opacity: .8;
+		transition: all 200ms ease-in-out, margin-right 0s linear;
+}
+
+
+
+
 
 
 

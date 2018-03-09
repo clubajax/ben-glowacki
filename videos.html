@@ -8,93 +8,13 @@
 	<link href="css/v1.0.css" rel="stylesheet" type="text/css">
 	<link href="css/nav.css" rel="stylesheet" type="text/css">
 	<style>
-    :root {
-      --yellow: #DFCB8D;
-    }
-
-    
-
-    p {
-      line-height: 1.8;
-    }
-
-    img {
-      max-width: 100%;
-    }
-
-    a {
-      color: black;
-      text-decoration: underline wavy var(--yellow);
-    }
-
-    h1,
-    h2 {
-      font-size: 50px;
-      font-style: italic;
-      font-weight: 100;
-      margin: 40px 0;
-		line-height: 1;
-    }
-
-    .post {
-      display: grid;
-      max-width: 1400px;
-     /* margin: 200px auto;*/
-      grid-gap: 10px 50px;
-      grid-template-columns: 3fr 12fr 5fr;
-		
-    }
-
-    .post>* {
-      grid-column: 2 / -2;
-    }
-		
-		.post hr {
-	display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #DFCB8D;
-    margin: 20px 0 10px 0;
-    padding: 0; 
-	
-}
-
-    .post>figure {
-      margin: 0;
-      grid-column: 1 / -1;
-		place-self: center;
-    }
-
-    figcaption {
-      font-size: 12px;
-    }
-		
-    .post>blockquote {
-      grid-column: 1 / -1;
-      font-size: 34px;
-      font-style: italic;
-      text-align: center;
-      margin: 0;
-    }
-
-    .tip {
-      background: #FAFAFA;
-      padding: 10px;
-      grid-row: span 5;
-      align-self: start;
-    }
-
-    .tip-left {
-      grid-column: 1 / span 1;
-      text-align: right;
-      border-right: 2px solid var(--yellow);
-    }
-
-    .tip-right {
-      grid-column: span 1 / -1;
-      border-left: 2px solid var(--yellow);
-    }
-  </style>
+		.active a:link, .active {
+				text-decoration: underline;
+			}
+			.nav-social-bottom{
+				padding: 10px 0 0;
+			}
+		</style>
 </head>
 <body>
 <book>
@@ -106,7 +26,7 @@
         <li><a href="https://www.instagram.com/mattnowalkie/" target="_blank"><img src="img/instagram-icon.png" width="23" height="22" alt=""/></a></li>
         <li><a href="https://www.youtube.com/channel/UCpF37eP085KuCoV7nCaf62w" target="_blank"><img src="img/youtube-icon.png" width="32" height="22" alt=""/></a></li>
       </ul>
-		   
+
 		 </div>
 	   </div>
 <header id="main-header" role="banner">
@@ -132,7 +52,7 @@
 				</li>
 				<li class="nav-bar__list-item">
 					<div class="dropdown">
-						<label class="nav-dropdown fill-div active" for="dropdown-1" style="text-decoration: underline">More</label> <input aria-hidden="true" class="dropdown-open" hidden="" id="dropdown-1" type="checkbox"> <label class="dropdown-overlay" for="dropdown-1"></label>
+						<label class="nav-dropdown fill-div active" for="dropdown-1">More</label> <input aria-hidden="true" class="dropdown-open" hidden="" id="dropdown-1" type="checkbox"> <label class="dropdown-overlay" for="dropdown-1"></label>
 						<div class="dropdown-inner">
 							<ul class="nav-bar__list">
 								<li class="nav-bar__list-item">
@@ -155,8 +75,8 @@
 		</nav>
 	</div>
 	<div id="mask" onclick="document.location='#';"></div>
-	
-	
+
+
     </header>
    <div id="top-bar"><span class="page-header">Civility Speaker</span></div>
     <div id="readout" hidden="1"></div>
@@ -177,44 +97,26 @@
   <div class="four">
     <iframe src="https://www.youtube.com/embed/ZWK8rU4rj8g" frameborder="0" allowfullscreen></iframe>
   </div>
-      
+
 </div>
     </article>
 		</div>
-		
+
 	</section>
 	<footer>
-	<h1 hidden>Subscribe to Matt’s Email List</h1>
-     <div class="subscibe-box-wrap" hidden>
-<div class="subscribe-box" >
-  
-  <div class="box name">
-			<label>Name:</label><input placeholder="Your Name" type="text">
+		<div class="nav-social-bottom">
+			<ul>
+				<li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank"><img src="img/facebook-icon-w.png" width="27" height="26" alt="" /></a></li>
+				<li><a href="https://twitter.com/mattnowalkie" target="_blank"><img src="img/twitter-icon-w.png" width="32" height="26" alt="" /></a></li>
+				<li><a href="https://www.instagram.com/mattnowalkie/" target="_blank"><img src="img/instagram-icon-w.png" width="27" height="26" alt="" /></a></li>
+				<li><a href="https://www.youtube.com/channel/UCpF37eP085KuCoV7nCaf62w" target="_blank"><img src="img/youtube-icon-w.png" width="38" height="26" alt="" /></a></li>
+			</ul>
 		</div>
-  
-  <div class="box subscribe">
-			<div><a href="#" class="btn">Subscribe</a></div>
-		</div>
-  
-  
-  <div class="box email"><label>Email:</label><input placeholder="name@example.com" type="text"></div>
-  
-</div>
-</div>
-	</hr>
-	<div class="nav-social-bottom">
-	   	 <ul>
-        <li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank"><img src="img/facebook-icon-w.png" width="27" height="26" alt=""/></a></li>
-        <li><a href="https://twitter.com/mattnowalkie" target="_blank"><img src="img/twitter-icon-w.png" width="32" height="26" alt=""/></a></li>
-        <li><a href="https://www.instagram.com/mattnowalkie/" target="_blank"><img src="img/instagram-icon-w.png" width="27" height="26" alt=""/></a></li>
-        <li><a href="https://www.youtube.com/channel/UCpF37eP085KuCoV7nCaf62w" target="_blank"><img src="img/youtube-icon-w.png" width="38" height="26" alt=""/></a></li>
-      </ul>
-	</div>
-	</hr>
-	<span class="disclaimer">
-      <div role="copyright">All Content TM & © Matt Glowacki. All rights reserved.</div><br>
+		<hr/>
+		<span class="disclaimer">
+			<div role="copyright">All Content TM & © Matt Glowacki. All rights reserved.</div><br>
 		<div role="contentcreator">This site crafted by <a href="http://mediamavenscg.com/cgi-bin/redir.cgi?page=index.htm&mattglowacki" target="_blank">Media Mavens CG</a>.</div></span>
-    </footer>
+	</footer>
 </book>
 </body>
 <script>
@@ -243,7 +145,7 @@ window.onscroll = function(e) {
 	t.style.zIndex = '2';
 	n.style.zIndex = '1110';
 	  /*n.style.margin = "84px 0 0 0 "*/
-	  
+
     stuck = true;
   } else if (stuck && (offset <= stickPoint)){
     h.style.position = 'static';
@@ -256,5 +158,5 @@ window.onscroll = function(e) {
   }
 }
 	</script>
-	
+
 </html>
