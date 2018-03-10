@@ -31,6 +31,10 @@ home, about, speaking {
 	text-align: center;
 }
 
+home * .nav-bar__link, about * .nav-bar__link, speaking * .nav-bar__link {
+	text-align: left;
+}
+
 h1 {
 	line-height: 1.2;
 }
@@ -245,8 +249,9 @@ promotional article:first-child {
 	align-self: end;
 }
 
-.promo-button:hover {
+.promo-button:hover, .promo-button:active  {
 	background: #143d83 !important;
+	opacity: .8;
 }
 
 .promo-card img {
@@ -331,13 +336,13 @@ header {
 	grid-area: header;
 }
 
-hero {
+/*hero {
 	background-image: url(../img/background-hero-01-large-color-02.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top left;
 	grid-area: hero;
-}
+}*/
 
 left-column {
 	grid-area: left-column;
@@ -455,6 +460,11 @@ footer form {
 @media only screen and (min-width: 768px) {
 	hero {
 		max-height: calc(50vh + 95vw/4);
+		background-image: url(../img/background-hero-01-large-color-02.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top left;
+grid-area: hero;
 	}
 
 	.hero-content {
@@ -1382,7 +1392,13 @@ footer hr {
 }
 
 @media only screen and (max-width: 768px) {
-
+	hero {
+		background-image: url(../img/background-hero-01-small-color-02.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top left;
+	grid-area: hero;
+	}
 
 	.card-container {
 		display: grid;

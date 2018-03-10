@@ -28,7 +28,8 @@ nav[role="navigation"] ul>li {
 	}
 	.nav-bar__list li {
 		padding: 10px 15px 10px 15px;
-		border-bottom: 1px solid #dedfdd
+		border-bottom: 1px solid #dedfdd;
+
 	}
 	.nav-bar__list li:last-child {
 		border-bottom: 0;
@@ -58,7 +59,8 @@ nav[role="navigation"] ul>li {
 		justify-content: end;
 		grid-gap: 1.10em;
 		grid-auto-flow: column;
-		white-space: nowrap
+		white-space: nowrap;
+		text-align: left;
 	}
 	.nav-bar__list {
 		display: block
@@ -122,15 +124,7 @@ nav[role="navigation"] ul>li {
 	.nav-bar__list-item .nav-bar__list {
 		position: absolute
 	}
-	.nav-bar__list-item- {
-		display: block
-	}
-	.nav-bar__list- {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		width: 100%
-	}
+
 	nav[role="navigation"] ul>li {
 		display: block;
 		width: 100%;
@@ -145,7 +139,7 @@ nav[role="navigation"] ul>li {
 		background: transparent;
 		border-bottom: 1px solid #dedfdd;
 	}
-	
+
 }
 /*small screen*/
 
