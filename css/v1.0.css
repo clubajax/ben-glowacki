@@ -27,6 +27,8 @@ body {
 	padding: 0;
 }
 
+/*img[src$=".svg"] {width: auto; max-width: 80px; max-height: 200px; min-width: 50px; min-height: 135px;}*/
+
 home, about, speaking {
 	text-align: center;
 }
@@ -532,6 +534,7 @@ grid-area: hero;
 		grid-template-columns: repeat(2, minmax(300px, 1fr));
 		grid-template-rows: auto;
 		grid-gap: 10px;
+		justify-items: center;
 	}
 
 	.video-grid .one {
@@ -921,6 +924,7 @@ grid-template-rows: auto;*/
 
 #top-bar a:link {
 	text-decoration: none;
+	align-self: center;
 }
 
 #top-bar a:hover {
@@ -1531,6 +1535,9 @@ footer hr {
 
 @media only screen and (max-width: 530px) {
 
+promotional article .first-column {
+     margin: 0; 
+}
 
 	.vertical-divider {
 		display: none;
@@ -1643,7 +1650,7 @@ footer hr {
 		border-top: 1px solid #DEDFDD;
 		height: 50px;
 		grid-column: span 20;
-		z-index: 100;
+		/*z-index: 100;*/
 		place-items: center center;
 	}
 	.videoWrapper {
@@ -1740,6 +1747,7 @@ footer hr {
 		padding: 0 0 0 0;
 		place-content: end baseline;
 		display: grid;
+		align-content: end;
 	}
 }
 
@@ -1869,8 +1877,9 @@ a:link .btn, a .btn, a.btn {
 	display: grid;
 	max-height: 800px;
 	width: auto;
+	align-content: start;
 }
-
+ 
 .speaking-grid .images img, .book-grid .images img {
 	object-fit: cover;
 	justify-self: center;
