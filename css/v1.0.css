@@ -606,6 +606,58 @@ grid-area: hero;
 		width: 33vw;
 		height: calc(33vw * (9/16));
 	}
+	.videos .video-grid .five {
+		grid-column: 1;
+		grid-row: 3;
+		width: 33vw;
+		height: calc(33vw * (9/16));
+	}
+
+	.videos .video-grid .six {
+		grid-column: 2;
+		grid-row: 3;
+		width: 33vw;
+		height: calc(33vw * (9/16));
+	}
+	.videos .video-grid .seven {
+		grid-column: 1;
+		grid-row: 4;
+		width: 33vw;
+		height: calc(33vw * (9/16));
+	}
+
+	.videos .video-grid .eight {
+		grid-column: 2;
+		grid-row: 4;
+		width: 33vw;
+		height: calc(33vw * (9/16));
+	}
+	.videos .video-grid .nine {
+		grid-column: 1;
+		grid-row: 4;
+		width: 33vw;
+		height: calc(33vw * (9/16));
+	}
+
+	.videos .video-grid .ten {
+		grid-column: 2;
+		grid-row: 4;
+		width: 33vw;
+		height: calc(33vw * (9/16));
+	}
+	.videos .video-grid .eleven {
+		grid-column: 1;
+		grid-row: 4;
+		width: 33vw;
+		height: calc(33vw * (9/16));
+	}
+
+	.videos .video-grid .twelve {
+		grid-column: 2;
+		grid-row: 4;
+		width: 33vw;
+		height: calc(33vw * (9/16));
+	}
 
 	.videos .video-grid>div {
 		position: relative;
@@ -629,6 +681,19 @@ grid-area: hero;
 		width: 33vw;
 		height: calc(33vw * (9/16));
 	}
+	
+	.about-container {
+	display: grid;
+	grid-gap: 20px;
+	place-items: normal center;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 2fr) minmax(300px, 1fr));
+	margin: 40px auto;
+		line-height: 1.8;
+		font-size: 18px;
+		orphans: 3;
+		widows: 3;
+}
+	
 }
 
 @media only screen and (max-width: 767px) {
@@ -1521,6 +1586,15 @@ footer hr {
 			width: 55vw;
 			height: calc(55vw * (9/16));
 	}
+	
+	.about-container {
+	display: grid;
+	grid-gap: 20px;
+	place-items: normal center;
+	grid-template-columns: auto;
+	margin: 40px auto;
+		line-height: 1.5;
+}
 
 }
 
@@ -1841,7 +1915,7 @@ a:link .btn, a .btn, a.btn {
 	top: 10px;
 }
 
-.about-container, .book-container {
+.book-container {
 	display: grid;
 	grid-gap: 20px;
 	place-items: normal center;

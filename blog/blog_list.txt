@@ -1,0 +1,6 @@
+filename	title	description	status
+2018_02_04.blog	"5,000 Naked Barbies"	Better understanding someone beyond your first impressions of him or her.	1
+2018_01_06.blog	Airline Travel Nightmares	Air traveled as a disabled person.	1
+2017_12_17.blog	Should I Say Walk??	You won't offend me by saying walk. 	1
+2017_12_06.blog	Your Name Can Be a Disability	We all have dissabilities.	1
+2017_11_14.blog	"Education, Not Exploitation"	"Some people just have a lack of self-awareness, not malicousness."	1
