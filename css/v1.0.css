@@ -681,19 +681,19 @@ grid-area: hero;
 		width: 33vw;
 		height: calc(33vw * (9/16));
 	}
-	
+
 	.about-container {
 	display: grid;
-	grid-gap: 20px;
+	grid-gap: 30px;
 	place-items: normal center;
-	grid-template-columns: repeat(auto-fit, minmax(350px, 2fr) minmax(300px, 1fr));
+	grid-template-columns: minmax(350px, 2fr) minmax(300px, 1fr);
 	margin: 40px auto;
 		line-height: 1.8;
 		font-size: 18px;
 		orphans: 3;
 		widows: 3;
 }
-	
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -1586,7 +1586,7 @@ footer hr {
 			width: 55vw;
 			height: calc(55vw * (9/16));
 	}
-	
+
 	.about-container {
 	display: grid;
 	grid-gap: 20px;
@@ -1610,7 +1610,7 @@ footer hr {
 @media only screen and (max-width: 530px) {
 
 promotional article .first-column {
-     margin: 0; 
+     margin: 0;
 }
 
 	.vertical-divider {
@@ -1953,7 +1953,7 @@ a:link .btn, a .btn, a.btn {
 	width: auto;
 	align-content: start;
 }
- 
+
 .speaking-grid .images img, .book-grid .images img {
 	object-fit: cover;
 	justify-self: center;
