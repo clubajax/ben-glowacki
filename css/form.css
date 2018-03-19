@@ -57,7 +57,8 @@ form button:hover, form button:hover, form button:focus, form button:active, .bt
 .input, input:not([type=checkbox]):not([type=radio]):not([type=button]):not([type=range]), select, textarea {
 	display: inline-block;
 	width: 100%;
-	padding: 6px 6px 6px 20px;
+	/*padding: 6px 6px 6px 20px;*/
+	    padding: 10px 33px 10px 20px;
 	vertical-align: middle;
 	background-color: #FFF;
 	border-radius: 4px;
@@ -115,6 +116,33 @@ select::-ms-expand {
 }
 
 .icon-drop:hover:before {
+	color: #007BB5;
+	opacity: .8;
+}
+.date-wrapper {
+    display: grid;
+	position: relative;
+
+}
+.icon-calendar:before {
+	    font-family: fontawesome-icons;
+	content: '\e844';
+	color: #1b52af;
+	/*font-weight: 400;*/
+	display: inline-block;
+	font-size: 20px;
+	position: absolute;
+	/*right: 10px;*/
+	/*top: 47px;*/
+	right: 8px;
+	bottom: 15px;
+	/*line-height: 1;*/
+	    padding: 20px 20px 0px 0px;
+	pointer-events: none;
+		z-index: 1;
+}
+
+.icon-calendar:hover:before {
 	color: #007BB5;
 	opacity: .8;
 }
@@ -189,37 +217,6 @@ fieldset{
 	margin: 0;
 }
 
-
-.date-wrapper {
-    position: relative;
-
-}
-
-.date-wrapper:before {
-    content: '\f073';
-    font-family: FontAwesome;
-    /*color: #133a54;*/
-    color: #1b52af;
-    display: inline-block;
-    font-size: 20px;
-    position: absolute;
-    right: 16px;
-    top: 1px;
-    pointer-events: none;
-		z-index: 1;
-}
-
-.date-wrapper:hover:before {
-    content: '\f073';
-    font-family: FontAwesome;
-    /*color: #1b52af;*/
-    color: #007BB5;
-opacity: .8;
-   }
-
-
-
-
 #contact-form date-input input{
 	/*background-image: url('../img/fa-calendar.svg');
 	background-repeat: no-repeat;
@@ -271,6 +268,7 @@ input[type="checkbox"] + ins:before {
 	transition: all 200ms ease-in-out, margin-right 0s linear;
 }
 input[type="checkbox"]:checked + ins:before {
+	font-family: "fontawesome-icons";
 	content: '\e892'; /* checked */
 	margin-right: .25em;
 	font-size: 24px;

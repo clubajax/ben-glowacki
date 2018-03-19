@@ -366,7 +366,7 @@ window.onDomReady = function (nodeOrNodes, callback) {
 };
 
 (function () {
-				
+
 
 function setBoolean(node, prop) {
 	Object.defineProperty(node, prop, {
@@ -537,11 +537,11 @@ BaseComponent.addPlugin({
 
 		node[name] = propNorm(value);
 	}
-});			
+});
 }());
 
 (function () {
-				
+
 
 var lightNodes = {};
 var inserted = {};
@@ -660,11 +660,11 @@ BaseComponent.addPlugin({
     preConnected: function preConnected(node) {
         insert(node);
     }
-});			
+});
 }());
 
 (function () {
-				
+
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
@@ -702,7 +702,7 @@ BaseComponent.addPlugin({
         assignRefs(node);
         assignEvents(node);
     }
-});			
+});
 }());
 
 	return BaseComponent;
@@ -920,7 +920,7 @@ var Z=window.customElements;if(!Z||Z.forcePolyfill||"function"!=typeof Z.define|
         }
         return node.querySelector(selector);
     }
-    
+
     function queryAll (node, selector){
         if(!selector){
             selector = node;
@@ -1015,7 +1015,7 @@ var Z=window.customElements;if(!Z||Z.forcePolyfill||"function"!=typeof Z.define|
             addChildren(node, options.children);
         }
     }
-    
+
     function dom (nodeType, options, parent, prepend){
 		options = options || {};
 
@@ -1102,7 +1102,7 @@ var Z=window.customElements;if(!Z||Z.forcePolyfill||"function"!=typeof Z.define|
                     node.classList.toggle(name, value);
                 });
             }
-            // IE11 does not support the second parameter  
+            // IE11 does not support the second parameter
             else if(value){
                 names.forEach(function (name) {
                     node.classList.add(name);
@@ -2161,7 +2161,7 @@ var DateInput = function (_BaseComponent) {
 	}, {
 		key: 'templateString',
 		get: function get() {
-			return '\n<label>\n\t<span ref="labelNode"></span>\n\t<input ref="input" class="empty" />\n\t\n</label>\n<date-picker ref="picker" tabindex="0"></date-picker>';
+			return '\n<label for="datepicker" aria-label="datepicker">\n\t<span ref="labelNode"></span>\n\t<input ref="input" class="empty" />\n\t\n</label>\n<date-picker ref="picker" tabindex="0"></date-picker>';
 		}
 	}], [{
 		key: 'observedAttributes',
@@ -3132,7 +3132,7 @@ var DateRangeInput = function (_DateInput) {
 	}, {
 		key: 'templateString',
 		get: function get() {
-			return '\n<label>\n\t<span ref="labelNode"></span>\n\t<input ref="input" />\n\t\n</label>\n<date-range-picker ref="picker" tabindex="0"></date-range-picker>';
+			return '\n<label for="datepicker" aria-label="datepicker">\n\t<span ref="labelNode"></span>\n\t<input ref="input" />\n\t\n</label>\n<date-range-picker ref="picker" tabindex="0"></date-range-picker>';
 		}
 	}], [{
 		key: 'observedAttributes',

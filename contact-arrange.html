@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<meta charset="utf-8">
@@ -63,11 +63,11 @@
 <contact>
 	<div id="top-header">
 		<div class="nav-social-top">
-			<ul>
-				<li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank"><img src="img/facebook-icon.png" width="23" height="22" alt="" /></a></li>
-				<li><a href="https://twitter.com/mattnowalkie" target="_blank"><img src="img/twitter-icon.png" width="27" height="22" alt="" /></a></li>
-				<li><a href="https://www.instagram.com/mattnowalkie/" target="_blank"><img src="img/instagram-icon.png" width="23" height="22" alt="" /></a></li>
-				<li><a href="https://www.youtube.com/channel/UCpF37eP085KuCoV7nCaf62w" target="_blank"><img src="img/youtube-icon.png" width="32" height="22" alt="" /></a></li>
+			<ul role="presentation">
+				<li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank" aria-label="Facebook link"><img src="img/facebook-icon.png" width="23" height="22" alt="Facebook" /></a></li>
+				<li><a href="https://twitter.com/mattnowalkie" target="_blank" aria-label="Twitter link"><img src="img/twitter-icon.png" width="27" height="22" alt="Twitter" /></a></li>
+				<li><a href="https://www.instagram.com/mattnowalkie/" target="_blank" aria-label="Instagram link"><img src="img/instagram-icon.png" width="23" height="22" alt="Instagram" /></a></li>
+				<li><a href="https://www.youtube.com/channel/UCpF37eP085KuCoV7nCaf62w" target="_blank" aria-label="YouTube link"><img src="img/youtube-icon.png" width="32" height="22" alt="YouTube" /></a></li>
 			</ul>
 		</div>
 	</div>
@@ -96,7 +96,7 @@
 					</li>
 					<li class="nav-bar__list-item">
 						<div class="dropdown">
-							<label class="nav-dropdown fill-div active" for="dropdown-1" tabindex="0">More</label> <input aria-hidden="true" class="dropdown-open" hidden="" id="dropdown-1" type="checkbox">
+							<label class="nav-dropdown fill-div icon-dropdown active" for="dropdown-1" tabindex="0">More</label> <input aria-hidden="true" class="dropdown-open" hidden="" id="dropdown-1" type="checkbox">
 							<label class="dropdown-overlay" for="dropdown-1"></label>
 							<div class="dropdown-inner">
 								<ul class="nav-bar__list">
@@ -125,57 +125,57 @@
 		<div id="mask" onclick="document.location='#';"></div>
 	</header>
 
-	<div id="top-bar"><a href="contact.html"><span class="cta-presentation">Arrange a Presentation</span> <span class="page-header">Civility Speaker</span></a></div>
+	<div id="top-bar"><span class="page-header">Civility Speaker</span></div>
 	<div id="readout" hidden="1"></div>
 
 	<left-column></left-column>
 	<section class="">
-		<article>
+		<article role="main">
 			<!-- action="cgi-bin/contact.cgi" -->
-			<form id="contact-form" name="frmContact" method="POST" action="cgi-bin/contact.cgi">
+			<form role="form" id="contact-form" name="frmContact" method="POST" action="cgi-bin/contact.cgi">
 				<fieldset class="contact-form">
-					<label>
+					<label for="name">
 						<span>Name*</span>
-						<input placeholder="Your Name" aria-labelledby="name" aria-required="true" data-val="true" required data-val-required="The Name field is required." name="Name" type="text" value="">
+						<input placeholder="Your Name" aria-label="name" aria-required="true" data-val="true" required data-val-required="The Name field is required." name="Name" type="text" value="">
 					</label>
-					<label>
+					<label for="email">
 						<span>Email*</span>
-						<input placeholder="name@example.com" aria-labelledby="email" aria-required="true" data-val="true" required data-val-required="The Name field is required." name="email" type="text" value="">
+						<input placeholder="name@example.com" aria-label="email" aria-required="true" data-val="true" required data-val-required="The Name field is required." name="email" type="text" value="">
 					</label>
-					<label>
+					<label for="title">
 						<span>Title/Position</span>
-						<input aria-labelledby="title" name="title" type="text" value="">
+						<input aria-label="title" name="title" type="text" value="">
 					</label>
-					<label>
+					<label for="company_name">
 						<span>Company Name</span>
-						<input aria-labelledby="company_name" name="company_name" type="text" value="">
+						<input aria-label="company_name" name="company_name" type="text" value="">
 					</label>
-					<label>
+					<label for="address">
 						<span>Address</span>
-						<input aria-labelledby="address" name="address" type="text" value="">
+						<input aria-label="address" name="address" type="text" value="">
 					</label>
-					<label>
+					<label for="city">
 						<span>City</span>
-						<input aria-labelledby="city" name="city" type="text" value="">
+						<input aria-label="city" name="city" type="text" value="">
 					</label>
-					<label>
+					<label for="state">
 						<span>State</span>
-						<input aria-labelledby="state" name="state" type="text" value="">
+						<input aria-label="state" name="state" type="text" value="">
 					</label>
-					<label>
+					<label for="zip">
 						<span>zip</span>
-						<input aria-labelledby="zip" name="zip" type="text" value="">
+						<input aria-label="zip" name="zip" type="text" value="">
 					</label>
-					<label>
+					<label for="phone">
 						<span>Phone</span>
-						<input aria-labelledby="phone" name="phone" type="text" value="">
+						<input aria-label="phone" name="phone" type="text" value="">
 					</label>
 				</fieldset>
 
 				<fieldset class="contact-form">
-					<label class="select-wrapper icon-drop">
+					<label class="select-wrapper icon-drop" for="presentation">
 						<span>Presentation You are Interested in</span>
-						<select aria-labelledby="presentation" name="presentation">
+						<select aria-label="presentation" name="presentation">
 									<option value="None">Choose a Presentation</option>
 									<option value="Diversity According to Family Guy and South Park">Diversity According to Family Guy and South Park</option>
 									<option value="Happy Hour 24/7">Happy Hour 24/7</option>
@@ -184,44 +184,45 @@
 									<option value="Nurture Your Nature">Nurture Your Nature</option>
 								</select>
 					</label>
-						<span class="date-wrapper">
-					<date-input placeholder="MM/DD/YY" aria-labelledby="event_date" name="event_date" label="Date of Event" ></date-input>
+						<span class="date-wrapper icon-calendar">
+					<date-input placeholder="MM/DD/YY" aria-label="date" role="application" name="date" label="Date of Event" alt="Calendar View"></date-input>
 						</span>
-					<label>
+					<label for="event_time">
 						<span>Time of Event</span>
-						<input aria-labelledby="event_time" name="event_time" type="text" value="">
+						<input aria-label="event_time" name="event_time" type="text" value="">
 					</label>
-					<label>
+					<label for="event_location">
 						<span>Location of Event</span>
-						<input aria-labelledby="event_location" name="event_location" type="text" value="">
+						<input aria-label="event_location" name="event_location" type="text" value="">
 					</label>
-					<label>
+					<label for="audience_type">
 						<span>Who the Speaker Will be Addressing</span>
-						<input aria-labelledby="audience_type" name="audience_type" type="text" value="">
+						<input aria-label="audience_type" name="audience_type" type="text" value="">
 					</label>
-					<label>
+					<label for="audience_count">
 						<span>Number of Attendees</span>
-						<input aria-labelledby="audience_count" name="audience_count" type="text" value="">
+						<input aria-label="audience_count" name="audience_count" type="text" value="">
 					</label>
-					<label>
+					<label for="budget">
 						<span>Budget</span>
-						<input aria-labelledby="budget" name="budget" type="text" value="">
+						<input aria-label="budget" name="budget" type="text" value="">
 					</label>
 					<label class="checkbox">
-						<input aria-labelledby="request_kit" type="checkbox" name="request_kit" role="checkbox" aria-checked="false" value="Y" />
-						<ins></ins>
+						<input aria-label="request_kit" type="checkbox" name="request_kit" role="checkbox" aria-checked="false" value="Y" />
+						<ins tabindex="0" for="request_kit"></ins>
 						<span>Request a Doing Happiness First Aid Kit</span>
                </label>
 
-					<label>
+					<label for="comments">
 						<span>Where You Heard About Us/Comments</span>
-						<textarea aria-labelledby="comments" name="comments" rows="6" cols="32" placeholder="Please add any comments…"></textarea>
+						<textarea aria-label="comments" name="comments" rows="6" cols="32" placeholder="Please add any comments…"></textarea>
 					</label>
 				</fieldset>
 
 				<div class="submit">
 					<hr />
 					<button
+						for="submit"
 						type="submit"
 						name="cmdSubmitContact"
 						value="submit_form"
@@ -236,17 +237,17 @@
 	<right-column></right-column>
 	<footer>
 		<div class="nav-social-bottom">
-			<ul>
-				<li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank"><img src="img/facebook-icon-w.png" width="27" height="26" alt="" /></a></li>
-				<li><a href="https://twitter.com/mattnowalkie" target="_blank"><img src="img/twitter-icon-w.png" width="32" height="26" alt="" /></a></li>
-				<li><a href="https://www.instagram.com/mattnowalkie/" target="_blank"><img src="img/instagram-icon-w.png" width="27" height="26" alt="" /></a></li>
-				<li><a href="https://www.youtube.com/channel/UCpF37eP085KuCoV7nCaf62w" target="_blank"><img src="img/youtube-icon-w.png" width="38" height="26" alt="" /></a></li>
+			<ul role="presentation">
+				<li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank" aria-label="Facebook link"><img src="img/facebook-icon-w.png" width="23" height="22" alt="Facebook" /></a></li>
+				<li><a href="https://twitter.com/mattnowalkie" target="_blank" aria-label="Twitter link"><img src="img/twitter-icon-w.png" width="27" height="22" alt="Twitter" /></a></li>
+				<li><a href="https://www.instagram.com/mattnowalkie/" target="_blank" aria-label="Instagram link"><img src="img/instagram-icon-w.png" width="23" height="22" alt="Instagram" /></a></li>
+				<li><a href="https://www.youtube.com/channel/UCpF37eP085KuCoV7nCaf62w" target="_blank" aria-label="YouTube link"><img src="img/youtube-icon-w.png" width="32" height="22" alt="YouTube" /></a></li>
 			</ul>
 		</div>
 		<hr/>
-		<span class="disclaimer">
-			<div role="copyright">All Content TM & © Matt Glowacki. All rights reserved.</div><br>
-		<div role="contentcreator">This site was crafted by <a href="http://mediamavenscg.com/cgi-bin/redir.cgi?page=index.htm&mattglowacki" target="_blank">Media Mavens CG</a>.</div></span>
+		<span class="disclaimer" role="contentinfo">
+			<div aria-label="copyright">All Content TM & © Matt Glowacki. All rights reserved.</div><br>
+		<div aria-label="Created by">This site was crafted by <a href="http://mediamavenscg.com/cgi-bin/redir.cgi?page=index.htm&mattglowacki" target="_blank">Media Mavens CG</a>.</div></span>
 	</footer>
 </contact>
 </body>

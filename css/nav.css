@@ -82,6 +82,51 @@ nav[role="navigation"] ul>li {
 		opacity: .8;
 		text-decoration: underline
 	}
+
+
+	/*.icon-dropdown:after {
+		content: '\e859';
+		color: #1b52af;
+		display: inline-block;
+		font-size: 11px;
+		padding: 0 0 4px 5px;
+		vertical-align: middle;
+		line-height: normal;
+		pointer-events: none;
+	}
+
+	.icon-dropdown:hover:after {
+		color: #45515B;
+		opacity: .8;
+		text-decoration: underline;
+	}*/
+
+	.icon-dropdown:after {
+    /*font-family: fontawesome-icons;
+    content: '\e859';*/
+		font-family: 'fontAwesome';
+		content: '\f107';
+    color: #0E537A;
+    display: inline-block;
+    font-size: 15px;
+		font-weight: bold;
+    padding: 2px 0 4px 0px;
+    vertical-align: middle;
+    line-height: normal;
+    /* position: absolute; */
+    /* right: 0; */
+    /* bottom: 0; */
+    pointer-events: none;
+}
+
+	.icon-dropdown:hover:after {
+		color: #45515B;
+		opacity: .8;
+		text-decoration: underline;
+	}
+
+
+
 	.dropdown {
 		display: inline-block
 	}
@@ -274,7 +319,7 @@ nav[role="navigation"] ul>li {
 	.nav-dropdown {
 		z-index: 1012
 	}
-	.nav-dropdown:after {
+	/*.nav-dropdown:after {
 		position: relative;
 		display: inline-block;
 		content: "\f078";
@@ -288,7 +333,32 @@ nav[role="navigation"] ul>li {
 		color: #45515B;
 		opacity: .8;
 		text-decoration: underline
+	}*/
+
+
+	.icon-dropdown:after {
+    /*font-family: fontawesome-icons;
+    content: '\e859';*/
+		font-family: 'fontAwesome';
+		content: '\f107';
+    color: #1b52af;
+    display: inline-block;
+    font-size: 13px;
+    padding: 2px 0 4px 0px;
+    vertical-align: middle;
+    line-height: normal;
+    /* position: absolute; */
+    /* right: 0; */
+    /* bottom: 0; */
+    pointer-events: none;
+}
+
+	.icon-dropdown:hover:after {
+		color: #45515B;
+		opacity: .8;
+		text-decoration: underline;
 	}
+
 	.dropdown {
 		display: block
 	}

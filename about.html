@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<meta charset="utf-8">
@@ -49,13 +49,12 @@
 <about>
 	<div id="top-header">
 		<div class="nav-social-top">
-			<ul>
-				<li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank"><img src="img/facebook-icon.png" width="23" height="22" alt="" /></a></li>
-				<li><a href="https://twitter.com/mattnowalkie" target="_blank"><img src="img/twitter-icon.png" width="27" height="22" alt="" /></a></li>
-				<li><a href="https://www.instagram.com/mattnowalkie/" target="_blank"><img src="img/instagram-icon.png" width="23" height="22" alt="" /></a></li>
-				<li><a href="https://www.youtube.com/channel/UCpF37eP085KuCoV7nCaf62w" target="_blank"><img src="img/youtube-icon.png" width="32" height="22" alt="" /></a></li>
-			</ul>
-
+		  <ul role="presentation">
+		    <li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank" aria-label="Facebook link"><img src="img/facebook-icon.png" width="23" height="22" alt="Facebook" /></a></li>
+		    <li><a href="https://twitter.com/mattnowalkie" target="_blank" aria-label="Twitter link"><img src="img/twitter-icon.png" width="27" height="22" alt="Twitter" /></a></li>
+		    <li><a href="https://www.instagram.com/mattnowalkie/" target="_blank" aria-label="Instagram link"><img src="img/instagram-icon.png" width="23" height="22" alt="Instagram" /></a></li>
+		    <li><a href="https://www.youtube.com/channel/UCpF37eP085KuCoV7nCaf62w" target="_blank" aria-label="YouTube link"><img src="img/youtube-icon.png" width="32" height="22" alt="YouTube" /></a></li>
+		  </ul>
 		</div>
 	</div>
 	<header id="main-header" role="banner">
@@ -83,7 +82,7 @@
 					</li>
 					<li class="nav-bar__list-item">
 						<div class="dropdown">
-							<label class="nav-dropdown fill-div" for="dropdown-1">More</label> <input aria-hidden="true" class="dropdown-open" hidden="" id="dropdown-1" type="checkbox">
+							<label class="nav-dropdown fill-div icon-dropdown" for="dropdown-1">More</label> <input aria-hidden="true" class="dropdown-open" hidden="" id="dropdown-1" type="checkbox">
 							<label class="dropdown-overlay" for="dropdown-1"></label>
 							<div class="dropdown-inner">
 								<ul class="nav-bar__list">
@@ -117,8 +116,8 @@
 
 	<left-column></left-column>
 	<section class="about-container">
-		<div class="about-grid">
-			<article>
+		<main class="about-grid" role="main">
+			<article for="main" aria-label="About Matt">
 				<p>Matt finds himself straddling the two worlds he inhabits: the able-bodied one and the disabled one.</p>
 
 				<p>Matt was born without legs, but he lived to the most of his abilities, just like everyone else. Matt offers a new way of thinking and a fresh perspective to his audiences, sharing
@@ -136,23 +135,23 @@
 					member of the disabled community, yet he considers myself capable of doing what any able-bodied person can do – just in a different way.
 				</p>
 			</article>
-		</div>
+		</main>
 		<div class="images"><img src="img/bridge-01.jpg" alt="" /><img src="img/off-roading-01-500px.jpg" alt="" /></div>
 	</section>
 	<right-column></right-column>
 	<footer>
 		<div class="nav-social-bottom">
-			<ul>
-				<li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank"><img src="img/facebook-icon-w.png" width="27" height="26" alt="" /></a></li>
-				<li><a href="https://twitter.com/mattnowalkie" target="_blank"><img src="img/twitter-icon-w.png" width="32" height="26" alt="" /></a></li>
-				<li><a href="https://www.instagram.com/mattnowalkie/" target="_blank"><img src="img/instagram-icon-w.png" width="27" height="26" alt="" /></a></li>
-				<li><a href="https://www.youtube.com/channel/UCpF37eP085KuCoV7nCaf62w" target="_blank"><img src="img/youtube-icon-w.png" width="38" height="26" alt="" /></a></li>
+			<ul role="presentation">
+				<li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank" aria-label="Facebook link"><img src="img/facebook-icon-w.png" width="23" height="22" alt="Facebook" /></a></li>
+				<li><a href="https://twitter.com/mattnowalkie" target="_blank" aria-label="Twitter link"><img src="img/twitter-icon-w.png" width="27" height="22" alt="Twitter" /></a></li>
+				<li><a href="https://www.instagram.com/mattnowalkie/" target="_blank" aria-label="Instagram link"><img src="img/instagram-icon-w.png" width="23" height="22" alt="Instagram" /></a></li>
+				<li><a href="https://www.youtube.com/channel/UCpF37eP085KuCoV7nCaf62w" target="_blank" aria-label="YouTube link"><img src="img/youtube-icon-w.png" width="32" height="22" alt="YouTube" /></a></li>
 			</ul>
 		</div>
 		<hr/>
-		<span class="disclaimer">
-      <div role="copyright">All Content TM & © Matt Glowacki. All rights reserved.</div><br>
-		<div role="contentcreator">This site crafted by <a href="http://mediamavenscg.com/cgi-bin/redir.cgi?page=index.htm&mattglowacki" target="_blank">Media Mavens CG</a>.</div></span>
+		<span class="disclaimer" role="contentinfo">
+      <div aria-label="copyright">All Content TM & © Matt Glowacki. All rights reserved.</div><br>
+		<div aria-label="Created by">This site crafted by <a href="http://mediamavenscg.com/cgi-bin/redir.cgi?page=index.htm&mattglowacki" target="_blank">Media Mavens CG</a>.</div></span>
 	</footer>
 	<about>
 </body>
