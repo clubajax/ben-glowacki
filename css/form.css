@@ -250,17 +250,32 @@ label.checkbox{
 	cursor: pointer;
 }
 input[type="checkbox"] {
-	visibility: hidden;
+
 	position: absolute;
-	width: 1px !important;
+	left: -1000px;
+	height: 10px;
+	width: 10px !important;
+	padding: 0;
 }
-input[type="checkbox"]:focus + ins{
-+	background-color: cyan;
-+}
+input[type="checkbox"]:focus + ins:before {
+	outline: 10px solid #fff;
+		 outline-offset: 1px;
+}
+
 input[type="checkbox"] + ins{
 	text-decoration: none;
 	display: inline;
 }
+
+
+input[type="checkbox"]:focus + ins{
+ /*background-color: cyan;*/
+ /*border: 2px solid #fff;*/
+ /*background-color:rgba(0,180,241,.1);*/
+ background-color:#F9F9F9;
+ color: #0082C6;
+}
+
 input[type="checkbox"] + ins:before {
 	content: '\f096'; /* unchecked */
 	display: inline;
