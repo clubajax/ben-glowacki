@@ -254,6 +254,9 @@ input[type="checkbox"] {
 	position: absolute;
 	width: 1px !important;
 }
+input[type="checkbox"]:focus + ins{
++	background-color: cyan;
++}
 input[type="checkbox"] + ins{
 	text-decoration: none;
 	display: inline;
