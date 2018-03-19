@@ -4,18 +4,14 @@ nav .more{
 	position: relative;
 }
 nav[role="navigation"] li.more ul{
-	display: block;
+	display: none;
 	position: absolute;
-	left: -100px;
 	width: 150px;
 	background-color: #fff;
 	border: 1px solid #ccc;
 	padding: 5px;
 }
-nav[role="navigation"] li.more:focus ul{
-	display: block;
-	left: auto;
-}
+
 nav[role="navigation"] li.more ul>li{
 	display: block;
 }
