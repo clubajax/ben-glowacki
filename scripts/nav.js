@@ -28,11 +28,24 @@ for (let i = 0; i < links.length; i++) {
 	link.addEventListener('blur', hideMore);
 }
 
-function showHideFunction() {
-    var x = document.getElementById("dropdown");
-    if (x.style.display === "none") {
-        x.style.display = "block";
+
+more.addEventListener('click', function(e) {
+	console.log('clicked');
+	if (popup.style.display === 'none') {
+			popup.style.display = 'block';
+	} else {
+			popup.style.display = 'none';
+	}
+}, false );
+
+
+
+
+/*function showHideFunction() {
+    var x = document.getElementById('dropdown');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
     } else {
-        x.style.display = "none";
+        x.style.display = 'none';
     }
-}
+}*/
