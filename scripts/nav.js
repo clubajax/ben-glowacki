@@ -48,7 +48,20 @@ more.addEventListener('click', function() {
 	}
 }, false );
 
-
+/*var menuItems = document.querySelectorAll('li.more');
+Array.prototype.forEach.call(menuItems, function(el, i){
+	el.querySelector('a').addEventListener("click",  function(event){
+		if (this.parentNode.className == "more") {
+			this.parentNode.className = "more open";
+			this.setAttribute('aria-expanded', "true");
+		} else {
+			this.parentNode.className = "more";
+			this.setAttribute('aria-expanded', "false");
+		}
+		event.preventDefault();
+		return false;
+	});
+});*/
 
 
 
