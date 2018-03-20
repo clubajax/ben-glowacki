@@ -4,35 +4,12 @@
 [id^="burger"] {
 	display: none
 }
-nav[role="navigation"] ul>li {
-	display: block;
-	width: 100%;
-	grid-column: auto;
-	background: transparent;
-	border-bottom: 0;
-	cursor: pointer;
-}
-
-nav .more{
-	position: relative;
-}
-nav[role="navigation"] li.more ul{
-	display: none;
-	position: absolute;
-	/*width: 150px;*/
-	background-color: #eef2f6;
-	border: 1px solid #ccc;
-	padding: 5px;
-}
-
-nav[role="navigation"] li.more ul>li{
-	display: block;
-}
 
 
 /*large screen*/
 
 @media (min-width:968px) {
+
 	#slogan div {
 		margin-bottom: .02em;
 		/*border: 1px solid green;*/
@@ -187,6 +164,8 @@ nav[role="navigation"] li.more ul>li{
 		position: absolute
 	}
 
+	/*mk*/
+
 	nav[role="navigation"] ul>li {
 		display: block;
 		width: 100%;
@@ -204,6 +183,32 @@ nav[role="navigation"] li.more ul>li{
 	nav[role="navigation"] ul .nav-bar__list-item li:last-child {
 		border-bottom: 0 solid transparent;
 	}
+	nav[role="navigation"] ul>li {
+		display: block;
+		width: 100%;
+		grid-column: auto;
+		background: transparent;
+		border-bottom: 0;
+		cursor: pointer;
+	}
+
+	nav .more{
+		position: relative;
+	}
+	nav[role="navigation"] li.more ul{
+		display: none;
+		position: absolute;
+		/*width: 150px;*/
+		background-color: #eef2f6;
+		border: 1px solid #ccc;
+		padding: 5px;
+	}
+
+	nav[role="navigation"] li.more ul>li{
+		display: block;
+	}
+
+
 
 }
 /*small screen*/
@@ -213,6 +218,7 @@ nav[role="navigation"] li.more ul>li{
 		margin-bottom: .02em;
 		/*border: 1px solid green;*/
 	}
+
 	.nav-content {
 		position: relative;
 		top: -80px;
@@ -302,7 +308,7 @@ nav[role="navigation"] li.more ul>li{
 	}
 	.nav-content>input:checked~nav>ul>li {
 		opacity: 1;
-		transition-delay: 0.5s
+		/*transition-delay: 0.5s*/
 	}
 	nav {
 		grid-auto-columns: 1fr;
@@ -324,6 +330,7 @@ nav[role="navigation"] li.more ul>li{
 		grid-column: 1 / -1;
 		grid-auto-flow: row;
 		white-space: nowrap;
+		background: #eef2f6;
 	}
 	.nav-bar__list {
 		display: block;
@@ -420,6 +427,8 @@ nav[role="navigation"] li.more ul>li{
 		z-index: 1010;
 		/* background-color: #eef2f6; */
 	}
+
+	/*mk**/
 	nav[role="navigation"] ul>li {
 		display: block;
 		text-align: left;
@@ -431,4 +440,41 @@ nav[role="navigation"] li.more ul>li{
 	nav[role="navigation"] ul .nav-bar__list-item li:last-child {
 		border-bottom: 0 solid transparent;
 	}
+	nav[role="navigation"] ul>li {
+		display: block;
+		width: 100%;
+		grid-column: auto;
+		background: transparent;
+		/*border-bottom: 0;*/
+		cursor: pointer;
+	}
+
+	nav .more{
+		position: relative;
+		display: block;
+	    /*padding: 20px 0 20px 40px;*/
+	    margin: 0;
+	    height: 100%;
+	    width: 100%;
+	}
+	nav .more span{
+		display: block;
+	    padding: 20px 0 20px 40px;
+	    margin: 0;
+	    /*height: 100%;
+	    width: 100%;*/
+	}
+	nav[role="navigation"] li.more ul{
+		display: none;
+		position: relative;
+		/*width: 150px;*/
+		background-color: #eef2f6;
+		border: 1px solid #ccc;
+		padding: 5px;
+	}
+
+	nav[role="navigation"] li.more ul>li{
+		display: block;
+	}
+
 }
