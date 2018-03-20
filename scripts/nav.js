@@ -29,8 +29,7 @@ for (let i = 0; i < links.length; i++) {
 }
 
 
-more.addEventListener('click', function(e) {
-	console.log('clicked');
+more.addEventListener('click', function() {
 	if (popup.style.display === 'none') {
 			popup.style.display = 'block';
 	} else {
