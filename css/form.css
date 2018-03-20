@@ -1,20 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-nav .more{
-	position: relative;
-}
-nav[role="navigation"] li.more ul{
-	display: none;
-	position: absolute;
-	width: 150px;
-	background-color: #fff;
-	border: 1px solid #ccc;
-	padding: 5px;
-}
 
-nav[role="navigation"] li.more ul>li{
-	display: block;
-}
 form {
 	min-height: 100%;
 	display: grid;
