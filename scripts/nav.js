@@ -2,7 +2,7 @@ const more = document.getElementById('nav-more');
 const links = more.querySelectorAll('a');
 const popup = more.querySelector('ul');
 let timer;
-let showing = true;
+let showing = false;
 
 function showMore () {
 	clearTimeout(timer);
