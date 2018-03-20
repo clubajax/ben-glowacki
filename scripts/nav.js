@@ -2,7 +2,7 @@ const more = document.getElementById('nav-more');
 const links = more.querySelectorAll('a');
 const popup = more.querySelector('ul');
 let timer;
-let showing = false;
+let showing = true;
 
 function showMore () {
 	clearTimeout(timer);
@@ -28,6 +28,17 @@ for (let i = 0; i < links.length; i++) {
 	link.addEventListener('blur', hideMore);
 }
 
+/*window.onload = pre_loader;
+
+			 function pre_loader() {
+					 var nodes = document.querySelectorAll(".nav-bar__list");
+					 for (var i = 0; i < nodes.length; i++) {
+							 var n = nodes[i];
+							 n.style.display = n.style.display = 'block';
+							 n.style.display = n.style.opacity = '1';
+					 }
+			 }*/
+
 
 more.addEventListener('click', function() {
 	if (popup.style.display === 'none') {
@@ -36,6 +47,7 @@ more.addEventListener('click', function() {
 			popup.style.display = 'none';
 	}
 }, false );
+
 
 
 
