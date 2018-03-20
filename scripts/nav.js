@@ -27,3 +27,12 @@ for (let i = 0; i < links.length; i++) {
 	link.addEventListener('focus', showMore);
 	link.addEventListener('blur', hideMore);
 }
+
+function showHideFunction() {
+    var x = document.getElementById("dropdown");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
