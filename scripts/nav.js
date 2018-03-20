@@ -16,8 +16,7 @@ function hideMore () {
 		if (!showing) { return; }
 		showing = false;
 		popup.style.display = '';
-	}, 100)
-
+	}, 100);
 }
 
 more.addEventListener('focus', showMore);
@@ -28,48 +27,10 @@ for (let i = 0; i < links.length; i++) {
 	link.addEventListener('blur', hideMore);
 }
 
-/*window.onload = pre_loader;
-
-			 function pre_loader() {
-					 var nodes = document.querySelectorAll(".nav-bar__list");
-					 for (var i = 0; i < nodes.length; i++) {
-							 var n = nodes[i];
-							 n.style.display = n.style.display = 'block';
-							 n.style.display = n.style.opacity = '1';
-					 }
-			 }*/
-
-
-more.addEventListener('click', function() {
-	if (popup.style.display === 'none') {
-			popup.style.display = 'block';
+more.addEventListener('mousedown', function() {
+	if (showing) {
+		hideMore();
 	} else {
-			popup.style.display = 'none';
+		showMore();
 	}
-}, false );
-
-/*var menuItems = document.querySelectorAll('li.more');
-Array.prototype.forEach.call(menuItems, function(el, i){
-	el.querySelector('a').addEventListener("click",  function(event){
-		if (this.parentNode.className == "more") {
-			this.parentNode.className = "more open";
-			this.setAttribute('aria-expanded', "true");
-		} else {
-			this.parentNode.className = "more";
-			this.setAttribute('aria-expanded', "false");
-		}
-		event.preventDefault();
-		return false;
-	});
-});*/
-
-
-
-/*function showHideFunction() {
-    var x = document.getElementById('dropdown');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}*/
+});
