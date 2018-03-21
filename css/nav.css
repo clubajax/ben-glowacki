@@ -76,7 +76,7 @@
 	}
 	.nav-dropdown:hover, .more:hover {
 		color: #45515B;
-		opacity: .8;
+		/*opacity: .8;*/
 		text-decoration: underline;
 		outline: none;
 	}
@@ -107,7 +107,9 @@
 	display: inline-block;
 	font-size: 15px;
 	font-weight: bold;
-	padding: 2px 0 4px 5px;
+	    margin-right: 0;
+	/*padding: 2px 0 4px 5px;*/
+	padding: 0;
 	vertical-align: middle;
 	line-height: normal;
 	/* position: absolute; */
