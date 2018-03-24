@@ -43,7 +43,49 @@
 .nav-social-bottom{
 	padding: 10px 0 0;
 }
+	.second-column:focus {
+  outline: 1px solid blue;
+}
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
+div[chromevoxignoreariahidden="1"] {
+	display: none;
+}
+
 </style>
+<script>
+window.onload = function() {
+		document.getElementById("skip").focus();
+		};
+function mainContent1(event) {
+    var x = event.keyCode;
+    if (x == 13) {
+				document.getElementById("maincontent").focus();
+    }
+}
+function mainContent2(event) {
+    var x = event.keyCode;
+    if (x == 9) {
+				document.getElementById("maincontent").focus();
+    }
+}
+
+
+	</script>
 <body>
 <book>
 <div id="top-header">
@@ -67,6 +109,7 @@
 			<input id="burger" type="checkbox"> <label for="burger"><span></span> <span></span> <span></span></label>
 			<nav role="navigation">
 				<ul role="menu">
+					<div id="skip" tabindex="-1" role="menuitem" onkeydown="mainContent1(event)"><a id="skipAnchor" tabindex="0" href="#maincontent">Skip to Main Content</a></div>
 					<li role="menuitem">
 						<a class="fill-div" href="index.html">Home</a>
 					</li>
@@ -97,7 +140,7 @@
 						</ul>
 					</li>
 					<li>
-						<a class="fill-div" href="contact.html">Contact</a>
+						<a class="fill-div" href="contact.html" onkeydown="mainContent2(event)">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -107,33 +150,35 @@
    <div id="top-bar"><span class="page-header">Civility Speaker</span></div>
     <div id="readout" hidden="1"></div>
 
-<section class="">
+<section role="main">
 <div class="book-grid">
-<article>
-			<div class="first-column images"><img src="img/book-demo-image.png" alt="" /></div>
-			<div class="second-column">
-				<h3>Able-Bodied Like Me</h3>
+<article role="article">
+			<div class="first-column images">
+			<img tabindex="8" src="img/book-demo-image.png" alt="Image of Matt's book." />
+			</div>
+			<div tabindex="1" id="maincontent" class="second-column"  role="region" aria-label="Matt's book description." aria-live="assertive">
+				<h3 tabindex="2">Able-Bodied Like Me</h3>
 
-				<p>In his insightful new memoir, Able-Bodied like Me, Matt Glowacki, civility speaker and author, chronicles the changing attitudes in our society—and in himself—about what it means to be disabled.</p>
+				<p tabindex="3">In his insightful new memoir, Able-Bodied like Me, Matt Glowacki, civility speaker and author, chronicles the changing attitudes in our society—and in himself—about what it means to be disabled.</p>
 
-				<p>In the 1970s, when Glowacki was born, disabilities were still considered something to hide. Despite being born without legs, Glowacki pushed back against this narrative. He didn’t consider himself disabled and thought the term imposed unneeded limitations. He also balked at the tone-deaf remarks of others. He didn’t want to be an “inspiration” to people without impairments or a convenient way for others to signal their own virtue. Glowacki wanted to simply live his life, and he clearly explains how harmful certain remarks and actions can be for people in the disabled community.</p>
+				<p tabindex="4">In the 1970s, when Glowacki was born, disabilities were still considered something to hide. Despite being born without legs, Glowacki pushed back against this narrative. He didn’t consider himself disabled and thought the term imposed unneeded limitations. He also balked at the tone-deaf remarks of others. He didn’t want to be an “inspiration” to people without impairments or a convenient way for others to signal their own virtue. Glowacki wanted to simply live his life, and he clearly explains how harmful certain remarks and actions can be for people in the disabled community.</p>
 
-				<p>In his memoir, Glowacki includes points to ponder as you reflect on your own assumptions and actions. Glowacki also examines his own changing beliefs about the term “disability,” as well as society’s shifting perspective.
+				<p tabindex="5">In his memoir, Glowacki includes points to ponder as you reflect on your own assumptions and actions. Glowacki also examines his own changing beliefs about the term “disability,” as well as society’s shifting perspective.
 				</p>
-				<p>As Glowacki shares the challenges he and others face in their everyday lives, he also offers suggestions about how to foster an environment of mutual respect and understanding. Glowacki certainly doesn’t want your pity. He just wants you to listen.
+				<p tabindex="6">As Glowacki shares the challenges he and others face in their everyday lives, he also offers suggestions about how to foster an environment of mutual respect and understanding. Glowacki certainly doesn’t want your pity. He just wants you to listen.
 				</p>
-				<p>Coming Soon! This book will be available on Amazon.com in mid 2018.
+				<p tabindex="7">Coming Soon! This book will be available on Amazon.com in mid 2018.
 				</p>
 					</div>
-	<div class="third-column images"><img src="img/wooden-legs-01.jpg" alt="" /></div>
+	<div class="third-column images"><img tabindex="9" src="img/wooden-legs-01.jpg" alt="Matt as a child with wooden legs" /></div>
 			</article>
-			<article>
+			<article role="complementary">
 <div class="video-grid">
   <div class="one">
-    <iframe src="https://www.youtube.com/embed/1ku1QaO5jOU" frameborder="0" allowfullscreen></iframe>
+    <iframe tabindex="10" src="https://www.youtube.com/embed/1ku1QaO5jOU" frameborder="0" allowfullscreen></iframe>
   </div>
   <div class="two">
-    <iframe src="https://www.youtube.com/embed/oXqvRWa_Zn0" frameborder="0" allowfullscreen></iframe>
+    <iframe tabindex="11" src="https://www.youtube.com/embed/oXqvRWa_Zn0" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
  </article>
