@@ -39,7 +39,7 @@
   <link href="css/fontawesome-icons.css" rel="stylesheet" type="text/css">
   <link href="css/v1.0.css" rel="stylesheet" type="text/css">
   <link href="css/nav.css" rel="stylesheet" type="text/css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
   <script type="text/javascript" src="scripts/scripts.js"></script>
   <style>
     .active a:link {
@@ -62,6 +62,10 @@
   				document.getElementById("boxsubscribe").focus();
       }
   }
+  function formSubmit()
+{
+     document.getElementById("frmSubscribe").submit();
+}
 
 
   	</script>
@@ -189,7 +193,8 @@
             </div>
             <div class="box subscribe" tabindex="-1"  id="boxsubscribe">
               <div>
-                <a tabindex="1" for="Submit" href="#" class="btn" onclick="$('#frmSubscribe').submit();">Subscribe</a>
+                <!--<a tabindex="1" for="Submit" href="#" class="btn" onclick="$('#frmSubscribe').submit();">Subscribe</a>-->
+                <a tabindex="1" for="Submit" href="#" class="btn" onclick="formSubmit()">Subscribe</a>
               </div>
             </div>
             <div class="box email" tabindex="-1">
