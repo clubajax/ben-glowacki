@@ -46,6 +46,25 @@
       text-decoration: underline;
     }
   </style>
+  <script>
+/*  window.onload = function() {
+  		document.getElementById("skip").focus();
+    };*/
+  /*function mainContent1(event) {
+      var x = event.keyCode;
+      if (x == 13) {
+  				document.getElementById("maincontent").focus();
+      }
+  }*/
+  function tabOrder1(event) {
+      var x = event.keyCode;
+      if (x == 9) {
+  				document.getElementById("boxsubscribe").focus();
+      }
+  }
+
+
+  	</script>
 </head>
 
 <body>
@@ -160,18 +179,22 @@
     </section>
     <right-column></right-column>
     <footer>
-      <form role="form" name="frmSubscribe" id="frmSubscribe" align="right" method="POST" action="cgi-bin/subscribe.cgi">
-        <h1>Subscribe to Matt’s Email List</h1>
+      <form role="form" name="frmSubscribe" id="frmSubscribe" align="right" method="POST" action="cgi-bin/subscribe.cgi" tabindex="0" aria-label="Subscribe">
+        <h1 tabindex="0">Subscribe to Matt’s Email List</h1>
         <div class="subscibe-box-wrap">
-          <div class="subscribe-box">
-            <div class="box name">
-              <label for="name">Name:</label><input aria-label="name" placeholder="Your Name" type="text" id="txtName" name="txtName">
+          <div class="subscribe-box" aria-flowto="boxname boxemail boxsubscribe">
+            <div class="box name" tabindex="-1">
+              <label tabindex="-1" for="name">Name:</label>
+              <input tabindex="0" id="boxname" aria-label="name" placeholder="Your Name" type="text" id="txtName" name="txtName">
             </div>
-            <div class="box subscribe">
-              <div><a href="#" class="btn" onclick="$('#frmSubscribe').submit();">Subscribe</a></div>
+            <div class="box subscribe" tabindex="-1"  id="boxsubscribe">
+              <div>
+                <a tabindex="1" for="Submit" href="#" class="btn" onclick="$('#frmSubscribe').submit();">Subscribe</a>
+              </div>
             </div>
-            <div class="box email">
-              <label for="email">Email:</label><input aria-label="email" placeholder="name@example.com" type="text" id="txtEmail" name="txtEmail"></div>
+            <div class="box email" tabindex="-1">
+              <label  tabindex="-1" for="email">Email:</label>
+              <input tabindex="0" id="boxemail" aria-label="email" placeholder="name@example.com" type="text" id="txtEmail" name="txtEmail" onkeydown="tabOrder1(event)"></div>
           </div>
         </div>
         <hr>
