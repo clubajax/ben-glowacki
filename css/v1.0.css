@@ -833,27 +833,27 @@ grid-area: hero;
 	}
 	.videos .video-grid .nine {
 		grid-column: 1;
-		grid-row: 4;
+		grid-row: 5;
 		width: 33vw;
 		height: calc(33vw * (9/16));
 	}
 
 	.videos .video-grid .ten {
 		grid-column: 2;
-		grid-row: 4;
+		grid-row: 5;
 		width: 33vw;
 		height: calc(33vw * (9/16));
 	}
 	.videos .video-grid .eleven {
 		grid-column: 1;
-		grid-row: 4;
+		grid-row: 6;
 		width: 33vw;
 		height: calc(33vw * (9/16));
 	}
 
 	.videos .video-grid .twelve {
 		grid-column: 2;
-		grid-row: 4;
+		grid-row: 6;
 		width: 33vw;
 		height: calc(33vw * (9/16));
 	}
