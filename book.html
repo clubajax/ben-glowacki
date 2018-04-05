@@ -46,25 +46,7 @@
 	.second-column:focus {
   outline: 1px solid blue;
 }
-#skip a
-{
-position:absolute;
-left:-10000px;
-top:auto;
-width:1px;
-height:1px;
-overflow:hidden;
-}
 
-#skip a:focus
-{
-position:static;
-width:auto;
-height:auto;
-}
-div[chromevoxignoreariahidden="1"] {
-	display: none;
-}
 
 </style>
 <script>
@@ -89,7 +71,7 @@ function mainContent2(event) {
 <body>
 <book>
 <div id="top-header">
-	<div class="nav-social-top">
+	<div class="nav-social-top" aria-label="secondary">
 	  <ul role="presentation">
 	    <li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank" aria-label="Facebook link"><img src="img/facebook-icon.png" width="23" height="22" alt="Facebook" /></a></li>
 	    <li><a href="https://twitter.com/mattnowalkie" target="_blank" aria-label="Twitter link"><img src="img/twitter-icon.png" width="27" height="22" alt="Twitter" /></a></li>
@@ -107,7 +89,7 @@ function mainContent2(event) {
 		</div>
 		<div class="nav-content" id="nav-content">
 			<input id="burger" type="checkbox"> <label for="burger"><span></span> <span></span> <span></span></label>
-			<nav role="navigation">
+			<nav role="navigation" aria-label="primary">
 				<ul role="menu">
 					<div id="skip" tabindex="-1" role="menuitem" onkeydown="mainContent1(event)"><a id="skipAnchor" tabindex="0" href="#maincontent">Skip to Main Content</a></div>
 					<li role="menuitem">
@@ -157,7 +139,7 @@ function mainContent2(event) {
 			<img tabindex="8" src="img/book-demo-image.png" alt="Image of Matt's book." />
 			</div>
 			<div tabindex="1" id="maincontent" class="second-column"  role="region" aria-label="Matt's book description." aria-live="assertive">
-				<h3 tabindex="2">Able-Bodied Like Me</h3>
+				<h1 tabindex="2">Able-Bodied Like Me</h1>
 
 				<p tabindex="3">In his insightful new memoir, Able-Bodied like Me, Matt Glowacki, civility speaker and author, chronicles the changing attitudes in our society—and in himself—about what it means to be disabled.</p>
 
@@ -186,7 +168,7 @@ function mainContent2(event) {
 
 	</section>
 	<footer>
-		<div class="nav-social-bottom">
+		<div class="nav-social-bottom" aria-label="tertiary">
 			<ul role="presentation">
 				<li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank" aria-label="Facebook link"><img src="img/facebook-icon-w.png" width="23" height="22" alt="Facebook" /></a></li>
 				<li><a href="https://twitter.com/mattnowalkie" target="_blank" aria-label="Twitter link"><img src="img/twitter-icon-w.png" width="27" height="22" alt="Twitter" /></a></li>

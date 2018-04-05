@@ -44,11 +44,30 @@
 	padding: 10px 0 0;
 }
 </style>
+<script>
+window.onload = function() {
+		document.getElementById("skip").focus();
+		};
+function mainContent1(event) {
+    var x = event.keyCode;
+    if (x == 13) {
+				document.getElementById("maincontent").focus();
+    }
+}
+function mainContent2(event) {
+    var x = event.keyCode;
+    if (x == 9) {
+				document.getElementById("maincontent").focus();
+    }
+}
+
+
+	</script>
 
 <body>
 <about>
 	<div id="top-header">
-		<div class="nav-social-top">
+		<div class="nav-social-top" aria-label="secondary">
 		  <ul role="presentation">
 		    <li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank" aria-label="Facebook link"><img src="img/facebook-icon.png" width="23" height="22" alt="Facebook" /></a></li>
 		    <li><a href="https://twitter.com/mattnowalkie" target="_blank" aria-label="Twitter link"><img src="img/twitter-icon.png" width="27" height="22" alt="Twitter" /></a></li>
@@ -68,6 +87,7 @@
 			<input id="burger" type="checkbox"> <label for="burger"><span></span> <span></span> <span></span></label>
 			<nav role="navigation">
 				<ul role="menu">
+					<div id="skip" tabindex="-1" role="menuitem" onkeydown="mainContent1(event)"><a id="skipAnchor" tabindex="0" href="#maincontent">Skip to Main Content</a></div>
 					<li role="menuitem">
 						<a class="fill-div" href="index.html">Home</a>
 					</li>
@@ -106,32 +126,32 @@
 		<div id="mask" onclick="document.location='#';"></div>
 	</header>
 
-	<div id="top-bar"><a href="contact-arrange.html"><span class="cta-presentation">Arrange a Presentation</span> <span class="page-header">Civility Speaker</span></a></div>
+	<div id="top-bar"><a href="contact-arrange.html"  onkeydown="mainContent2(event)"><span class="cta-presentation">Arrange a Presentation</span> <span class="page-header">Civility Speaker</span></a></div>
 	<div id="readout" hidden="1"></div>
 
 	<left-column></left-column>
 	<section class="about-container">
-		<main class="about-grid" role="main">
-			<article for="main" aria-label="About Matt">
-				<p>Matt finds himself straddling the two worlds he inhabits: the able-bodied one and the disabled one.</p>
+		<main class="about-grid" role="main" tabindex="-1">
+			<article role="article" tabindex="1" for="main" aria-label="About Matt" id="maincontent" aria-live="assertive">
+				<p tabindex="2">Matt finds himself straddling the two worlds he inhabits: the able-bodied one and the disabled one.</p>
 
-				<p>Matt was born without legs, but he lived to the most of his abilities, just like everyone else. Matt offers a new way of thinking and a fresh perspective to his audiences, sharing
+				<p tabindex="3">Matt was born without legs, but he lived to the most of his abilities, just like everyone else. Matt offers a new way of thinking and a fresh perspective to his audiences, sharing
 					his firsthand accounts of living a unique lifestyle. In his public speaking career, he helps people understand their own situation a little better and tries to explain why people
 					act the way they do based on the challenges they are experiencing. </p>
 
-				<p>Over the course of his life, Matt has owned three different businesses and worked for a Fortune 50 corporation, but today his primary occupation is speaking to the public through
+				<p tabindex="4">Over the course of his life, Matt has owned three different businesses and worked for a Fortune 50 corporation, but today his primary occupation is speaking to the public through
 					his company Myriad Communications. He has developed revolutionary interactive programs to encourage everyone to engage and interact with others who are different from them, and his
 					goal is to teach individuals not to fear interacting with diverse individuals but to be excited about the potential in others. </p>
 
-				<p>For over a decade, Matt has been the most booked diversity speaker in the college market and has been honored with a variety of awards, but his largest accomplishment is being able
+				<p tabindex="5">For over a decade, Matt has been the most booked diversity speaker in the college market and has been honored with a variety of awards, but his largest accomplishment is being able
 					to share his ideas with over a million people across the United States. </p>
 
-				<p>Matt has also gained recognition having played on the USA Paralympic Sitting Volleyball team for 8 years and participating in the 2000 Paralympics in Australia. He is an active
+				<p tabindex="6">Matt has also gained recognition having played on the USA Paralympic Sitting Volleyball team for 8 years and participating in the 2000 Paralympics in Australia. He is an active
 					member of the disabled community, yet he considers myself capable of doing what any able-bodied person can do – just in a different way.
 				</p>
 			</article>
 		</main>
-		<div class="images"><img src="img/bridge-01.jpg" alt="" /><img src="img/off-roading-01-500px.jpg" alt="" /></div>
+		<div class="images" tabindex="-1"><img tabindex="7" src="img/bridge-01.jpg" alt="Matt at top of Austrailian Sydney Harbour bridge" /><img tabindex="8" src="img/off-roading-01-500px.jpg" alt="Matt putting on off road trail wheels" /></div>
 	</section>
 	<right-column></right-column>
 	<footer>

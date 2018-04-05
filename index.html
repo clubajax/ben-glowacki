@@ -57,6 +57,9 @@
     transition: background-color 0.1s linear;
     border: 1px solid #007BB5;
 }
+	  div[chromevoxignoreariahidden="1"] {
+	display: none;
+}
   </style>
   <script>
 /*  window.onload = function() {
@@ -68,12 +71,21 @@
   				document.getElementById("maincontent").focus();
       }
   }*/
+	
+	  
   function tabOrder1(event) {
       var x = event.keyCode;
       if (x == 9) {
   				document.getElementById("boxsubscribe").focus();
       }
   }
+	  function teaserTab(event) {
+    var x = event.keyCode;
+    if (x == 9) { 
+				document.getElementById("teaser").focus();
+    }
+}
+	  
   function formSubmit()
 {
      document.getElementById("frmSubscribe").submit();
@@ -86,8 +98,8 @@
 <body>
   <home>
     <div id="top-header">
-      <div class="nav-social-top">
-        <ul role="presentation">
+      <div class="nav-social-top" role="navigation" aria-label="secondary">
+        <ul>
           <li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank" aria-label="Facebook link"><img src="img/facebook-icon.png" width="23" height="22" alt="Facebook" /></a></li>
           <li><a href="https://twitter.com/mattnowalkie" target="_blank" aria-label="Twitter link"><img src="img/twitter-icon.png" width="27" height="22" alt="Twitter" /></a></li>
           <li><a href="https://www.instagram.com/mattnowalkie/" target="_blank" aria-label="Instagram link"><img src="img/instagram-icon.png" width="23" height="22" alt="Instagram" /></a></li>
@@ -104,7 +116,7 @@
 		</div>
 		<div class="nav-content" id="nav-content">
 			<input id="burger" type="checkbox"> <label for="burger"><span></span> <span></span> <span></span></label>
-			<nav role="navigation">
+			<nav role="navigation" aria-label="primary">
 				<ul role="menu">
 					<li role="menuitem">
 						<a class="fill-div active" href="index.html">Home</a>
@@ -143,23 +155,23 @@
 		</div>
 		<div id="mask" onclick="document.location='#';"></div>
 	</header>
-    <div id="top-bar"><a href="contact-arrange.html"><span class="cta-presentation">Arrange a Presentation</span> <span class="page-header">Civility Speaker</span></a></div>
+    <div id="top-bar" onkeydown="teaserTab(event)" tabindex="-1" role="navigation"><a href="contact-arrange.html" onkeydown="teaserTab(event)" tabindex="-1"><span class="cta-presentation" onkeydown="teaserTab(event)" tabindex="0">Arrange a Presentation</span> <span class="page-header">Civility Speaker</span></a></div>
     <div id="readout" hidden="1"></div>
-    <cta role="main"><a href="contact-arrange.html" class="icon-calendar-check"><span class="cta-presentation-box">Arrange a Presentation</span></a></cta>
-    <hero id="content" role="main">
-      <div class="hero-background-">
-        <section class="hero-content">
-          <div class="hero-teaser">
-            <div>Start the conversation and better the world through empathy and understanding...</div>
+    <cta role="navigation"><a href="contact-arrange.html" class="icon-calendar-check" onkeydown="teaser(event)"><span class="cta-presentation-box" onkeydown="teaserTab(event)">Arrange a Presentation</span></a></cta>
+    <hero id="content" role="main" tabindex="-1">
+      <div class="hero-background-" tabindex="-1">
+        <section class="hero-content" tabindex="-1">
+          <div class="hero-teaser" tabindex="-1" id="teaser">
+            <div tabindex="0" aria-label="Presentation Header">Start the conversation and better the world through empathy and understanding...</div>
           </div>
           <div class="hero-video">
             <div class="videoWrapper">
-              <iframe src="https://www.youtube.com/embed/mowZGOryOkU" frameborder="0" allowfullscreen title="YouTube embedded video of Matt Glowacki."></iframe>
+              <iframe tabindex="0" src="https://www.youtube.com/embed/mowZGOryOkU" frameborder="0" allowfullscreen title="YouTube embedded video, I didn’t need to see that today by Matt Glowacki."></iframe>
               <!--width="781" height="469"-->
             </div>
           </div>
-          <div class="hero-qoute">“I didn’t need to see that today.”</div>
-          <div class="hero-graphic"><img src="img/matt-waving-01-large.png" alt="" /></div>
+          <div class="hero-qoute" tabindex="0" aria-label='Video Qoute'>“I didn’t need to see that today.”</div>
+          <div class="hero-graphic"><img src="img/matt-waving-01-large.png" alt="Matt facing the crowd" /></div>
         </section>
       </div>
     </hero>
@@ -194,7 +206,7 @@
       </article>
     </section>
     <right-column></right-column>
-    <footer>
+    <footer role="contentinfo">
       <form role="form" name="frmSubscribe" id="frmSubscribe" align="right" method="POST" action="cgi-bin/subscribe.cgi" tabindex="0" aria-label="Subscribe">
         <h1 tabindex="0">Subscribe to Matt’s Email List</h1>
         <div class="subscibe-box-wrap">
@@ -214,9 +226,10 @@
               <input tabindex="0" id="boxemail" aria-label="email" placeholder="name@example.com" type="text" id="txtEmail" name="txtEmail" onkeydown="tabOrder1(event)"></div>
           </div>
         </div>
+        </form>
         <hr>
         </hr>
-        <div class="nav-social-bottom">
+        <div class="nav-social-bottom" aria-label="tertiary">
           <ul role="presentation">
             <li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank" aria-label="Facebook link"><img src="img/facebook-icon-w.png" width="23" height="22" alt="Facebook" /></a></li>
             <li><a href="https://twitter.com/mattnowalkie" target="_blank" aria-label="Twitter link"><img src="img/twitter-icon-w.png" width="27" height="22" alt="Twitter" /></a></li>
@@ -226,12 +239,12 @@
         </div>
         <hr>
         </hr>
-        <span class="disclaimer" role="contentinfo">
+        <span class="disclaimer" tabindex="0">
             <div aria-label="copyright">All Content TM & © Matt Glowacki. All rights reserved.</div>
             <br>
             <div aria-label="Created by">This site crafted by <a href="http://mediamavenscg.com/cgi-bin/redir.cgi?page=index.htm&mattglowacki" target="_blank">Media Mavens CG</a>.</div>
           </span>
-      </form>
+      
     </footer>
   </home>
   <script src="scripts/nav.js"></script>

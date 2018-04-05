@@ -259,6 +259,26 @@ ul, li {
 	padding: 0;
 }
 
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
+div[chromevoxignoreariahidden="1"] {
+	display: none;
+}
+
 home {
 	display: grid;
 	grid-template-areas: "top-header top-header top-header" "header header header" "top-bar top-bar top-bar" "hero hero hero" ". . ." "left-column section right-column" ". . ." "footer footer footer";
