@@ -42,11 +42,23 @@
 .nav-social-bottom{
 	padding: 10px 0 0;
 }
+@media only screen and (max-width: 768px){
+
+	h1 {
+	    -webkit-margin-before: -1.83em;
+	    -webkit-margin-after: -1.83em;
+	    font-size: 1em;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
 h1 {
 	-webkit-margin-before: 0.03em;
 	    -webkit-margin-after: 0.03em;
 			font-size: 1em;
 		}
+
 </style>
 <script>
 window.onload = function() {
@@ -70,8 +82,8 @@ function mainContent2(event) {
 <body>
 <speaking>
 <div id="top-header">
-	<div class="nav-social-top">
-	  <ul role="presentation">
+	<div class="nav-social-top" class="nav-social-top" role="navigation" aria-label="secondary">
+	  <ul>
 	    <li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank" aria-label="Facebook link"><img src="img/facebook-icon.png" width="23" height="22" alt="Facebook" /></a></li>
 	    <li><a href="https://twitter.com/mattnowalkie" target="_blank" aria-label="Twitter link"><img src="img/twitter-icon.png" width="27" height="22" alt="Twitter" /></a></li>
 	    <li><a href="https://www.instagram.com/mattnowalkie/" target="_blank" aria-label="Instagram link"><img src="img/instagram-icon.png" width="23" height="22" alt="Instagram" /></a></li>
@@ -90,6 +102,7 @@ function mainContent2(event) {
 			<input id="burger" type="checkbox"> <label for="burger"><span></span> <span></span> <span></span></label>
 			<nav role="navigation">
 				<ul role="menu">
+					<div id="skip" tabindex="-1" role="menuitem" onkeydown="mainContent1(event)"><a id="skipAnchor" tabindex="0" href="#maincontent">Skip to Main Content</a></div>
 					<li role="menuitem">
 						<a class="fill-div" href="index.html">Home</a>
 					</li>
@@ -120,7 +133,7 @@ function mainContent2(event) {
 						</ul>
 					</li>
 					<li>
-						<a class="fill-div" href="contact.html">Contact</a>
+						<a class="fill-div" href="contact.html" onkeydown="mainContent2(event)">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -130,103 +143,98 @@ function mainContent2(event) {
    <div id="top-bar"><span class="page-header">Civility Speaker</span></div>
     <div id="readout" hidden="1"></div>
 
-<section class="">
+<section role="main">
 <div class="speaking-grid">
 <article>
-<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class=""><h1>Nurture Your Nature</h1></span></div></div>
-		<div class="first-column">
-		<p>Designed for anyone who seeking to better integrate their own identity within a community, in this session Matt explains the concepts of <em>intersectionality</em>, <em>codeswitching</em>, and <em>passing</em> within a framework of social justice.&nbsp;</p>
+<div class="speaking-header-wrapper" id="maincontent" tabindex="-1"> <div for="program_title" class="speaking-header"><span class=""><h1 tabindex="0">Nurture Your Nature</h1></span></div></div>
+		<div class="first-column" tabindex="-1">
+		<p tabindex="0">Designed for anyone who seeking to better integrate their own identity within a community, in this session Matt explains the concepts of <em>intersectionality</em>, <em>codeswitching</em>, and <em>passing</em> within a framework of social justice.&nbsp;</p>
 
-<p>In &ldquo;Nurture Your Nature,&rdquo; Matt introduces the concept of Disability Privilege and how it impacts his life and discusses the different groups individuals are all inherently a part of. In guiding interactions between audience members, Matt teaches how these group identities impact individuals&rsquo; experiences and exchanges with others.</p>
+<p tabindex="0">In &ldquo;Nurture Your Nature,&rdquo; Matt introduces the concept of Disability Privilege and how it impacts his life and discusses the different groups individuals are all inherently a part of. In guiding interactions between audience members, Matt teaches how these group identities impact individuals&rsquo; experiences and exchanges with others.</p>
 
-		<a href="contact-arrange.html"><span class="cta-presentation">Arrange a Presentation</span></a>
+		<a href="contact-arrange.html" tabindex="0"><span class="cta-presentation">Arrange a Presentation</span></a>
 		</div>
 
-		<div class="second-column">
-			<div class="images">
-				<img src="img/matt-transfering-garden-300px.jpg" alt="Matt transferring out of his Chair"/>
+		<div class="second-column" tabindex="-1">
+			<div class="images" tabindex="-1">
+				<img tabindex="0" src="img/matt-transfering-garden-300px.jpg" alt="Matt transferring out of his Chair."/>
 			</div>
 		</div>
 	</article>
 	<article>
-<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class=""><h1>Aren't We All Just A Little Bit Prejudiced?</h1></span></div></div>
-		<div class="first-column">
-		<p>It&rsquo;s human nature to make judgments about things based on past interactions and experiences. Prejudging a situation or person is natural. People do it intrinsically and often immediately. Where individuals sometimes fail is in how they interact with others based solely upon those thoughts and feelings.</p>
+<div class="speaking-header-wrapper" tabindex="-1"> <div for="program_title" class="speaking-header"><span class=""><h1 tabindex="0">Aren't We All Just A Little Bit Prejudiced?</h1></span></div></div>
+		<div class="first-column" tabindex="-1">
+		<p tabindex="0">It&rsquo;s human nature to make judgments about things based on past interactions and experiences. Prejudging a situation or person is natural. People do it intrinsically and often immediately. Where individuals sometimes fail is in how they interact with others based solely upon those thoughts and feelings.</p>
 
-<p>"Aren't We All Just A Little Bit Prejudiced?" is a candid look at how people gauge their perception of others. This presentation brings home the idea that setting high expectations for everyone, while understanding the nature of their difference, is how to get the best out of people while helping them maximize their potential. In his presentation, Matt guides people to grow from their interactions with others regardless of their individual differences.</p>
+<p tabindex="0">"Aren't We All Just A Little Bit Prejudiced?" is a candid look at how people gauge their perception of others. This presentation brings home the idea that setting high expectations for everyone, while understanding the nature of their difference, is how to get the best out of people while helping them maximize their potential. In his presentation, Matt guides people to grow from their interactions with others regardless of their individual differences.</p>
 
-		<a href="contact-arrange.html"><span class="cta-presentation">Arrange a Presentation</span></a>
+		<a tabindex="0" href="contact-arrange.html"><span class="cta-presentation">Arrange a Presentation</span></a>
 		</div>
 
-		<div class="second-column">
-			<div class="images">
-				<img src="img/which-one-disabled-450px-w.jpg" alt=""/>
+		<div class="second-column" tabindex="-1">
+			<div class="images" tabindex="-1">
+				<img tabindex="0" src="img/which-one-disabled-450px-w.jpg" alt="Matt being compared to someone with hidden dissablilites."/>
 			</div>
 		</div>
 </article>
 
 <article>
+	<div class="speaking-header-wrapper" tabindex="-1"> <div for="program_title" class="speaking-header"><span class=""><h1 tabindex="0">Diversity According to Family Guy and South Park</h1></span></div></div>
+		<div class="first-column" tabindex="-1">
+		<p tabindex="0">&ldquo;Diversity According to <em>Family Guy</em> and <em>South Park</em>&rdquo; uses clips from the television shows to illustrate three different diversity/ social justice issues in one program.</p>
 
-	<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class=""><h1>Diversity According to Family Guy and South Park</h1></span></div></div>
-		<div class="first-column">
-		<p>&ldquo;Diversity According to <em>Family Guy</em> and <em>South Park</em>&rdquo; uses clips from the television shows to illustrate three different diversity/ social justice issues in one program.</p>
+		<p tabindex="0">In the presentation Matt covers <em>ableism</em>, which is discrimination toward people with a disability. He addresses the hardships of trying to overcome physical disabilities and the additional challenges hidden disabilities pose, such as anxiety, depression, and mental health.&nbsp; In explaining <em>lookism</em>, he describes how people in the US undermine themselves by not conforming to the stereotypical image of beauty.&nbsp; Finally, Matt teaches everyone how to conduct an <em>upstander</em> <em>intervention</em> and explains why people within a minority group might be allowed to say certain words.&nbsp;</p>
 
-		<p>In the presentation Matt covers <em>ableism</em>, which is discrimination toward people with a disability. He addresses the hardships of trying to overcome physical disabilities and the additional challenges hidden disabilities pose, such as anxiety, depression, and mental health.&nbsp; In explaining <em>lookism</em>, he describes how people in the US undermine themselves by not conforming to the stereotypical image of beauty.&nbsp; Finally, Matt teaches everyone how to conduct an <em>upstander</em> <em>intervention</em> and explains why people within a minority group might be allowed to say certain words.&nbsp;</p>
-
-		<a href="contact-arrange.html"><span class="cta-presentation">Arrange a Presentation</span></a>
+		<a tabindex="0" href="contact-arrange.html"><span class="cta-presentation">Arrange a Presentation</span></a>
 		</div>
 
-		<div class="second-column">
-			<div class="images">
-				<img src="img/diversity-daspafg.jpg" alt=""/>
+		<div class="second-column" tabindex="-1">
+			<div class="images" tabindex="-1">
+				<img tabindex="0" src="img/diversity-daspafg.jpg" alt="Matt with South Park and Family Guy Characters."/>
 			</div>
 		</div>
-
-
 	</article>
 
-
-
 <article>
-<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class=""><h1>Walking is Over-Rated!</h1></span></div></div>
-		<div class="first-column">
-		<p>This humorous program offers new insights into another&rsquo;s perspective. Many able-bodied people never have the opportunity to get up close and personal with someone who is living with a disability. This presentation aims to help prevent people from engaging in labeling language or other inappropriate stereotypical behaviors surrounding disability.&nbsp;</p>
+<div class="speaking-header-wrapper" tabindex="-1"> <div for="program_title" class="speaking-header"><span class=""><h1 tabindex="0">Walking is Over-Rated!</h1></span></div></div>
+		<div class="first-column" tabindex="-1">
+		<p tabindex="0">This humorous program offers new insights into another&rsquo;s perspective. Many able-bodied people never have the opportunity to get up close and personal with someone who is living with a disability. This presentation aims to help prevent people from engaging in labeling language or other inappropriate stereotypical behaviors surrounding disability.&nbsp;</p>
 
-<p>Matt&rsquo;s candid style motivates people to learn more about themselves and provides an insightful view into disability, while addressing the most frequently asked questions from &ldquo;How do you go to the bathroom?&rdquo; to &ldquo;Do you only date people in wheelchairs?&rdquo; There are no bad questions &ndash; and for the record, he was just born without any legs. Everything else is there and works just fine.</p>
+<p tabindex="0">Matt&rsquo;s candid style motivates people to learn more about themselves and provides an insightful view into disability, while addressing the most frequently asked questions from &ldquo;How do you go to the bathroom?&rdquo; to &ldquo;Do you only date people in wheelchairs?&rdquo; There are no bad questions &ndash; and for the record, he was just born without any legs. Everything else is there and works just fine.</p>
 
-		<a href="contact-arrange.html"><span class="cta-presentation">Arrange a Presentation</span></a>
+		<a tabindex="0" href="contact-arrange.html"><span class="cta-presentation">Arrange a Presentation</span></a>
 		</div>
 
-		<div class="second-column">
-			<div class="images">
-				<img src="img/matt-through-arm-400px-w.jpg" alt=""/>
+		<div class="second-column" tabindex="-1">
+			<div class="images" tabindex="-1">
+				<img tabindex="0" src="img/matt-through-arm-400px-w.jpg" alt="Matt playing Sit Volleyball with a student."/>
 			</div>
 		</div>
 </article>
 
 
 	<article>
-	<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class=""><h1>Happy Hour 24/7</h1></span></div></div>
-		<div class="first-column">
-		<p>&ldquo;Happy Hour 24/7&rdquo; proves that alcohol doesn&rsquo;t have be part of a successful social gathering. Matt discusses the scientifically proven secrets of true happiness and how &ldquo;doing happiness&rdquo; with others creates lifelong relationships.</p>
+	<div class="speaking-header-wrapper" tabindex="-1"> <div for="program_title" class="speaking-header"><span class=""><h1 tabindex="0">Happy Hour 24/7</h1></span></div></div>
+		<div class="first-column" tabindex="-1">
+		<p tabindex="0">&ldquo;Happy Hour 24/7&rdquo; proves that alcohol doesn&rsquo;t have be part of a successful social gathering. Matt discusses the scientifically proven secrets of true happiness and how &ldquo;doing happiness&rdquo; with others creates lifelong relationships.</p>
 
-<p>Getting to know yourself, finding what makes you happy, and sharing that with other people is not only personally liberating, but socially responsible as well, as happy people are better members, leaders, and participants. Matt teaches that it&rsquo;s time to stop searching for happiness and start learning how it works, how best to identify it for yourself, and how to share it with others.</p>
+<p tabindex="0">Getting to know yourself, finding what makes you happy, and sharing that with other people is not only personally liberating, but socially responsible as well, as happy people are better members, leaders, and participants. Matt teaches that it&rsquo;s time to stop searching for happiness and start learning how it works, how best to identify it for yourself, and how to share it with others.</p>
 
-		<a href="contact-arrange.html"><span class="cta-presentation">Arrange a Presentation</span></a>
+		<a tabindex="0" href="contact-arrange.html"><span class="cta-presentation">Arrange a Presentation</span></a>
 		</div>
 
-		<div class="second-column">
-			<div class="images">
-				<img src="img/matt-hugging-w-500px.jpg" alt=""/>
+		<div class="second-column" tabindex="-1">
+			<div class="images" tabindex="-1">
+				<img tabindex="0" src="img/matt-hugging-w-500px.jpg" alt="Matt hugging an audience member."/>
 			</div>
 		</div>
 </article>
 
 	</div>
 </section>
-<footer>
+<footer role="contentinfo">
 	<div class="nav-social-bottom">
-		<ul role="presentation">
+		<ul>
 			<li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank" aria-label="Facebook link"><img src="img/facebook-icon-w.png" width="23" height="22" alt="Facebook" /></a></li>
 			<li><a href="https://twitter.com/mattnowalkie" target="_blank" aria-label="Twitter link"><img src="img/twitter-icon-w.png" width="27" height="22" alt="Twitter" /></a></li>
 			<li><a href="https://www.instagram.com/mattnowalkie/" target="_blank" aria-label="Instagram link"><img src="img/instagram-icon-w.png" width="23" height="22" alt="Instagram" /></a></li>
@@ -234,7 +242,7 @@ function mainContent2(event) {
 		</ul>
 	</div>
 	<hr/>
-	<span class="disclaimer" role="contentinfo">
+	<span class="disclaimer">
 		<div aria-label="copyright">All Content TM & © Matt Glowacki. All rights reserved.</div><br>
 	<div aria-label="Created by">This site crafted by <a href="http://mediamavenscg.com/cgi-bin/redir.cgi?page=index.htm&mattglowacki" target="_blank">Media Mavens CG</a>.</div></span>
 </footer>
