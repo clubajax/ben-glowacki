@@ -46,13 +46,48 @@
 		.nav-social-bottom{
 			padding: 10px 0 0;
 		}
+		@media only screen and (max-width: 768px){
+
+			h1 {
+			    -webkit-margin-before: -1.83em;
+			    -webkit-margin-after: -1.83em;
+			    font-size: 1em;
+			}
+		}
+
+		@media only screen and (min-width: 768px) {
+
+		h1 {
+			-webkit-margin-before: 0.03em;
+			    -webkit-margin-after: 0.03em;
+					font-size: 1em;
+				}
+			}
 	</style>
+
+	<script>
+	window.onload = function() {
+			document.getElementById("skip").focus();
+			};
+	function mainContent1(event) {
+			var x = event.keyCode;
+			if (x == 13) {
+					document.getElementById("maincontent").focus();
+			}
+	}
+	function mainContent2(event) {
+			var x = event.keyCode;
+			if (x == 9) {
+					document.getElementById("maincontent").focus();
+			}
+	}
+		</script>
 
 <body>
 <promotional>
 <div id="top-header">
-	<div class="nav-social-top">
-	  <ul role="presentation">
+	<div class="nav-social-top" aria-label="secondary">
+	  <ul>
 	    <li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank" aria-label="Facebook link"><img src="img/facebook-icon.png" width="23" height="22" alt="Facebook" /></a></li>
 	    <li><a href="https://twitter.com/mattnowalkie" target="_blank" aria-label="Twitter link"><img src="img/twitter-icon.png" width="27" height="22" alt="Twitter" /></a></li>
 	    <li><a href="https://www.instagram.com/mattnowalkie/" target="_blank" aria-label="Instagram link"><img src="img/instagram-icon.png" width="23" height="22" alt="Instagram" /></a></li>
@@ -71,6 +106,7 @@
 			<input id="burger" type="checkbox"> <label for="burger"><span></span> <span></span> <span></span></label>
 			<nav role="navigation">
 				<ul role="menu">
+										<div id="skip" tabindex="-1" role="menuitem" onkeydown="mainContent1(event)"><a id="skipAnchor" tabindex="0" href="#maincontent">Skip to Main Content</a></div>
 					<li role="menuitem">
 						<a class="fill-div" href="index.html">Home</a>
 					</li>
@@ -101,7 +137,7 @@
 						</ul>
 					</li>
 					<li>
-						<a class="fill-div" href="contact.html">Contact</a>
+						<a class="fill-div" href="contact.html" onkeydown="mainContent2(event)">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -114,7 +150,11 @@
 <section class="">
 <div class="speaking-grid">
 <article>
-<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class="">Promotional Files</span></div></div>
+<div class="speaking-header-wrapper" tabindex="-1">
+	<div tabindex="0" for="program_title" class="speaking-header" id="maincontent" aria-label="Matt's Promotional Files.">
+		<span><h1>Promotional Files</h1></span>
+		</div>
+	</div>
 		<div class="first-column">
 		<section class="promo-card-container">
     <div class="promo-card">
@@ -127,7 +167,7 @@
         <main class="promo-card__description">
             Matt Glowacki’s Technical Rider.
         </main>
-        <a href="xtras/matt_rider_college.pdf" class="promo-button">Download</a>
+        <a href="xtras/matt_rider_college.pdf" class="promo-button" aria-label="Download Matt's Technical Rider.">Download</a>
 
     </div>
 		<div class="promo-card">
@@ -140,7 +180,7 @@
         <main class="promo-card__description">
             Matt Glowacki’s Booking Packet.
         </main>
-        <a href="xtras/booking_packet.pdf" class="promo-button">Download</a>
+        <a href="xtras/booking_packet.pdf" class="promo-button" aria-label="Download Matt's Booking Packet.">Download</a>
     </div>
 </section>
 
@@ -149,7 +189,7 @@
 
 	</article>
 <article>
-<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class="">Promotional Posters</span></div></div>
+<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class=""><h1>Promotional Posters</h1></span></div></div>
 		<div class="first-column">
 		<section class="promo-card-container">
     <div class="promo-card">
@@ -162,7 +202,7 @@
         <main class="promo-card__description">
             Blue  - Matt's mountaintop handstand time & date poster.
         </main>
-        <a href="xtras/poster_blue.zip" class="promo-button">Download</a>
+        <a href="xtras/poster_blue.zip" class="promo-button" aria-label="Download Matt's blue handstand poster.">Download</a>
 
     </div>
 		<div class="promo-card">
@@ -175,7 +215,7 @@
         <main class="promo-card__description">
             Purple  - Matt's mountaintop handstand time & date poster.
         </main>
-        <a href="xtras/poster_purple.zip" class="promo-button">Download</a>
+        <a href="xtras/poster_purple.zip" class="promo-button" aria-label="Download Matt's purple handstand poster.">Download</a>
 
     </div>
     <div class="promo-card">
@@ -188,7 +228,7 @@
         <main class="promo-card__description">
             Red  - Matt's mountaintop handstand time & date poster.
         </main>
-        <a href="xtras/poster_red.zip" class="promo-button">Download</a>
+        <a href="xtras/poster_red.zip" class="promo-button" aria-label="Download Matt's red handstand poster.">Download</a>
 
     </div>
     <div class="promo-card">
@@ -201,7 +241,7 @@
         <main class="promo-card__description">
           Diversity According to Family Guy & South Park time & date poster.
         </main>
-        <a href="xtras/fullcolorpromo.zip" class="promo-button">Download</a>
+        <a href="xtras/fullcolorpromo.zip" class="promo-button" aria-label="Download Matt's color Diversity According to Family Guy & South Park time & date poster.">Download</a>
 
     </div>
 		<div class="promo-card">
@@ -214,7 +254,7 @@
         <main class="promo-card__description">
           Diversity According to Family Guy & South Park time & date poster.
         </main>
-        <a href="xtras/promogreyscale.zip" class="promo-button">Download</a>
+        <a href="xtras/promogreyscale.zip" class="promo-button" aria-label="Download Matt's grayscale Diversity According to Family Guy & South Park time & date poster.">Download</a>
 
     </div>
 
@@ -225,7 +265,7 @@
 
 	</article>
 	<article>
-	<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class="">Doing Happiness Promo & Posters</span></div></div>
+	<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class=""><h1>Doing Happiness Promo & Posters</h1></span></div></div>
 			<div class="first-column">
 			<section class="promo-card-container">
 				<div class="promo-card">
@@ -238,7 +278,7 @@
 		        <main class="promo-card__description">
 		            A handout to help boost your mood and your creativity.
 		        </main>
-		        <a href="xtras/happy_handout_300dpi.zip" class="promo-button">Download</a>
+		        <a href="xtras/happy_handout_300dpi.zip" class="promo-button" aria-label="Download Matt's Doing Happiness poster.">Download</a>
 
 		    </div>
 				<div class="promo-card">
@@ -251,7 +291,7 @@
 		        <main class="promo-card__description">
 		            Doing Happiness "Bring Your Own Bubbles" time & date poster.
 		        </main>
-		        <a href="xtras/bringyourownbubbles_300dpi.zip" class="promo-button">Download</a>
+		        <a href="xtras/bringyourownbubbles_300dpi.zip" class="promo-button" aria-label="Download Matt's Bring Your Own Bubbles time & date poster.">Download</a>
 		    </div>
 		    <div class="promo-card">
 		        <header class="promo-card__title">
@@ -263,7 +303,7 @@
 		        <main class="promo-card__description">
 		             Doing Happiness "Bee Happy" time & date poster.
 		        </main>
-		        <a href="xtras/happy_matt_300dpi.zip" class="promo-button">Download</a>
+		        <a href="xtras/happy_matt_300dpi.zip" class="promo-button" aria-label="Download Matt's Bee Happy time & date poster.">Download</a>
 
 		    </div>
 		    <div class="promo-card">
@@ -276,7 +316,7 @@
 		        <main class="promo-card__description">
 		          Doing Happiness "Happiness Happens" time & date poster.
 		        </main>
-		        <a href="xtras/happy_happiness_happens_300dpi.zip" class="promo-button">Download</a>
+		        <a href="xtras/happy_happiness_happens_300dpi.zip" class="promo-button"  aria-label="Download Matt's Happiness Happens time & date poster.">Download</a>
 
 		    </div>
 		    <div class="promo-card">
@@ -289,7 +329,7 @@
 		        <main class="promo-card__description">
 		          Doing Happiness "Happiness Come Get it" time & date poster.
 		        </main>
-		        <a href="xtras/happy_come_get_it_300dpi.zip" class="promo-button">Download</a>
+		        <a href="xtras/happy_come_get_it_300dpi.zip" class="promo-button" aria-label="Download Matt's Happiness Come Get It time & date poster.">Download</a>
 
 		    </div>
 
@@ -299,7 +339,7 @@
 
 		</article>
 	<article>
-	<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class="">Photos</span></div></div>
+	<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class=""><h1>Photos</h1></span></div></div>
 			<div class="first-column">
 			<section class="promo-card-container">
 				<div class="promo-card">
@@ -312,7 +352,7 @@
 		        <main class="promo-card__description">
 		            Black and White Olympic photo.
 		        </main>
-		        <a href="xtras/matt_bw_portrait.jpg" class="promo-button">Download</a>
+		        <a href="xtras/matt_bw_portrait.jpg" class="promo-button" aria-label="Download Matt's grayscale Olympic photo.">Download</a>
 		    </div>
 				<div class="promo-card">
 		        <header class="promo-card__title">
@@ -324,7 +364,7 @@
 		        <main class="promo-card__description">
 		            Color Olympic photo.
 		        </main>
-		        <a href="xtras/matt_color_portrait.jpg" class="promo-button">Download</a>
+		        <a href="xtras/matt_color_portrait.jpg" class="promo-button" aria-label="Download Matt's color Olympic photo.">Download</a>
 		    </div>
 		    <div class="promo-card">
 		        <header class="promo-card__title">
@@ -336,13 +376,13 @@
 		        <main class="promo-card__description">
 		             Standard promo image of Matt.
 		        </main>
-		        <a href="xtras/matt-promo-02.jpg" class="promo-button">Download</a>
+		        <a href="xtras/matt-promo-02.jpg" class="promo-button" aria-label="Download Matt's standard promo photo.">Download</a>
 		    </div>
 	</section>
 			</div>
 		</article>
 		<article>
-		<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class="">Postcards and Flyers</span></div></div>
+		<div class="speaking-header-wrapper"> <div for="program_title" class="speaking-header"><span class=""><h1>Postcards and Flyers</h1></span></div></div>
 				<div class="first-column">
 				<section class="promo-card-container">
 					<div class="promo-card">
@@ -355,7 +395,7 @@
 			        <main class="promo-card__description">
 			            Postcard of Matt at cross"walk".
 			        </main>
-			        <a href="xtras/postcard01_bring_diversity.pdf" class="promo-button">Download</a>
+			        <a href="xtras/postcard01_bring_diversity.pdf" class="promo-button" aria-label="Download a postcard of Matt at crosswalk.">Download</a>
 			    </div>
 					<div class="promo-card">
 			        <header class="promo-card__title">
@@ -367,7 +407,7 @@
 			        <main class="promo-card__description">
 			            Postcard of Matt getting a speeding ticket.
 			        </main>
-			        <a href="xtras/postcard02_lead_handed.pdf" class="promo-button">Download</a>
+			        <a href="xtras/postcard02_lead_handed.pdf" class="promo-button" aria-label="Download a postcard of Matt getting a speeding ticket.">Download</a>
 			    </div>
 			    <div class="promo-card">
 			        <header class="promo-card__title">
@@ -379,7 +419,7 @@
 			        <main class="promo-card__description">
 			             Postcard of Matt climbing the stairs while "she" waits to greet him.
 			        </main>
-			        <a href="xtras/postcard03_shes_there.pdf" class="promo-button">Download</a>
+			        <a href="xtras/postcard03_shes_there.pdf" class="promo-button" aria-label="Download a postcard of Matt climbing stairs to get to his date.">Download</a>
 			    </div>
 			    <div class="promo-card">
 			        <header class="promo-card__title">
@@ -391,7 +431,7 @@
 			        <main class="promo-card__description">
 			             Postcard of Matt pulling a car through the snow.
 			        </main>
-			        <a href="xtras/postcard06_pull.pdf" class="promo-button">Download</a>
+			        <a href="xtras/postcard06_pull.pdf" class="promo-button" aria-label="Download a postcard of Matt pulling a car through snow.">Download</a>
 			    </div>
 			    <div class="promo-card">
 			        <header class="promo-card__title">
@@ -403,7 +443,7 @@
 			        <main class="promo-card__description">
 			             Postcard comparing Matt with someone who has hidden dissablities.
 			        </main>
-			        <a href="xtras/postcard_whichone.pdf" class="promo-button">Download</a>
+			        <a href="xtras/postcard_whichone.pdf" class="promo-button" aria-label="Download a postcard comparing Matt with someone who has hidden dissablities.">Download</a>
 			    </div>
 			    <div class="promo-card">
 			        <header class="promo-card__title">
@@ -415,7 +455,7 @@
 			        <main class="promo-card__description">
 			             Postcard for Matt's presentation - Diversity According to South Park and Family Guy.
 			        </main>
-			        <a href="xtras/mailer5_01.pdf" class="promo-button">Download</a>
+			        <a href="xtras/mailer5_01.pdf" class="promo-button" aria-label="Download a postcard with Matt and Characters from South Park and Family Guy.">Download</a>
 			    </div>
 			    <div class="promo-card">
 			        <header class="promo-card__title">
@@ -427,7 +467,7 @@
 			        <main class="promo-card__description">
 			             Write in shell for Matt's presentation - Diversity According to South Park and Family Guy.
 			        </main>
-			        <a href="xtras/matt-glowack-blanki.jpg" class="promo-button">Download</a>
+			        <a href="xtras/matt-glowack-blanki.jpg" class="promo-button" aria-label="Download a write-in postcard with Matt and Characters from South Park and Family Guy.">Download</a>
 			    </div>
 		</section>
 				</div>
