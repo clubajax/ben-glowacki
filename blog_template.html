@@ -39,11 +39,36 @@
 	<link href="css/v1.0.css" rel="stylesheet" type="text/css">
 	<link href="css/nav.css" rel="stylesheet" type="text/css">
 	<link href="css/blog.css" rel="stylesheet" type="text/css">
+	<style>
+	.active a:link, .active {
+			text-decoration: underline;
+		}
+		.nav-social-bottom{
+			padding: 60px 0 0;
+		}
+	</style>
+	<script>
+	window.onload = function() {
+			document.getElementById("skip").focus();
+			};
+	function mainContent1(event) {
+	    var x = event.keyCode;
+	    if (x == 13) {
+					document.getElementById("maincontent").focus();
+	    }
+	}
+	function mainContent2(event) {
+	    var x = event.keyCode;
+	    if (x == 9) {
+					document.getElementById("maincontent").focus();
+	    }
+	}
+		</script>
 </head>
 <body>
     <blog>
         <div id="top-header">
-            <div class="nav-social-top">
+            <div class="nav-social-top"  aria-label="secondary">
                 <ul>
                     <li>
                         <a href="https://www.facebook.com/matt.glowacki.73" target="_blank"><img src="img/facebook-icon.png" width="23" height="22" alt="" /></a>
@@ -70,7 +95,7 @@
 		</div>
 		<div class="nav-content" id="nav-content">
 			<input id="burger" type="checkbox"> <label for="burger"><span></span> <span></span> <span></span></label>
-			<nav role="navigation">
+			<nav role="navigation" aria-label="primary">
 				<ul role="menu">
 					<li role="menuitem">
 						<a class="fill-div" href="index.html">Home</a>
@@ -102,7 +127,7 @@
 						</ul>
 					</li>
 					<li>
-						<a class="fill-div" href="contact.html">Contact</a>
+						<a class="fill-div" href="contact.html" onkeydown="mainContent2(event)">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -112,8 +137,8 @@
         <div id="top-bar"><span class="page-header">Civility Speaker</span></div>
         <div id="readout" hidden="1"></div>
 
-        <section class="">
-            <div class="book-grid-">
+        <section role="main">
+            <div tabindex="0" id="maincontent">
                 <!--blog begin-->
                 <article class="post">
                     <h2>5,000 Naked Barbies</h2>

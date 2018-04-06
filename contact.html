@@ -39,15 +39,42 @@
 	<link href="css/v1.0.css" rel="stylesheet" type="text/css">
 	<link href="css/nav.css" rel="stylesheet" type="text/css">
 	<style>
-			.nav-social-bottom{
-				padding: 10px 0 0;
-			}
-		</style>
+	.active a:link, .active {
+			text-decoration: underline;
+		}
+		.nav-social-bottom{
+			padding: 60px 0 0;
+		}
+	</style>
+	<script>
+
+		function validate (e) {
+			console.log('VA', e);
+			return false;
+		}
+	</script>
+	<script>
+	window.onload = function() {
+			document.getElementById("skip").focus();
+			};
+	function mainContent1(event) {
+	    var x = event.keyCode;
+	    if (x == 13) {
+					document.getElementById("maincontent").focus();
+	    }
+	}
+	function mainContent2(event) {
+	    var x = event.keyCode;
+	    if (x == 9) {
+					document.getElementById("maincontent").focus();
+	    }
+	}
+		</script>
 </head>
 <body>
 <about>
 	<div id="top-header">
-		<div class="nav-social-top">
+		<div class="nav-social-top" aria-label="secondary">
 		  <ul role="presentation">
 		    <li><a href="https://www.facebook.com/matt.glowacki.73" target="_blank" aria-label="Facebook link"><img src="img/facebook-icon.png" width="23" height="22" alt="Facebook" /></a></li>
 		    <li><a href="https://twitter.com/mattnowalkie" target="_blank" aria-label="Twitter link"><img src="img/twitter-icon.png" width="27" height="22" alt="Twitter" /></a></li>
@@ -65,8 +92,9 @@
 		</div>
 		<div class="nav-content" id="nav-content">
 			<input id="burger" type="checkbox"> <label for="burger"><span></span> <span></span> <span></span></label>
-			<nav role="navigation">
+			<nav role="navigation" aria-label="primary">
 				<ul role="menu">
+					<div id="skip" tabindex="-1" role="menuitem" onkeydown="mainContent1(event)"><a id="skipAnchor" tabindex="0" href="#maincontent">Skip to Main Content</a></div>
 					<li role="menuitem">
 						<a class="fill-div" href="index.html">Home</a>
 					</li>
@@ -109,11 +137,11 @@
 	<div id="readout" hidden="1"></div>
 
 	<left-column></left-column>
-	<section class="book-container-">
-		<div class="about-grid-">
-			<article>
+	<section role="main">
+		<div>
+			<article tabindex="-1">
 				<br><br><br><br>
-				<h1>For School Assemblies Please Contact</h1>
+				<h1 tabindex="0" id="maincontent">For School Assemblies Please Contact</h1>
 
 				<span class="notranslate">Matt Glowacki</span><br>
 
