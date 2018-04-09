@@ -97,6 +97,7 @@
 			<input id="burger" type="checkbox"> <label for="burger"><span></span> <span></span> <span></span></label>
 			<nav role="navigation" aria-label="primary">
 				<ul role="menu">
+					<div id="skip" tabindex="-1" role="menuitem" onkeydown="mainContent1(event)"><a id="skipAnchor" tabindex="0" href="#maincontent">Skip to Main Content</a></div>
 					<li role="menuitem">
 						<a class="fill-div" href="index.html">Home</a>
 					</li>
@@ -137,8 +138,8 @@
         <div id="top-bar"><span class="page-header">Civility Speaker</span></div>
         <div id="readout" hidden="1"></div>
 
-        <section role="main">
-            <div tabindex="0" id="maincontent">
+        <section role="main" tabindex="-1">
+            <div tabindex="-1">
                 <!--blog begin-->
                 <article class="post">
                     <h2>5,000 Naked Barbies</h2>

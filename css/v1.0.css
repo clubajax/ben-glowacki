@@ -450,7 +450,7 @@ promotional article:first-child {
 	align-self: end;
 }
 
-.promo-button:hover, .promo-button:active  {
+.promo-button:hover, .promo-button:active, .promo-button:focus {
 	background: #143d83 !important;
 	opacity: .8;
 }
